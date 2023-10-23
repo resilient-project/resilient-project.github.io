@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: RESILIENT - Resilient Energy System Infrastructure Layouts for Industry, E-Fuels and Network Transitions
+title: RESILIENT
 # email: your-email@example.com
 logo: /assets/img/logo.png
 description: >- # this means to ignore newlines until "baseurl:"

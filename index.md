@@ -5,6 +5,8 @@
 layout: default
 ---
 
+# Resilient Energy System Infrastructure Layouts for Industry, E-Fuels and Network Transitions
+
 ## About
 
 The energy transition faces many uncertainties, but planning tools are often deterministic. Our
@@ -24,11 +26,11 @@ with our need-owners in France, Germany, Sweden and Finland. We plan several wor
 training events with a broader circle of need owners and stakeholders to ensure a wide uptake of our
 innovative project results.
 
-<img src="assets/img/resilient-v3.1.png" alt="project-structure" width="400"/>
+<img src="assets/img/resilient-v3.1.png" alt="project-structure" width="500"/>
 
 ## Partners
 
-<img src="assets/img/resilient-partners.png" alt="project-partners" width="400"/>
+<img src="assets/img/resilient-partners.png" alt="project-partners" width="500"/>
 
 - At the [Technical University of Berlin (TUB)](https://tu.berlin), the department of Digital Transformation in Energy Systems
 is the lead developer of the open energy system modelling framework PyPSA and the high-resolution
@@ -68,7 +70,7 @@ and reliable supply of electricity. With extensive experience in the energy indu
 several studies investigating net-zero energy systems using PyPSA-Eur. They will help the consortium
 define relevant uncertainties for planners, and play a leading role in the demonstration studies.
 
-[Électricité de France (EDF)](https://www.edfenergy.com/) is the second world’s leading multinational electricity company, particularly
+- [Électricité de France (EDF)](https://www.edfenergy.com/) is the second world’s leading multinational electricity company, particularly
 well established in Europe. Its business covers all electricity-based activities from generation to
 distribution, including energy transmission and trading activities. EDF Research and Development
 develops models for short to mid-term operation as well as long-term planning of energy systems at
@@ -92,7 +94,8 @@ support the data collection, scenario definition and result analysis in terms re
 
 ## Impressum
 
-Dr.-Ing. Fabian Neumann
+Dr.-Ing. Fabian Neumann\
+[Technische Universität Berlin](https://tu.berlin)
 [Fachgebiet Digitaler Wandel in Energiesystemen](https://tu.berlin/ensys/en)\
 Institut für Energietechnik\
 Fakultät III\

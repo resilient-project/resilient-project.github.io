@@ -1,13 +1,4 @@
 ---
 ---
 
-@import "{{ site.theme }}";
-
-a {
-    color:#9dd9a4;
-  }
-
-a:hover, a:focus {
-  color:#717171;
-  font-weight: normal;
-}
+@import "jekyll-theme-minimal";

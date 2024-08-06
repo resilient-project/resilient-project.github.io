@@ -94,13 +94,13 @@ support the data collection, scenario definition and result analysis in terms re
 
 ## Impressum
 
-Dr.-Ing. Fabian Neumann\
+Dr. Fabian Neumann\
+Dr. Iegor Riepin\
+Bobby Xiong\
+Prof. Dr. Tom Brown\
 [Technische Universität Berlin](https://tu.berlin)
 [Fachgebiet Digitaler Wandel in Energiesystemen](https://tu.berlin/ensys/en)\
 Institut für Energietechnik\
 Fakultät III\
 Einsteinufer 25 (TA 8)\
 10587 Berlin
-
-+49 (0)30 314 22890\
-+49 (0)30 314 26908

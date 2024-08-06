@@ -28,6 +28,11 @@ innovative project results.
 
 <img src="assets/img/resilient-v3.1.png" alt="project-structure" width="500"/>
 
+## Deliverables
+
+D1.1: [Project website](https://resilient-project.github.io/)\
+D1.2: [Project data management plan](https://resilient-project.github.io/static/uploads/D1.2_DMP_RESILIENT.pdf)
+
 ## Partners
 
 <img src="assets/img/resilient-partners.png" alt="project-partners" width="500"/>

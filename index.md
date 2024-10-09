@@ -33,6 +33,23 @@ innovative project results.
 D1.1: [Project website](https://resilient-project.github.io/)\
 D1.2: [Project data management plan](https://resilient-project.github.io/static/uploads/D1.2_DMP_RESILIENT.pdf)
 
+## Workshops and training events
+
+- Workshop with North Rhine-Westphalia industry stakeholders: [Project introduction and research goals](https://resilient-project.github.io/static/uploads/resilient-nrw-tom-einführung.pdf), online 08 October 2024
+- Workshop with North Rhine-Westphalia industry stakeholders: [PyPSA-Eur model: overview and applications](https://resilient-project.github.io/static/uploads/Modellanwendung-PyPSA-Eur-TUB.pdf), online 08 October 2024
+
+## Research talks
+
+- RESILIENT Kick-off meeting: [Methanol for hard-to-electrify sectors](https://resilient-project.github.io/static/uploads/brown-methanol.pdf), Berlin 22 February 2024
+- Scheduled: CETPartnership impact event on integrating the value chains of hydrogen, CCU, energy, and hydrocarbon products [tbd](), online 16 October 2024
+- Scheduled: CETPartnership workshop on flexibility in integrated industrial energy systems [tbd](), online 6 November 2024
+- Scheduled: Energy resilience symposium [tbd](), Stuttgart 11-12 November 2024
+
+## Project communication, media and public outreach
+
+- CETpartnership TRI1 2022 Project Leaders meeting: [RESILIENT project overview](https://resilient-project.github.io/static/uploads/resilient-overview.pdf), 20 October 2023
+
+
 ## Partners
 
 <img src="assets/img/resilient-partners.png" alt="project-partners" width="500"/>

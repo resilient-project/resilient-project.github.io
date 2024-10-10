@@ -37,6 +37,7 @@ D1.2: [Project data management plan](https://resilient-project.github.io/static/
 
 - Workshop with North Rhine-Westphalia industry stakeholders: [Project introduction and research goals](https://resilient-project.github.io/static/uploads/resilient-nrw-tom-einführung.pdf), online 08 October 2024
 - Workshop with North Rhine-Westphalia industry stakeholders: [PyPSA-Eur model: overview and applications](https://resilient-project.github.io/static/uploads/Modellanwendung-PyPSA-Eur-TUB.pdf), online 08 October 2024
+- Workshop with North Rhine-Westphalia industry stakeholders: [How does uncertainty impede industrial transformation? (German)](https://resilient-project.github.io/static/uploads/stakeholderworkshop_FraunhoferISI.pdf), online 08 October 2024
 
 ## Research talks
 

@@ -42,7 +42,7 @@ D1.2: [Project data management plan](https://resilient-project.github.io/static/
 ## Research talks
 
 - RESILIENT Kick-off meeting: [Methanol for hard-to-electrify sectors](https://resilient-project.github.io/static/uploads/brown-methanol.pdf), Berlin 22 February 2024
-- Scheduled: CETPartnership impact event on integrating the value chains of hydrogen, CCU, energy, and hydrocarbon products [tbd](), online 16 October 2024
+- Insight Harvesting Workshop of the CETPartnership projects: [Building Resilient Energy Infrastructure: Hydrogen, Import, and Carbon Management Strategies](https://tubcloud.tu-berlin.de/s/kDKgmiHxGGt4FaD/download/20241016-cetp-insight-harvesting.pdf), online 16 October 2024
 - Scheduled: CETPartnership workshop on flexibility in integrated industrial energy systems [tbd](), online 6 November 2024
 - Scheduled: Energy resilience symposium [tbd](), Stuttgart 11-12 November 2024
 

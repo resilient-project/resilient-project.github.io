@@ -31,7 +31,14 @@ innovative project results.
 ## Deliverables
 
 D1.1: [Project website](https://resilient-project.github.io/)\
-D1.2: [Project data management plan](https://resilient-project.github.io/static/uploads/D1.2_DMP_RESILIENT.pdf)
+D1.2: [Project data management plan](https://resilient-project.github.io/static/uploads/D1.2_DMP_RESILIENT.pdf)\
+D2.1: [Intermediate release of SMS++ and PyPSA integration](https://resilient-project.github.io/static/uploads/D21.pdf)\
+D2.3: [Intermediate releases of PyPSA-Eur](https://pypsa-eur.readthedocs.io/en/latest/release_notes.html)
+
+## Next Workshops
+
+[PyPSA-Eur Training Workshop in Stuttgart, January 27-28, 2025](https://www.linkedin.com/feed/update/urn:li:activity:7274361929098317824/)
+
 
 ## Workshops and training events
 

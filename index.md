@@ -19,7 +19,9 @@ For this project, we have assembled a team of leading academic researchers and i
 
 To maximize impact, we will organize workshops and training events involving a broader circle of need-owners and stakeholders, ensuring the wide adoption of project results.
 
-<img src="assets/img/resilient-v3.1.png" alt="project-structure" width="500"/>
+<img src="assets/img/pypsaeur.png" alt="pypsa-eur" width="500"/>
+
+<img src="assets/img/resilient-v3.1.png" alt="project-structure" width="480"/>
 
 ## Deliverables
 

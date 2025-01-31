@@ -5,7 +5,7 @@
 layout: default
 ---
 
-# Resilient Energy System Infrastructure Layouts for Industry, E-Fuels and Network Transitions
+# Resilient (Resilient Energy System Infrastructure Layouts for Industry, E-Fuels and Network Transitions)
 
 ## About
 
@@ -26,29 +26,61 @@ To maximize impact, we will organize workshops and training events involving a b
 D1.1: [Project website](https://resilient-project.github.io/)\
 D1.2: [Project data management plan](https://resilient-project.github.io/static/uploads/D1.2_DMP_RESILIENT.pdf)\
 D2.1: [Intermediate release of SMS++ and PyPSA integration](https://resilient-project.github.io/static/uploads/D21.pdf)\
-D2.3: [Intermediate releases of PyPSA-Eur](https://pypsa-eur.readthedocs.io/en/latest/release_notes.html)
+D2.3: [Intermediate releases of PyPSA-Eur](https://pypsa-eur.readthedocs.io/en/latest/release_notes.html)\
+D3.2: [Interim release of PyPSA-Eur with improved biomass and carbon management representation](https://github.com/PyPSA/pypsa-eur/tree/v0.12.0)\
+D*: [Introducing OpenStreetMap high-voltage grid to PyPSA-Eur](https://github.com/PyPSA/pypsa-eur/pull/1079)
 
-## Next Workshops
+## Completed workshops and training events
 
-[PyPSA-Eur Training Workshop in Stuttgart, January 27-28, 2025](https://www.linkedin.com/feed/update/urn:li:activity:7274361929098317824/)
+Workshop with North Rhine-Westphalia industry stakeholders\
+*Organised by IN4climate.NRW, 08 October 2024*
+- [Project introduction and research goals](https://resilient-project.github.io/static/uploads/resilient-nrw-tom-einführung.pdf)
+- [PyPSA-Eur model: overview and applications](https://resilient-project.github.io/static/uploads/Modellanwendung-PyPSA-Eur-TUB.pdf)
+- [How does uncertainty impede industrial transformation? (in German)](https://resilient-project.github.io/static/uploads/stakeholderworkshop_FraunhoferISI.pdf)
 
 
-## Workshops and training events
+Energy modelling training workshop with PyPSA & PyPSA-Eur\
+*Organised by TransnetBW and TUB, 27-28 January 2025*
+- [Invitation](https://www.linkedin.com/feed/update/urn:li:activity:7274361929098317824/)
+- [Teaching materials for PyPSA-Eur training](https://docs.google.com/presentation/d/1jqMp5ZYhTRi6gNDoa1UgDzGFLU5ifxeLgfW0R8FBTB4)
+- [Teaching materials for PyPSA training](https://irieo.github.io/workshop-pypsa-transnetbw/intro.html)
 
-- Workshop with North Rhine-Westphalia industry stakeholders: [Project introduction and research goals](https://resilient-project.github.io/static/uploads/resilient-nrw-tom-einführung.pdf), online 08 October 2024
-- Workshop with North Rhine-Westphalia industry stakeholders: [PyPSA-Eur model: overview and applications](https://resilient-project.github.io/static/uploads/Modellanwendung-PyPSA-Eur-TUB.pdf), online 08 October 2024
-- Workshop with North Rhine-Westphalia industry stakeholders: [How does uncertainty impede industrial transformation? (German)](https://resilient-project.github.io/static/uploads/stakeholderworkshop_FraunhoferISI.pdf), online 08 October 2024
+## Research papers
 
-## Research talks
+Millinger et al. [Diversity of biomass usage pathways to achieve emissions targets in the European energy system](https://www.nature.com/articles/s41560-024-01693-6), Nature Energy, 2025
 
-- RESILIENT Kick-off meeting: [Methanol for hard-to-electrify sectors](https://resilient-project.github.io/static/uploads/brown-methanol.pdf), Berlin 22 February 2024
-- Insight Harvesting Workshop of the CETPartnership projects: [Building Resilient Energy Infrastructure: Hydrogen, Import, and Carbon Management Strategies](https://tubcloud.tu-berlin.de/s/kDKgmiHxGGt4FaD/download/20241016-cetp-insight-harvesting.pdf), online 16 October 2024
-- CETPartnership workshop on flexibility in integrated industrial energy systems [Energy flexibility from industrial process heating - Relevance, system impacts and ways forward](https://resilient-project.github.io/static/uploads/Resilient_2024-11-05_FlexibilityFromIndustryInEnergySystem.pdf), online 6 November 2024
-- Energy resilience symposium [Resilient strategies for the European energy system. A case study on 2030 EU policy targets](https://resilient-project.github.io/static/uploads/pci-pmi-2030-targets-presentation.pdf), Stuttgart 11-12 November 2024
+Millinger et al. [Biomass exclusion must be weighed against benefits of carbon supply in European energy system](https://www.nature.com/articles/s41560-024-01685-6), Policy brief in Nature Energy, 2025
 
-## Project communication, media and public outreach
+Hazem et al. [PyPSA-Earth sector-coupled: A global open-source multi-energy system model showcased for hydrogen applications in countries of the Global South](https://www.sciencedirect.com/science/article/pii/S0306261925000467), Applied Energy, 2025
 
-- CETpartnership TRI1 2022 Project Leaders meeting: [RESILIENT project overview](https://resilient-project.github.io/static/uploads/resilient-overview.pdf), 20 October 2023
+Xiong et al. [Modelling the high-voltage grid using open data for Europe and beyond](https://arxiv.org/abs/2408.17178), Nature Scientific Data (accepted), 2025
+
+Brown, Neumann & Riepin [Price formation without fuel costs---the interaction of elastic demand with storage bidding](https://arxiv.org/abs/2407.21409), arXiv preprint (in review), 2024
+
+Zachmann, Meißner & Riepin [Mitigating Ukraine's Looming Electricity Crisis](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4930511), SSRN preprint (in review), 2024
+ 
+
+## Research talks, media and public outreach
+
+CETpartnership TRI1 2022 Project Leaders meeting\
+*Online, 20 October 2023*\
+[RESILIENT project overview](https://resilient-project.github.io/static/uploads/resilient-overview.pdf)
+
+RESILIENT Kick-off meeting\
+*Berlin, 22 February 2024*\
+[Methanol for hard-to-electrify sectors](https://resilient-project.github.io/static/uploads/brown-methanol.pdf)
+
+Insight Harvesting Workshop of the CETPartnership projects\
+*Online, 16 October 2024*\
+[Building Resilient Energy Infrastructure: Hydrogen, Import, and Carbon Management Strategies](https://tubcloud.tu-berlin.de/s/kDKgmiHxGGt4FaD/download/20241016-cetp-insight-harvesting.pdf)
+
+CETPartnership workshop on flexibility in integrated industrial energy systems\
+*Online, 6 November 2024*\
+[Energy flexibility from industrial process heating - Relevance, system impacts and ways forward](https://resilient-project.github.io/static/uploads/Resilient_2024-11-05_FlexibilityFromIndustryInEnergySystem.pdf)
+
+Energy resilience symposium\
+*IER, Stuttgart, 11-12 November 2024*\
+[Resilient strategies for the European energy system. A case study on 2030 EU policy targets](https://resilient-project.github.io/static/uploads/pci-pmi-2030-targets-presentation.pdf)
 
 
 ## Partners
@@ -81,11 +113,10 @@ expertise on the most suitable applications of restricted biomass potentials, an
 infrastructure across different sectors.
 
 - [Lappeenranta-Lahti University of Technology (LUT)](https://www.lut.fi/en) is one of the leaders in the research of net-zero
-energy systems with its own energy system model LUT-ESTM applied to energy transition studies for
-dozens of countries across the globe, LUT-ESTM can be used as a validation tool in this project. LUT
-will bring a global perspective to model the worldwide trading of hydrogen and derivative chemicals and
+energy systems with an energy system model LUT-ESTM applied to energy transition studies for
+dozens of countries across the globe. LUT will bring a global perspective to model the worldwide trading of hydrogen and derivative chemicals and
 materials, as well as trade-offs between imports and domestic supply. LUT will also study the role of
-sustainable point sources of CO2 on the production of e-fuels, e-chemicals and other carbonaceous
+sustainable point sources of CO2 on the production of e-fuels and other carbonaceous
 materials with emphasis on Finland.
 
 - [TransnetBW](https://www.transnetbw.de/de) is a transmission system operator based in southwest Germany that specialises in the secure
@@ -106,14 +137,12 @@ for and with industry, science, and the state government. They will build a brid
 
 - [Stockholm Exergi](https://www.stockholmexergi.se/) is an energy company providing district heat and power and waste incineration in
 Stockholm, with a pioneering carbon capture research facility that is planned for full-scale operation in
-2026 to capture 800 kilotons of biogenic carbon dioxide. They provide extensive expertise and data
+2026 to capture 800 kilotons of biogenic carbon dioxide. They provide expertise and data
 validation for modelling bioenergy with carbon capture.
 
-- [ABB Finland](https://new.abb.com/fi) (associated) is one of the leaders in electrification and automation, providing technology and
-knowledge to dozens of projects contributing to the energy transition of Europe. ABB leads the promising
-BalticSeaH2 hydrogen valley and will bring the perspective and the knowledge of current state of the art
-of e-fuels production projects in Europe. ABB will join the consortium as an associated partner and will
-support the data collection, scenario definition and result analysis in terms related to e-fuels production.
+- [ABB Finland](https://new.abb.com/fi) is one of the leaders in electrification and automation, providing technology and
+knowledge to dozens of projects contributing to the energy transition of Europe. ABB joins the consortium as an associated partner and
+supports data collection, scenario definition and result analysis in terms related to e-fuels production.
 
 ## Impressum
 

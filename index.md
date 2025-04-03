@@ -55,13 +55,13 @@ Energy modelling workshop\
 
 ## Research papers
 
+Xiong et al. [Modelling the high-voltage grid using open data for Europe and beyond](https://www.nature.com/articles/s41597-025-04550-7), Nature Scientific Data, 2025
+
 Millinger et al. [Diversity of biomass usage pathways to achieve emissions targets in the European energy system](https://www.nature.com/articles/s41560-024-01693-6), Nature Energy, 2025
 
 Millinger et al. [Biomass exclusion must be weighed against benefits of carbon supply in European energy system](https://www.nature.com/articles/s41560-024-01685-6), Policy brief in Nature Energy, 2025
 
 Hazem et al. [PyPSA-Earth sector-coupled: A global open-source multi-energy system model showcased for hydrogen applications in countries of the Global South](https://www.sciencedirect.com/science/article/pii/S0306261925000467), Applied Energy, 2025
-
-Xiong et al. [Modelling the high-voltage grid using open data for Europe and beyond](https://arxiv.org/abs/2408.17178), Nature Scientific Data (accepted), 2025
 
 Brown, Neumann & Riepin [Price formation without fuel costs---the interaction of elastic demand with storage bidding](https://arxiv.org/abs/2407.21409), arXiv preprint (in review), 2024
 

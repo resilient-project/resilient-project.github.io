@@ -41,11 +41,17 @@ Workshop with North Rhine-Westphalia industry stakeholders\
 - [How does uncertainty impede industrial transformation? (in German)](https://resilient-project.github.io/static/uploads/stakeholderworkshop_FraunhoferISI.pdf)
 
 
-Energy modelling training workshop with PyPSA & PyPSA-Eur\
+Energy modelling workshop for industry stakeholders\
 *Organised by TransnetBW and TUB, 27-28 January 2025*
 - [Invitation](https://www.linkedin.com/feed/update/urn:li:activity:7274361929098317824/)
-- [Teaching materials for PyPSA-Eur training](https://docs.google.com/presentation/d/1jqMp5ZYhTRi6gNDoa1UgDzGFLU5ifxeLgfW0R8FBTB4)
-- [Teaching materials for PyPSA training](https://irieo.github.io/workshop-pypsa-transnetbw/intro.html)
+- [Teaching materials for PyPSA-Eur](https://docs.google.com/presentation/d/1jqMp5ZYhTRi6gNDoa1UgDzGFLU5ifxeLgfW0R8FBTB4)
+- [Teaching materials for PyPSA](https://irieo.github.io/workshop-pypsa-transnetbw/intro.html)
+
+Energy modelling workshop\
+*Organised by Gasunie and TUB, 25-26 February 2025*
+- [Teaching materials for PyPSA-Eur](https://docs.google.com/presentation/d/12FQCupOkddtNy6psd9M01N4_hmblauad0gaH1bLJB3o/edit#slide=id.g1ec455a5967_0_0)
+- [Teaching materials for PyPSA](https://fneum.github.io/gasunie-workshop/intro.html)
+
 
 ## Research papers
 

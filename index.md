@@ -34,9 +34,9 @@ D*: [Introducing OpenStreetMap high-voltage grid to PyPSA-Eur](https://github.co
 
 ## Workshops and PyPSA(-Eur) training events
 
-### Completed 
-
 *We are dedicated to advancing open-source, transparent, and diligent scientific workflows for energy system modelling. RESILIENT project team aims to empower researchers, industry professionals, and policymakers by providing accessible tools, comprehensive documentation, and practical training resources for energy system research. Through detailed explanations of our models, data, and methodologies, we support a broad application of PyPSA(-Eur) model environment for decision-making and effective industry applications. We openly share all workshop materials to foster collaboration and knowledge sharing within the energy community.*
+
+### Completed 
 
 Workshop with North Rhine-Westphalia industry stakeholders\
 *Organised by IN4climate.NRW, 08 October 2024*

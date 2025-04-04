@@ -32,7 +32,11 @@ D2.3: [Intermediate releases of PyPSA-Eur](https://pypsa-eur.readthedocs.io/en/l
 D3.2: [Interim release of PyPSA-Eur with improved biomass and carbon management representation](https://github.com/PyPSA/pypsa-eur/tree/v0.12.0)\
 D*: [Introducing OpenStreetMap high-voltage grid to PyPSA-Eur](https://github.com/PyPSA/pypsa-eur/pull/1079)
 
-## Completed workshops and training events
+## Workshops and PyPSA(-Eur) training events
+
+### Completed 
+
+*We are dedicated to advancing open-source, transparent, and diligent scientific workflows for energy system modelling. RESILIENT project team aims to empower researchers, industry professionals, and policymakers by providing accessible tools, comprehensive documentation, and practical training resources for energy system research. Through detailed explanations of our models, data, and methodologies, we support a broad application of PyPSA(-Eur) model environment for decision-making and effective industry applications. We openly share all workshop materials to foster collaboration and knowledge sharing within the energy community.*
 
 Workshop with North Rhine-Westphalia industry stakeholders\
 *Organised by IN4climate.NRW, 08 October 2024*
@@ -40,17 +44,30 @@ Workshop with North Rhine-Westphalia industry stakeholders\
 - [PyPSA-Eur model: overview and applications](https://resilient-project.github.io/static/uploads/Modellanwendung-PyPSA-Eur-TUB.pdf)
 - [How does uncertainty impede industrial transformation? (in German)](https://resilient-project.github.io/static/uploads/stakeholderworkshop_FraunhoferISI.pdf)
 
-
-Energy modelling workshop for industry stakeholders\
-*Organised by TransnetBW and TUB, 27-28 January 2025*
+Energy system modelling workshop for industry stakeholders\
+*Hosted by TransnetBW, 27-28 January 2025; Conducted by TUB and TransnetBW*
 - [Invitation](https://www.linkedin.com/feed/update/urn:li:activity:7274361929098317824/)
 - [Teaching materials for PyPSA-Eur](https://docs.google.com/presentation/d/1jqMp5ZYhTRi6gNDoa1UgDzGFLU5ifxeLgfW0R8FBTB4)
 - [Teaching materials for PyPSA](https://irieo.github.io/workshop-pypsa-transnetbw/intro.html)
 
-Energy modelling workshop\
-*Organised by Gasunie and TUB, 25-26 February 2025*
+Energy system modelling workshop for a broad public (industry, research, NGOs, consultancies)\
+*Hosted by Gasunie, 25-26 February 2025 | Conducted by TUB*
 - [Teaching materials for PyPSA-Eur](https://docs.google.com/presentation/d/12FQCupOkddtNy6psd9M01N4_hmblauad0gaH1bLJB3o/edit#slide=id.g1ec455a5967_0_0)
 - [Teaching materials for PyPSA](https://fneum.github.io/gasunie-workshop/intro.html)
+
+### Planned
+
+Energy modelling workshop for four German TSOs (50Hertz, Amprion, TenneT, TransnetBW)\
+*To be hosted by 50Hertz, 12 May 2025 | To be conducted by TUB and TransnetBW*
+- Invitation coming soon
+
+Energy modelling workshop for a broad public (industry, research, NGOs, consultancies)\
+*To be hosted by TUB, 22-23 May 2025 | to be conducted by TUB*
+- [Invitation](https://www.linkedin.com/posts/fabian-neumann-renewables_pypsa-eur-workshop-at-tu-berlin-activity-7309188508894543873-Ycsq?utm_source=share&utm_medium=member_desktop&rcm=ACoAADhk2oEBLgmYCVN1a_pvp6Q2ezECxNhJekw)
+
+Energy modelling workshop for a broad public (industry, research, NGOs, consultancies)\
+*To be by DTU, 26-26 June 2025 | to be conducted by TUB and DTU*
+- Invitation coming soon
 
 
 ## Research papers

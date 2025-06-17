@@ -78,12 +78,13 @@ Millinger et al. [Diversity of biomass usage pathways to achieve emissions targe
 
 Millinger et al. [Biomass exclusion must be weighed against benefits of carbon supply in European energy system](https://www.nature.com/articles/s41560-024-01685-6), Policy brief in Nature Energy, 2025
 
-Hazem et al. [PyPSA-Earth sector-coupled: A global open-source multi-energy system model showcased for hydrogen applications in countries of the Global South](https://www.sciencedirect.com/science/article/pii/S0306261925000467), Applied Energy, 2025
+Abdel-Khalek et al. [PyPSA-Earth sector-coupled: A global open-source multi-energy system model showcased for hydrogen applications in countries of the Global South](https://www.sciencedirect.com/science/article/pii/S0306261925000467), Applied Energy, 2025
 
-Brown, Neumann & Riepin [Price formation without fuel costs---the interaction of elastic demand with storage bidding](https://arxiv.org/abs/2407.21409), arXiv preprint (in review), 2024
+Brown, Neumann & Riepin [Price formation without fuel costs---the interaction of elastic demand with storage bidding](https://doi.org/10.1016/j.eneco.2025.108483), Energy Economics, 2025
 
-Zachmann, Meißner & Riepin [Mitigating Ukraine's Looming Electricity Crisis](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4930511), SSRN preprint (in review), 2024
- 
+Zachmann, Meißner & Riepin [Mitigating Ukraine's Looming Electricity Crisis](https://doi.org/10.1016/j.esr.2025.101724), Energy Strategy Reviews, 2025
+
+Xiong, Brown & Riepin [The role of Projects of Common Interest in reaching Europe’s energy policy targets](), tbd
 
 ## Research talks, media and public outreach
 

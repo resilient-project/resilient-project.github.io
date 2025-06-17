@@ -108,6 +108,13 @@ Energy resilience symposium\
 *IER, Stuttgart, 11-12 November 2024*\
 [Resilient strategies for the European energy system. A case study on 2030 EU policy targets](https://resilient-project.github.io/static/uploads/pci-pmi-2030-targets-presentation.pdf)
 
+The DTU Summer School 2025\
+*DTU, Lyngby, 18-23 May 2025*\
+[The role of PCI-PMI infrastructure in reaching Europe’s energy policy targets](https://github.com/bobbyxng/pcipmi-policy-targets/blob/main/presentation/2025-05-19_dtu_pes_poster/poster.pdf)
+
+International Energy Workshop 2025\
+*Nara, Japan, 11 June 2025*\
+[The role of Projects of Common Interest in reaching Europe’s energy policy targets](https://github.com/bobbyxng/pcipmi-policy-targets/blob/main/presentation/2025-06-12_iew_nara/presentation/pcipmi-policy-targets-iew.pdf)
 
 ## Partners
 

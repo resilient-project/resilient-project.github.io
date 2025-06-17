@@ -37,97 +37,108 @@ D*: [Introducing OpenStreetMap high-voltage grid to PyPSA-Eur](https://github.co
 *We are dedicated to advancing open-source, transparent, and diligent scientific workflows for energy system modelling. RESILIENT project team aims to empower researchers, industry professionals, and policymakers by providing accessible tools, comprehensive documentation, and practical training resources for energy system research. Through detailed explanations of our models, data, and methodologies, we support a broad application of PyPSA(-Eur) model environment for decision-making and effective industry applications. We openly share all workshop materials to foster collaboration and knowledge sharing within the energy community.*
 
 ### Completed events
-
-**Workshop with North Rhine-Westphalia Industrial Stakeholders**  
+- **Workshop with North Rhine-Westphalia industrial stakeholders**  
 *Organized by IN4climate.NRW, 8 October 2024*  
-- [Project Introduction and Research Goals](https://resilient-project.github.io/static/uploads/resilient-nrw-tom-einführung.pdf)  
-- [PyPSA-Eur Model: Overview and Applications](https://resilient-project.github.io/static/uploads/Modellanwendung-PyPSA-Eur-TUB.pdf)  
-- [How Does Uncertainty Impede Industrial Transformation? (in German)](https://resilient-project.github.io/static/uploads/stakeholderworkshop_FraunhoferISI.pdf)
+-- [Project introduction and research goals](https://resilient-project.github.io/static/uploads/resilient-nrw-tom-einführung.pdf)  
+-- [PyPSA-Eur model: overview and applications](https://resilient-project.github.io/static/uploads/Modellanwendung-PyPSA-Eur-TUB.pdf)  
+-- [How does uncertainty impede industrial transformation? (in German)](https://resilient-project.github.io/static/uploads/stakeholderworkshop_FraunhoferISI.pdf)
 
-**Energy System Modelling Workshop for Industrial Stakeholders** (~30 participants)  
+- **Energy system modelling workshop for industrial stakeholders** (~30 participants)  
 *Hosted by TransnetBW, 27–28 January 2025 | Conducted by TUB and TransnetBW*  
-- [Workshop Invitation](https://www.linkedin.com/feed/update/urn:li:activity:7274361929098317824/)  
-- [Teaching Materials – PyPSA-Eur](https://docs.google.com/presentation/d/1jqMp5ZYhTRi6gNDoa1UgDzGFLU5ifxeLgfW0R8FBTB4)  
-- [Teaching Materials – PyPSA](https://irieo.github.io/workshop-pypsa-transnetbw/intro.html)
+-- [Workshop invitation](https://www.linkedin.com/feed/update/urn:li:activity:7274361929098317824/)  
+-- [Teaching materials – PyPSA-Eur](https://docs.google.com/presentation/d/1jqMp5ZYhTRi6gNDoa1UgDzGFLU5ifxeLgfW0R8FBTB4)  
+-- [Teaching materials – PyPSA](https://irieo.github.io/workshop-pypsa-transnetbw/intro.html)
 
-**Energy System Modelling Workshop for Cross-Sector Stakeholders**  
+- **Energy system modelling workshop for cross-sector stakeholders**  
 (~20 participants from industry, academia, NGOs, and consulting firms)  
 *Hosted by Gasunie, 25–26 February 2025 | Conducted by TUB*  
-- [Teaching Materials – PyPSA-Eur](https://docs.google.com/presentation/d/12FQCupOkddtNy6psd9M01N4_hmblauad0gaH1bLJB3o/edit#slide=id.g1ec455a5967_0_0)  
-- [Teaching Materials – PyPSA](https://fneum.github.io/gasunie-workshop/intro.html)
+-- [Teaching materials – PyPSA-Eur](https://docs.google.com/presentation/d/12FQCupOkddtNy6psd9M01N4_hmblauad0gaH1bLJB3o/edit#slide=id.g1ec455a5967_0_0)  
+-- [Teaching materials – PyPSA](https://fneum.github.io/gasunie-workshop/intro.html)
 
-**Energy Modelling Workshop with German Transmission System Operators (TSOs)**  
+- **Energy modelling workshop with German transmission system operators (TSOs)**  
 (Participants from 50Hertz, Amprion, TenneT, TransnetBW)  
 *Hosted by 50Hertz, 12 May 2025 | Conducted by TUB and TransnetBW*  
-- [Workshop Materials](https://resilient-project.github.io/pypsa-workshop/intro.html)  
-- [LinkedIn Summary](https://www.linkedin.com/feed/update/urn:li:activity:7332767362061844480/)
+-- [Workshop materials](https://resilient-project.github.io/pypsa-workshop/intro.html)  
+-- [LinkedIn summary](https://www.linkedin.com/feed/update/urn:li:activity:7332767362061844480/)
 
-**Energy Modelling Workshop for Cross-Sector Stakeholders**  
+- **Energy modelling workshop for cross-sector stakeholders**  
 (~30 participants from industry, academia, NGOs, and consulting firms)  
 *Hosted by TUB, 22–23 May 2025 | Conducted by TUB*  
-- [Workshop Invitation](https://www.linkedin.com/posts/fabian-neumann-renewables_pypsa-eur-workshop-at-tu-berlin-activity-7309188508894543873-Ycsq?utm_source=share&utm_medium=member_desktop&rcm=ACoAADhk2oEBLgmYCVN1a_pvp6Q2ezECxNhJekw)  
-- [Workshop Materials](https://resilient-project.github.io/pypsa-workshop-202505/intro.html)
+-- [Workshop invitation](https://www.linkedin.com/posts/fabian-neumann-renewables_pypsa-eur-workshop-at-tu-berlin-activity-7309188508894543873-Ycsq?utm_source=share&utm_medium=member_desktop&rcm=ACoAADhk2oEBLgmYCVN1a_pvp6Q2ezECxNhJekw)  
+-- [Workshop materials](https://resilient-project.github.io/pypsa-workshop-202505/intro.html)
 
 ### Planned events
 
-**Energy Modelling Workshop for Cross-Sector Stakeholders** (~50 participants)  
+- **Energy modelling workshop for cross-sector stakeholders**  
+(~50 participants)  
 *To be hosted by DTU (Prof. Marta Victoria and team), 26–27 June 2025 | To be conducted by TUB and DTU*  
-- [Workshop Invitation](https://www.linkedin.com/posts/marta-victoria-4189b388_pypsa-eur-workshop-at-dtu-copenhagen-activity-7320387816662745088-JAwA/)
+-- [Workshop invitation](https://www.linkedin.com/posts/marta-victoria-4189b388_pypsa-eur-workshop-at-dtu-copenhagen-activity-7320387816662745088-JAwA/)
 
 
 ## Research papers
 
-Xiong et al. [Modelling the high-voltage grid using open data for Europe and beyond](https://www.nature.com/articles/s41597-025-04550-7), Nature Scientific Data, 2025
+- Xiong et al. [Modelling the high-voltage grid using open data for Europe and beyond](https://www.nature.com/articles/s41597-025-04550-7), Nature Scientific Data, 2025
 
-Millinger et al. [Diversity of biomass usage pathways to achieve emissions targets in the European energy system](https://www.nature.com/articles/s41560-024-01693-6), Nature Energy, 2025
+- Millinger et al. [Diversity of biomass usage pathways to achieve emissions targets in the European energy system](https://www.nature.com/articles/s41560-024-01693-6), Nature Energy, 2025
 
-Millinger et al. [Biomass exclusion must be weighed against benefits of carbon supply in European energy system](https://www.nature.com/articles/s41560-024-01685-6), Policy brief in Nature Energy, 2025
+- Millinger et al. [Biomass exclusion must be weighed against benefits of carbon supply in European energy system](https://www.nature.com/articles/s41560-024-01685-6), Policy brief in Nature Energy, 2025
 
-Abdel-Khalek et al. [PyPSA-Earth sector-coupled: A global open-source multi-energy system model showcased for hydrogen applications in countries of the Global South](https://www.sciencedirect.com/science/article/pii/S0306261925000467), Applied Energy, 2025
+- Abdel-Khalek et al. [PyPSA-Earth sector-coupled: A global open-source multi-energy system model showcased for hydrogen applications in countries of the Global South](https://www.sciencedirect.com/science/article/pii/S0306261925000467), Applied Energy, 2025
 
-Brown, Neumann & Riepin [Price formation without fuel costs---the interaction of elastic demand with storage bidding](https://doi.org/10.1016/j.eneco.2025.108483), Energy Economics, 2025
+- Brown, Neumann & Riepin [Price formation without fuel costs---the interaction of elastic demand with storage bidding](https://doi.org/10.1016/j.eneco.2025.108483), Energy Economics, 2025
 
-Zachmann, Meißner & Riepin [Mitigating Ukraine's Looming Electricity Crisis](https://doi.org/10.1016/j.esr.2025.101724), Energy Strategy Reviews, 2025
+- Zachmann, Meißner & Riepin [Mitigating Ukraine's Looming Electricity Crisis](https://doi.org/10.1016/j.esr.2025.101724), Energy Strategy Reviews, 2025
 
-Xiong, Brown & Riepin [The role of Projects of Common Interest in reaching Europe’s energy policy targets](), tbd
+- Xiong, Brown & Riepin [The role of Projects of Common Interest in reaching Europe’s energy policy targets](), tbd
 
 ## Research talks
 
-CETpartnership TRI1 2022 Project Leaders meeting\
+- CETpartnership TRI1 2022 Project Leaders meeting\
 *Online, 20 October 2023*\
 [RESILIENT project overview](https://resilient-project.github.io/static/uploads/resilient-overview.pdf)
 
-RESILIENT Kick-off meeting\
+- RESILIENT Kick-off meeting\
 *Berlin, 22 February 2024*\
 [Methanol for hard-to-electrify sectors](https://resilient-project.github.io/static/uploads/brown-methanol.pdf)
 
-Insight Harvesting Workshop of the CETPartnership projects\
+- Insight Harvesting Workshop of the CETPartnership projects\
 *Online, 16 October 2024*\
 [Building Resilient Energy Infrastructure: Hydrogen, Import, and Carbon Management Strategies](https://tubcloud.tu-berlin.de/s/kDKgmiHxGGt4FaD/download/20241016-cetp-insight-harvesting.pdf)
 
-CETPartnership workshop on flexibility in integrated industrial energy systems\
+- CETPartnership workshop on flexibility in integrated industrial energy systems\
 *Online, 6 November 2024*\
 [Energy flexibility from industrial process heating - Relevance, system impacts and ways forward](https://resilient-project.github.io/static/uploads/Resilient_2024-11-05_FlexibilityFromIndustryInEnergySystem.pdf)
 
-Energy resilience symposium\
+- Energy resilience symposium\
 *IER, Stuttgart, 11-12 November 2024*\
 [Resilient strategies for the European energy system. A case study on 2030 EU policy targets](https://resilient-project.github.io/static/uploads/pci-pmi-2030-targets-presentation.pdf)
 
-The DTU Summer School 2025\
+- The DTU Summer School 2025\
 *DTU, Lyngby, 18-23 May 2025*\
 [The role of PCI-PMI infrastructure in reaching Europe’s energy policy targets](https://github.com/bobbyxng/pcipmi-policy-targets/blob/main/presentation/2025-05-19_dtu_pes_poster/poster.pdf)
 
-International Energy Workshop 2025\
+- International Energy Workshop 2025\
 *Nara, Japan, 11 June 2025*\
 [The role of Projects of Common Interest in reaching Europe’s energy policy targets](https://github.com/bobbyxng/pcipmi-policy-targets/blob/main/presentation/2025-06-12_iew_nara/presentation/pcipmi-policy-targets-iew.pdf)
 
-International Energy Workshop 2025 & RESILIENT annual meeting 2025\
+- International Energy Workshop 2025 & RESILIENT annual meeting 2025\
 *Nara, Japan, 11 June 2025 & Pisa, Italy, 15 May 2025*\
 [The Minimal Methanol Economy as a Gap-Filler for High Electrification Scenarios](https://nworbmot.org/energy/brown-iew25.pdf)
 
-## Some 
+## Public outreach & media highlights
 
-## Partners
+- **[Open‑data European high-voltage grid in *Nature Scientific Data*](https://www.linkedin.com/posts/bobby-xiong_open-transparent-connected-activity-7297938013832069120-3_fV/)** — Bobby Xiong announces the publication of a dataset and methodology constructing Europe's 200–750 kV high-voltage grid from OpenStreetMap under an open license.
+
+- **[PyPSA‑Eur transition to OpenStreetMap](https://www.linkedin.com/posts/bobby-xiong_opensource-open-transparent-activity-7236340491603070976-0NFk/)** —  LinkedIn post by Bobby Xiong announcing PyPSA‑Eur's full migration to OSM data and the first release of the high-voltage grid model, which is now available for download and use.
+
+- **[How can open-source frameworks and models support the energy system planning needs of TSOs? ](https://www.linkedin.com/posts/iegor-riepin_pypsa-bmwe-resilient-activity-7332767362061844480-uJXh/)** — We share materials from the PyPSA-Eur workshop with German transmission system operators.
+
+- **[What is the role of biomass to achieve emissions targets in the energy system?](https://www.linkedin.com/feed/update/urn:li:activity:7288133455714918400/)** — LinkedIn post by Markus Millinger announcing the publication of a paper in *Nature Energy* on the diversity of biomass usage pathways to achieve emissions targets in the European energy system.
+
+- **[Blog: "Price formation without fuel costs"](https://nworbmot.org/blog/price-formation-without-fuel-costs.html)** — A science-explainer blog post by Tom Brown based on our new paper in *Energy Economics*.
+
+
+## About us: partners of the RESILIENT project
 
 <img src="assets/img/resilient-partners.png" alt="project-partners" width="500"/>
 

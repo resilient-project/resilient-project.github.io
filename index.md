@@ -36,38 +36,43 @@ D*: [Introducing OpenStreetMap high-voltage grid to PyPSA-Eur](https://github.co
 
 *We are dedicated to advancing open-source, transparent, and diligent scientific workflows for energy system modelling. RESILIENT project team aims to empower researchers, industry professionals, and policymakers by providing accessible tools, comprehensive documentation, and practical training resources for energy system research. Through detailed explanations of our models, data, and methodologies, we support a broad application of PyPSA(-Eur) model environment for decision-making and effective industry applications. We openly share all workshop materials to foster collaboration and knowledge sharing within the energy community.*
 
-### Completed 
+### Completed events
 
-Workshop with North Rhine-Westphalia industry stakeholders\
-*Organised by IN4climate.NRW, 08 October 2024*
-- [Project introduction and research goals](https://resilient-project.github.io/static/uploads/resilient-nrw-tom-einführung.pdf)
-- [PyPSA-Eur model: overview and applications](https://resilient-project.github.io/static/uploads/Modellanwendung-PyPSA-Eur-TUB.pdf)
-- [How does uncertainty impede industrial transformation? (in German)](https://resilient-project.github.io/static/uploads/stakeholderworkshop_FraunhoferISI.pdf)
+**Workshop with North Rhine-Westphalia Industrial Stakeholders**  
+*Organized by IN4climate.NRW, 8 October 2024*  
+- [Project Introduction and Research Goals](https://resilient-project.github.io/static/uploads/resilient-nrw-tom-einführung.pdf)  
+- [PyPSA-Eur Model: Overview and Applications](https://resilient-project.github.io/static/uploads/Modellanwendung-PyPSA-Eur-TUB.pdf)  
+- [How Does Uncertainty Impede Industrial Transformation? (in German)](https://resilient-project.github.io/static/uploads/stakeholderworkshop_FraunhoferISI.pdf)
 
-Energy system modelling workshop for industry stakeholders\
-*Hosted by TransnetBW, 27-28 January 2025; Conducted by TUB and TransnetBW*
-- [Invitation](https://www.linkedin.com/feed/update/urn:li:activity:7274361929098317824/)
-- [Teaching materials for PyPSA-Eur](https://docs.google.com/presentation/d/1jqMp5ZYhTRi6gNDoa1UgDzGFLU5ifxeLgfW0R8FBTB4)
-- [Teaching materials for PyPSA](https://irieo.github.io/workshop-pypsa-transnetbw/intro.html)
+**Energy System Modelling Workshop for Industrial Stakeholders** (~30 participants)  
+*Hosted by TransnetBW, 27–28 January 2025 | Conducted by TUB and TransnetBW*  
+- [Workshop Invitation](https://www.linkedin.com/feed/update/urn:li:activity:7274361929098317824/)  
+- [Teaching Materials – PyPSA-Eur](https://docs.google.com/presentation/d/1jqMp5ZYhTRi6gNDoa1UgDzGFLU5ifxeLgfW0R8FBTB4)  
+- [Teaching Materials – PyPSA](https://irieo.github.io/workshop-pypsa-transnetbw/intro.html)
 
-Energy system modelling workshop for a broad public (industry, research, NGOs, consultancies)\
-*Hosted by Gasunie, 25-26 February 2025 | Conducted by TUB*
-- [Teaching materials for PyPSA-Eur](https://docs.google.com/presentation/d/12FQCupOkddtNy6psd9M01N4_hmblauad0gaH1bLJB3o/edit#slide=id.g1ec455a5967_0_0)
-- [Teaching materials for PyPSA](https://fneum.github.io/gasunie-workshop/intro.html)
+**Energy System Modelling Workshop for Cross-Sector Stakeholders**  
+(~20 participants from industry, academia, NGOs, and consulting firms)  
+*Hosted by Gasunie, 25–26 February 2025 | Conducted by TUB*  
+- [Teaching Materials – PyPSA-Eur](https://docs.google.com/presentation/d/12FQCupOkddtNy6psd9M01N4_hmblauad0gaH1bLJB3o/edit#slide=id.g1ec455a5967_0_0)  
+- [Teaching Materials – PyPSA](https://fneum.github.io/gasunie-workshop/intro.html)
 
-### Planned
+**Energy Modelling Workshop with German Transmission System Operators (TSOs)**  
+(Participants from 50Hertz, Amprion, TenneT, TransnetBW)  
+*Hosted by 50Hertz, 12 May 2025 | Conducted by TUB and TransnetBW*  
+- [Workshop Materials](https://resilient-project.github.io/pypsa-workshop/intro.html)  
+- [LinkedIn Summary](https://www.linkedin.com/feed/update/urn:li:activity:7332767362061844480/)
 
-Energy modelling workshop for four German TSOs (50Hertz, Amprion, TenneT, TransnetBW)\
-*To be hosted by 50Hertz, 12 May 2025 | To be conducted by TUB and TransnetBW*
-- Invitation coming soon
+**Energy Modelling Workshop for Cross-Sector Stakeholders**  
+(~30 participants from industry, academia, NGOs, and consulting firms)  
+*Hosted by TUB, 22–23 May 2025 | Conducted by TUB*  
+- [Workshop Invitation](https://www.linkedin.com/posts/fabian-neumann-renewables_pypsa-eur-workshop-at-tu-berlin-activity-7309188508894543873-Ycsq?utm_source=share&utm_medium=member_desktop&rcm=ACoAADhk2oEBLgmYCVN1a_pvp6Q2ezECxNhJekw)  
+- [Workshop Materials](https://resilient-project.github.io/pypsa-workshop-202505/intro.html)
 
-Energy modelling workshop for a broad public (industry, research, NGOs, consultancies)\
-*To be hosted by TUB, 22-23 May 2025 | to be conducted by TUB*
-- [Invitation](https://www.linkedin.com/posts/fabian-neumann-renewables_pypsa-eur-workshop-at-tu-berlin-activity-7309188508894543873-Ycsq?utm_source=share&utm_medium=member_desktop&rcm=ACoAADhk2oEBLgmYCVN1a_pvp6Q2ezECxNhJekw)
+### Planned events
 
-Energy modelling workshop for a broad public (industry, research, NGOs, consultancies)\
-*To be by DTU, 26-26 June 2025 | to be conducted by TUB and DTU*
-- Invitation coming soon
+**Energy Modelling Workshop for Cross-Sector Stakeholders** (~50 participants)  
+*To be hosted by DTU (Prof. Marta Victoria and team), 26–27 June 2025 | To be conducted by TUB and DTU*  
+- [Workshop Invitation](https://www.linkedin.com/posts/marta-victoria-4189b388_pypsa-eur-workshop-at-dtu-copenhagen-activity-7320387816662745088-JAwA/)
 
 
 ## Research papers
@@ -86,7 +91,7 @@ Zachmann, Meißner & Riepin [Mitigating Ukraine's Looming Electricity Crisis](ht
 
 Xiong, Brown & Riepin [The role of Projects of Common Interest in reaching Europe’s energy policy targets](), tbd
 
-## Research talks, media and public outreach
+## Research talks
 
 CETpartnership TRI1 2022 Project Leaders meeting\
 *Online, 20 October 2023*\
@@ -115,6 +120,12 @@ The DTU Summer School 2025\
 International Energy Workshop 2025\
 *Nara, Japan, 11 June 2025*\
 [The role of Projects of Common Interest in reaching Europe’s energy policy targets](https://github.com/bobbyxng/pcipmi-policy-targets/blob/main/presentation/2025-06-12_iew_nara/presentation/pcipmi-policy-targets-iew.pdf)
+
+International Energy Workshop 2025 & RESILIENT annual meeting 2025\
+*Nara, Japan, 11 June 2025 & Pisa, Italy, 15 May 2025*\
+[The Minimal Methanol Economy as a Gap-Filler for High Electrification Scenarios](https://nworbmot.org/energy/brown-iew25.pdf)
+
+## Some 
 
 ## Partners
 

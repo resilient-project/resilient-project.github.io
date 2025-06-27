@@ -125,6 +125,10 @@ D*: [Introducing OpenStreetMap high-voltage grid to PyPSA-Eur](https://github.co
 *Nara, Japan, 11 June 2025 & Pisa, Italy, 15 May 2025*\
 [The Minimal Methanol Economy as a Gap-Filler for High Electrification Scenarios](https://nworbmot.org/energy/brown-iew25.pdf)
 
+- The Energy Innovation Summit (Gurobi forum for Optimization Strategies to Accelerate Climate Action)\
+*Berlin, Germany, 24-26 June*\
+[Modeling at the Edge: Navigating Trade-offs in Energy System Analysis -- The RESILIENT experience]()
+
 ## Public outreach & media highlights
 
 - **[Open‑data European high-voltage grid in *Nature Scientific Data*](https://www.linkedin.com/posts/bobby-xiong_open-transparent-connected-activity-7297938013832069120-3_fV/)** — Bobby Xiong announces the publication of a dataset and methodology constructing Europe's 200–750 kV high-voltage grid from OpenStreetMap under an open license.

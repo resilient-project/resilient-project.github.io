@@ -36,7 +36,6 @@ D*: [Introducing OpenStreetMap high-voltage grid to PyPSA-Eur](https://github.co
 
 *We are dedicated to advancing open-source, transparent, and diligent scientific workflows for energy system modelling. RESILIENT project team aims to empower researchers, industry professionals, and policymakers by providing accessible tools, comprehensive documentation, and practical training resources for energy system research. Through detailed explanations of our models, data, and methodologies, we support a broad application of PyPSA(-Eur) model environment for decision-making and effective industry applications. We openly share all workshop materials to foster collaboration and knowledge sharing within the energy community.*
 
-### Completed events
 - **Workshop with North Rhine-Westphalia industrial stakeholders**  
 *Organized by IN4climate.NRW, 8 October 2024*  
 -- [Project introduction and research goals](https://resilient-project.github.io/static/uploads/resilient-nrw-tom-einführung.pdf)  
@@ -79,21 +78,21 @@ D*: [Introducing OpenStreetMap high-voltage grid to PyPSA-Eur](https://github.co
 -- [Workshop materials](https://resilient-project.github.io/pypsa-workshop-202506/intro.html)  
 <img src="assets/img/dtu.jpeg" alt="DTU Workshop Participants" width="420"/>
 
-## Research papers
+## Research papers {#research-papers}
 
-- Xiong et al. [Modelling the high-voltage grid using open data for Europe and beyond](https://www.nature.com/articles/s41597-025-04550-7), Nature Scientific Data, 2025
+- [Modelling the high-voltage grid using open data for Europe and beyond](https://www.nature.com/articles/s41597-025-04550-7) — Xiong et al., *Nature Scientific Data*, 2025
 
-- Millinger et al. [Diversity of biomass usage pathways to achieve emissions targets in the European energy system](https://www.nature.com/articles/s41560-024-01693-6), Nature Energy, 2025
+- [Diversity of biomass usage pathways to achieve emissions targets in the European energy system](https://www.nature.com/articles/s41560-024-01693-6) — Millinger et al., *Nature Energy*, 2025
 
-- Millinger et al. [Biomass exclusion must be weighed against benefits of carbon supply in European energy system](https://www.nature.com/articles/s41560-024-01685-6), Policy brief in Nature Energy, 2025
+- [Biomass exclusion must be weighed against benefits of carbon supply in European energy system](https://www.nature.com/articles/s41560-024-01685-6) — Millinger et al., Policy brief in *Nature Energy*, 2025
 
-- Abdel-Khalek et al. [PyPSA-Earth sector-coupled: A global open-source multi-energy system model showcased for hydrogen applications in countries of the Global South](https://www.sciencedirect.com/science/article/pii/S0306261925000467), Applied Energy, 2025
+- [PyPSA-Earth sector-coupled: A global open-source multi-energy system model showcased for hydrogen applications in countries of the Global South](https://www.sciencedirect.com/science/article/pii/S0306261925000467) — Abdel-Khalek et al., *Applied Energy*, 2025
 
-- Brown, Neumann & Riepin [Price formation without fuel costs---the interaction of elastic demand with storage bidding](https://doi.org/10.1016/j.eneco.2025.108483), Energy Economics, 2025
+- [Price formation without fuel costs---the interaction of elastic demand with storage bidding](https://doi.org/10.1016/j.eneco.2025.108483) — Brown, Neumann & Riepin, *Energy Economics*, 2025
 
-- Zachmann, Meißner & Riepin [Mitigating Ukraine's Looming Electricity Crisis](https://doi.org/10.1016/j.esr.2025.101724), Energy Strategy Reviews, 2025
+- [Mitigating Ukraine's Looming Electricity Crisis](https://doi.org/10.1016/j.esr.2025.101724) — Zachmann, Meißner & Riepin, *Energy Strategy Reviews*, 2025
 
-- Xiong, Brown & Riepin [The role of Projects of Common Interest in reaching Europe’s energy policy targets](), tbd
+- The role of Projects of Common Interest in reaching Europe's energy policy targets — Xiong, Brown & Riepin, preprint is coming.
 
 ## Research talks
 
@@ -133,17 +132,25 @@ D*: [Introducing OpenStreetMap high-voltage grid to PyPSA-Eur](https://github.co
 *Berlin, Germany, 24-26 June*\
 [Modeling at the Edge: Navigating Trade-offs in Energy System Analysis -- The RESILIENT experience]()
 
-## Public outreach & media highlights
+## Media highlights {#public-outreach}
 
-- **[Open‑data European high-voltage grid in *Nature Scientific Data*](https://www.linkedin.com/posts/bobby-xiong_open-transparent-connected-activity-7297938013832069120-3_fV/)** — Bobby Xiong announces the publication of a dataset and methodology constructing Europe's 200–750 kV high-voltage grid from OpenStreetMap under an open license.
+- [Workshop invitation for TransnetBW energy system modelling workshop](https://www.linkedin.com/feed/update/urn:li:activity:7274361929098317824/) — LinkedIn post announcing the energy system modelling workshop for industrial stakeholders hosted by TransnetBW.
 
-- **[PyPSA‑Eur transition to OpenStreetMap](https://www.linkedin.com/posts/bobby-xiong_opensource-open-transparent-activity-7236340491603070976-0NFk/)** —  LinkedIn post by Bobby Xiong announcing PyPSA‑Eur's full migration to OSM data and the first release of the high-voltage grid model, which is now available for download and use.
+- [How can open-source frameworks and models support the energy system planning needs of TSOs?](https://www.linkedin.com/posts/iegor-riepin_pypsa-bmwe-resilient-activity-7332767362061844480-uJXh/) — We share materials from the PyPSA-Eur workshop with German transmission system operators.
 
-- **[How can open-source frameworks and models support the energy system planning needs of TSOs? ](https://www.linkedin.com/posts/iegor-riepin_pypsa-bmwe-resilient-activity-7332767362061844480-uJXh/)** — We share materials from the PyPSA-Eur workshop with German transmission system operators.
+- [Workshop invitation for TUB energy modelling workshop](https://www.linkedin.com/posts/fabian-neumann-renewables_pypsa-eur-workshop-at-tu-berlin-activity-7309188508894543873-Ycsq?utm_source=share&utm_medium=member_desktop&rcm=ACoAADhk2oEBLgmYCVN1a_pvp6Q2ezECxNhJekw) — LinkedIn post by Fabian Neumann announcing the PyPSA-Eur workshop at TU Berlin for cross-sector stakeholders.
 
-- **[What is the role of biomass to achieve emissions targets in the energy system?](https://www.linkedin.com/feed/update/urn:li:activity:7288133455714918400/)** — LinkedIn post by Markus Millinger announcing the publication of a paper in *Nature Energy* on the diversity of biomass usage pathways to achieve emissions targets in the European energy system.
+- [Workshop invitation for DTU energy modelling workshop](https://www.linkedin.com/posts/marta-victoria-4189b388_pypsa-eur-workshop-at-dtu-copenhagen-activity-7320387816662745088-JAwA/) — LinkedIn post by Prof. Marta Victoria announcing the PyPSA-Eur workshop at DTU Copenhagen.
 
-- **[Blog: "Price formation without fuel costs"](https://nworbmot.org/blog/price-formation-without-fuel-costs.html)** — A science-explainer blog post by Tom Brown based on our new paper in *Energy Economics*.
+- [DTU workshop summary](https://www.linkedin.com/feed/update/urn:li:activity:7345308702389731328/) — LinkedIn summary of the energy modelling workshop hosted by DTU in Copenhagen.
+
+- [Open‑data European high-voltage grid in *Nature Scientific Data*](https://www.linkedin.com/posts/bobby-xiong_open-transparent-connected-activity-7297938013832069120-3_fV/) — Bobby Xiong announces the publication of a dataset and methodology constructing Europe's 200–750 kV high-voltage grid from OpenStreetMap under an open license.
+
+- [PyPSA‑Eur transition to OpenStreetMap](https://www.linkedin.com/posts/bobby-xiong_opensource-open-transparent-activity-7236340491603070976-0NFk/) —  LinkedIn post by Bobby Xiong announcing PyPSA‑Eur's full migration to OSM data and the first release of the high-voltage grid model, which is now available for download and use.
+
+- [What is the role of biomass to achieve emissions targets in the energy system?](https://www.linkedin.com/feed/update/urn:li:activity:7288133455714918400/) — LinkedIn post by Markus Millinger announcing the publication of a paper in *Nature Energy* on the diversity of biomass usage pathways to achieve emissions targets in the European energy system.
+
+- [Blog: "Price formation without fuel costs"](https://nworbmot.org/blog/price-formation-without-fuel-costs.html) — A science-explainer blog post by Tom Brown based on our new paper in *Energy Economics*.
 
 
 ## About us: partners of the RESILIENT project

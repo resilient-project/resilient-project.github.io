@@ -58,6 +58,18 @@
           <a href="#about-us">About Us</a>
         </p>
 
+        <br>
+        <p><strong>Project Metrics ☕</strong></p>
+        <p class="view" style="font-size: 12px; color: #666;">
+          📊 <strong>6</strong> Workshops delivered<br>
+          🎓 <strong>~180</strong> People trained<br>
+          📄 <strong>7</strong> Research papers<br>
+          🎤 <strong>9</strong> Conference talks<br>
+          📱 <strong>9</strong> Media highlights<br>
+          ☕ <strong>~<span id="coffee-count">732</span></strong> Cups of coffee*<br>
+          <small style="font-style: italic; color: #888;">*consumed by TU Berlin research team</small>
+        </p>
+
       </header>
       <section>
 
@@ -69,5 +81,18 @@
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script>
+      // Calculate coffee consumption dynamically
+      function updateCoffeeCount() {
+        const startDate = new Date('2024-02-01');
+        const currentDate = new Date();
+        const daysDiff = Math.floor((currentDate - startDate) / (1000 * 60 * 60 * 24));
+        const coffeeCups = Math.max(0, daysDiff * 2); // 2 people × 1 cup each per day
+        document.getElementById('coffee-count').textContent = coffeeCups;
+      }
+      
+      // Update coffee count when page loads
+      updateCoffeeCount();
+    </script>
   </body>
 </html>

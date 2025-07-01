@@ -86,7 +86,7 @@ D*: [Introducing OpenStreetMap high-voltage grid to PyPSA-Eur](https://github.co
 
 - [Biomass exclusion must be weighed against benefits of carbon supply in European energy system](https://www.nature.com/articles/s41560-024-01685-6) — Millinger et al., Policy brief in *Nature Energy*, 2025
 
-- [PyPSA-Earth sector-coupled: A global open-source multi-energy system model showcased for hydrogen applications in countries of the Global South](https://www.sciencedirect.com/science/article/pii/S0306261925000467) — Abdel-Khalek et al., *Applied Energy*, 2025
+- [PyPSA-Earth sector-coupled: A global open-source multi-energy system model showcased for hydrogen applications in countries of the Global South](https://doi.org/10.1016/j.apenergy.2025.000467) — Abdel-Khalek et al., *Applied Energy*, 2025
 
 - [Price formation without fuel costs---the interaction of elastic demand with storage bidding](https://doi.org/10.1016/j.eneco.2025.108483) — Brown, Neumann & Riepin, *Energy Economics*, 2025
 
@@ -207,12 +207,12 @@ investments in production and storage facilities.
 - [IN4climate.NRW](https://www.energy4climate.nrw/industrie-produktion/in4climatenrw) is the initiative for industry transition towards climate neutrality under the umbrella of the state agency NRW.Energy4Climate. IN4climate.NRW works as a think tank and as a working platform
 for and with industry, science, and the state government. They will build a bridge to industry needs and federal-state strategies for carbon management and hydrogen.
 
-- [Stockholm Exergi](https://www.stockholmexergi.se/) is an energy company providing district heat and power and waste incineration in
+- [Stockholm Exergi](https://stockholmexergi.se/) is an energy company providing district heat and power and waste incineration in
 Stockholm, with a pioneering carbon capture research facility that is planned for full-scale operation in
 2026 to capture 800 kilotons of biogenic carbon dioxide. They provide expertise and data
 validation for modelling bioenergy with carbon capture.
 
-- [ABB Finland](https://new.abb.com/fi) is one of the leaders in electrification and automation, providing technology and
+- [ABB Finland](https://global.abb/group/en) is one of the leaders in electrification and automation, providing technology and
 knowledge to dozens of projects contributing to the energy transition of Europe. ABB joins the consortium as an associated partner and
 supports data collection, scenario definition and result analysis in terms related to e-fuels production.
 
@@ -223,7 +223,7 @@ Dr. Iegor Riepin\
 Bobby Xiong\
 Prof. Dr. Tom Brown\
 [Technische Universität Berlin](https://tu.berlin)
-[Fachgebiet Digitaler Wandel in Energiesystemen](https://tu.berlin/ensys/en)\
+[Fachgebiet Digitaler Wandel in Energiesystemen](https://www.tu.berlin/ensys)\
 Institut für Energietechnik\
 Fakultät III\
 Einsteinufer 25 (TA 8)\

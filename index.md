@@ -130,7 +130,7 @@ D*: [Introducing OpenStreetMap high-voltage grid to PyPSA-Eur](https://github.co
 
 - The Energy Innovation Summit (Gurobi forum for Optimization Strategies to Accelerate Climate Action)\
 *Berlin, Germany, 24-26 June*\
-[Modeling at the Edge: Navigating Trade-offs in Energy System Analysis -- The RESILIENT experience]()
+[Modeling at the Edge: Navigating Trade-offs in Energy System Analysis -- The RESILIENT experience](https://resilient-project.github.io/static/uploads/slides_sms.pdf)
 
 ## Media highlights {#public-outreach}
 

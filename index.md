@@ -92,7 +92,7 @@ D*: [Introducing OpenStreetMap high-voltage grid to PyPSA-Eur](https://github.co
 
 - [Mitigating Ukraine's Looming Electricity Crisis](https://doi.org/10.1016/j.esr.2025.101724) — Zachmann, Meißner & Riepin, *Energy Strategy Reviews*, 2025
 
-- The role of Projects of Common Interest in reaching Europe's energy policy targets — Xiong, Brown & Riepin, preprint is coming.
+- [The role of Projects of Common Interest in reaching Europe's energy policy targets](https://arxiv.org/abs/2507.01860) — Xiong, Brown & Riepin, arXiv preprint, 2025
 
 ## Research talks {#research-talks}
 
@@ -132,7 +132,14 @@ D*: [Introducing OpenStreetMap high-voltage grid to PyPSA-Eur](https://github.co
 *Berlin, Germany, 24-26 June*\
 [Modeling at the Edge: Navigating Trade-offs in Energy System Analysis -- The RESILIENT experience](https://resilient-project.github.io/static/uploads/slides_sms.pdf)
 
+- DTU WIND Journal Club\
+*DTU, Lyngby, 4 July 2025*\
+[Modelling the high-voltage grid using open data for Europe and beyond](https://resilient-project.github.io/static/uploads/osm-grid-europe-presentation.pdf)
+
+
 ## Media highlights {#public-outreach}
+
+- [The Role of Projects of Common Interest in Reaching Europe's Energy Targets](https://www.linkedin.com/feed/update/urn:li:activity:7346911214947479552/) — Bobby Xiong announces the publication of a preprint on arXiv and the main findings from the paper on the role of Projects of Common and Projects of Mutual Interest (PCI/PMI) in reaching Europe's energy policy targets.
 
 - [Workshop invitation for TransnetBW energy system modelling workshop](https://www.linkedin.com/feed/update/urn:li:activity:7274361929098317824/) — LinkedIn post announcing the energy system modelling workshop for industrial stakeholders hosted by TransnetBW.
 

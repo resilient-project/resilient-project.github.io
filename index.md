@@ -96,6 +96,8 @@ D*: [Introducing OpenStreetMap high-voltage grid to PyPSA-Eur](https://github.co
 
 - [MESCO: a Clustering framework for the design Optimization of future Multi-Energy Systems](https://doi.org/10.1016/j.energy.2025.137038) - Pampado et al., *Energy*, 2025
 
+- [Adaptive Robust Optimization for European Electricity System Planning Considering Regional Dunkelflaute Events](https://arxiv.org/abs/2507.11361) - Bernecker et al., arXiv preprint, 2025
+
 ## Research talks {#research-talks}
 
 - CETpartnership TRI1 2022 Project Leaders meeting\

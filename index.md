@@ -140,6 +140,10 @@ D*: [Introducing OpenStreetMap high-voltage grid to PyPSA-Eur](https://github.co
 *DTU, Lyngby, 4 July 2025*\
 [Modelling the high-voltage grid using open data for Europe and beyond](https://resilient-project.github.io/static/uploads/osm-grid-europe-presentation.pdf)
 
+- The HEXAGON workshop on power grids\
+*Benevento, Italy, 10 September 2025*\
+[Ludicrously Large-Scale Stochastic Energy Optimization in SMS++](https://resilient-project.github.io/static/uploads/HEXAGON25.pdf)
+
 
 ## Media highlights {#public-outreach}
 

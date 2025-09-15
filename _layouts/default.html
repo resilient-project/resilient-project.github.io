@@ -81,17 +81,14 @@
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     <script>
-      // Calculate coffee consumption dynamically
-      function updateCoffeeCount() {
-        const startDate = new Date('2024-02-01');
-        const currentDate = new Date();
-        const daysDiff = Math.floor((currentDate - startDate) / (1000 * 60 * 60 * 24));
-        const coffeeCups = Math.max(0, daysDiff * 2); // 2 people × 1 cup each per day
-        document.getElementById('coffee-count').textContent = coffeeCups;
-      }
-      
-      // Update coffee count when page loads
-      updateCoffeeCount();
+      // Coffee counter: total cups = 2 × (days since 2024-02-01 inclusive)
+      (function(){
+        const start = Date.UTC(2024,1,1); // months 0-based: 1 = Feb
+        const days = Math.floor((Date.now() - start) / 86400000) + 1; // inclusive
+        const cups = days * 2;
+        const el = document.getElementById('coffee-count');
+        if (el) el.textContent = cups;
+      })();
     </script>
   </body>
 </html>

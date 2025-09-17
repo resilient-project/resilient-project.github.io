@@ -144,6 +144,9 @@ D*: [Introducing OpenStreetMap high-voltage grid to PyPSA-Eur](https://github.co
 *Benevento, Italy, 10 September 2025*\
 [Ludicrously Large-Scale Stochastic Energy Optimization in SMS++](https://resilient-project.github.io/static/uploads/HEXAGON25.pdf)
 
+- (RISE) Research Institutes of Sweden research seminar\
+*Gothenburg, Sweden, 10 September 2025*\
+[PyPSA(-Eur): an open-source python environment for state-of-the-art energy system modelling](https://iriepin.com/uploads/rise-202509.pdf)
 
 ## Media highlights {#public-outreach}
 

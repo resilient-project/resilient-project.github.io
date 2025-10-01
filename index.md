@@ -77,6 +77,7 @@ D*: [Introducing OpenStreetMap high-voltage grid to PyPSA-Eur](https://github.co
 -- [LinkedIn summary](https://www.linkedin.com/feed/update/urn:li:activity:7345308702389731328/)  
 -- [Workshop materials](https://resilient-project.github.io/pypsa-workshop-202506/intro.html)  
 <img src="assets/img/dtu.jpeg" alt="DTU Workshop Participants" width="420"/>
+-- [Videos](https://resilient-project.github.io/pypsa-workshop-202506/videos.html)
 
 ## Research papers {#research-papers}
 

@@ -49,7 +49,7 @@ D*: [Introducing OpenStreetMap high-voltage grid to PyPSA-Eur](https://github.co
 -- [Teaching materials – PyPSA](https://irieo.github.io/workshop-pypsa-transnetbw/intro.html)
 <img src="assets/img/stuttgart_fn.jpg" alt="Stuttgart Workshop" width="420"/>
 
-- **Energy system modelling workshop for cross-sector stakeholders**  
+- <a id="workshop-gasunie-2025-02"></a> **Energy system modelling workshop for cross-sector stakeholders**  
 (~20 participants from industry, academia, NGOs, and consulting firms)  
 *Hosted by Gasunie, 25–26 February 2025 | Conducted by TUB*  
 -- [Teaching materials – PyPSA-Eur](https://docs.google.com/presentation/d/12FQCupOkddtNy6psd9M01N4_hmblauad0gaH1bLJB3o/edit#slide=id.g1ec455a5967_0_0)  
@@ -63,21 +63,21 @@ D*: [Introducing OpenStreetMap high-voltage grid to PyPSA-Eur](https://github.co
 -- [LinkedIn summary](https://www.linkedin.com/feed/update/urn:li:activity:7332767362061844480/)
 <img src="assets/img/4tso.jpg" alt="4TSO Workshop Participants" width="420"/>
 
-- **Energy modelling workshop for cross-sector stakeholders**  
+- <a id="workshop-tub-2025-05"></a> **Energy modelling workshop for cross-sector stakeholders**  
 (~30 participants from industry, academia, NGOs, and consulting firms)  
 *Hosted by TUB, 22–23 May 2025 | Conducted by TUB*  
 -- [Workshop invitation](https://www.linkedin.com/posts/fabian-neumann-renewables_pypsa-eur-workshop-at-tu-berlin-activity-7309188508894543873-Ycsq?utm_source=share&utm_medium=member_desktop&rcm=ACoAADhk2oEBLgmYCVN1a_pvp6Q2ezECxNhJekw)  
 -- [Workshop materials](https://resilient-project.github.io/pypsa-workshop-202505/intro.html)
 <img src="assets/img/tub.jpg" alt="TUB Workshop Participants" width="420"/>
 
-- **Energy modelling workshop for cross-sector stakeholders**  
+- <a id="workshop-dtu-2025-06"></a> **Energy modelling workshop for cross-sector stakeholders**  
 (~50 participants)  
 *Hosted by DTU (Prof. Marta Victoria and team), 26–27 June 2025 | Conducted by TUB and DTU*  
 -- [Workshop invitation](https://www.linkedin.com/posts/marta-victoria-4189b388_pypsa-eur-workshop-at-dtu-copenhagen-activity-7320387816662745088-JAwA/)  
 -- [LinkedIn summary](https://www.linkedin.com/feed/update/urn:li:activity:7345308702389731328/)  
 -- [Workshop materials](https://resilient-project.github.io/pypsa-workshop-202506/intro.html)  
-<img src="assets/img/dtu.jpeg" alt="DTU Workshop Participants" width="420"/>
 -- [Videos](https://resilient-project.github.io/pypsa-workshop-202506/videos.html)
+<img src="assets/img/dtu.jpeg" alt="DTU Workshop Participants" width="420"/>
 
 ## Research papers {#research-papers}
 

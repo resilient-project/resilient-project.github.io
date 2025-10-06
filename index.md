@@ -43,7 +43,7 @@ D*: [Introducing OpenStreetMap high-voltage grid to PyPSA-Eur](https://github.co
 -- [How does uncertainty impede industrial transformation? (in German)](https://resilient-project.github.io/static/uploads/stakeholderworkshop_FraunhoferISI.pdf)
 
 - **Energy system modelling workshop for industrial stakeholders** (~30 participants)  
-*Hosted by TransnetBW, 27–28 January 2025 | Conducted by TUB and TransnetBW*  
+*Hosted by TransnetBW, Stuttgart, Germany | 27–28 January 2025 | Conducted by TUB and TransnetBW*  
 -- [Workshop invitation](https://www.linkedin.com/feed/update/urn:li:activity:7274361929098317824/)  
 -- [Teaching materials – PyPSA-Eur](https://docs.google.com/presentation/d/1jqMp5ZYhTRi6gNDoa1UgDzGFLU5ifxeLgfW0R8FBTB4)  
 -- [Teaching materials – PyPSA](https://irieo.github.io/workshop-pypsa-transnetbw/intro.html)
@@ -79,9 +79,9 @@ D*: [Introducing OpenStreetMap high-voltage grid to PyPSA-Eur](https://github.co
 -- [Videos](https://resilient-project.github.io/pypsa-workshop-202506/videos.html)
 <img src="assets/img/dtu.jpeg" alt="DTU Workshop Participants" width="420"/>
 
-- **Energy modelling workshop for cross-sector stakeholders (in preparation)**  
-*The workshop will be hosted by RISE in Sweden (Dr. Markus Millinger) | November 2025 | Conducted by TUB and RISE*
--- [Workshop invitation](https://www.linkedin.com/posts/markus-millinger-4b482639_pypsa-energy-infrastructure-activity-7380914083060924416-7rdB/)  
+- <a id="workshop-rise-2025-11"></a> **Energy modelling workshop for cross-sector stakeholders (in preparation)**  
+*The workshop will be hosted by RISE in Sweden (Dr. Markus Millinger) | November 2025 | Conducted by TUB and RISE*  
+-- [Workshop invitation](https://www.linkedin.com/posts/markus-millinger-4b482639_pypsa-energy-infrastructure-activity-7380914083060924416-7rdB/)
 
 
 ## Research papers {#research-papers}

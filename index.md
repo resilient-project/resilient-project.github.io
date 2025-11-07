@@ -106,57 +106,31 @@ D*: [Introducing OpenStreetMap high-voltage grid to PyPSA-Eur](https://github.co
 
 ## Research talks {#research-talks}
 
-- CETpartnership TRI1 2022 Project Leaders meeting\
-*Online, 20 October 2023*\
-[RESILIENT project overview](https://resilient-project.github.io/static/uploads/resilient-overview.pdf)
+- *20 October 2023* @ CETpartnership TRI1 2022 Project Leaders meeting, Online — [RESILIENT project overview](https://resilient-project.github.io/static/uploads/resilient-overview.pdf)
 
-- RESILIENT Kick-off meeting\
-*Berlin, 22 February 2024*\
-[Methanol for hard-to-electrify sectors](https://resilient-project.github.io/static/uploads/brown-methanol.pdf)
+- *22 February 2024* @ RESILIENT Kick-off meeting, Berlin — [Methanol for hard-to-electrify sectors](https://resilient-project.github.io/static/uploads/brown-methanol.pdf)
 
-- Insight Harvesting Workshop of the CETPartnership projects\
-*Online, 16 October 2024*\
-[Building Resilient Energy Infrastructure: Hydrogen, Import, and Carbon Management Strategies](https://tubcloud.tu-berlin.de/s/kDKgmiHxGGt4FaD/download/20241016-cetp-insight-harvesting.pdf)
+- *16 October 2024* @ Insight Harvesting Workshop of the CETPartnership projects, Online — [Building Resilient Energy Infrastructure: Hydrogen, Import, and Carbon Management Strategies](https://tubcloud.tu-berlin.de/s/kDKgmiHxGGt4FaD/download/20241016-cetp-insight-harvesting.pdf)
 
-- CETPartnership workshop on flexibility in integrated industrial energy systems\
-*Online, 6 November 2024*\
-[Energy flexibility from industrial process heating - Relevance, system impacts and ways forward](https://resilient-project.github.io/static/uploads/Resilient_2024-11-05_FlexibilityFromIndustryInEnergySystem.pdf)
+- *6 November 2024* @ CETPartnership workshop on flexibility in integrated industrial energy systems, Online — [Energy flexibility from industrial process heating - Relevance, system impacts and ways forward](https://resilient-project.github.io/static/uploads/Resilient_2024-11-05_FlexibilityFromIndustryInEnergySystem.pdf)
 
-- Energy resilience symposium\
-*IER, Stuttgart, 11-12 November 2024*\
-[Resilient strategies for the European energy system. A case study on 2030 EU policy targets](https://resilient-project.github.io/static/uploads/pci-pmi-2030-targets-presentation.pdf)
+- *11-12 November 2024* @ Energy resilience symposium, IER, Stuttgart — [Resilient strategies for the European energy system. A case study on 2030 EU policy targets](https://resilient-project.github.io/static/uploads/pci-pmi-2030-targets-presentation.pdf)
 
-- The DTU Summer School 2025\
-*DTU, Lyngby, 18-23 May 2025*\
-[The role of PCI-PMI infrastructure in reaching Europe’s energy policy targets](https://github.com/bobbyxng/pcipmi-policy-targets/blob/main/presentation/2025-05-19_dtu_pes_poster/poster.pdf)
+- *18-23 May 2025* @ DTU Summer School 2025, DTU, Lyngby — [The role of PCI-PMI infrastructure in reaching Europe's energy policy targets](https://github.com/bobbyxng/pcipmi-policy-targets/blob/main/presentation/2025-05-19_dtu_pes_poster/poster.pdf)
 
-- International Energy Workshop 2025\
-*Nara, Japan, 11 June 2025*\
-[The role of Projects of Common Interest in reaching Europe’s energy policy targets](https://github.com/bobbyxng/pcipmi-policy-targets/blob/main/presentation/2025-06-12_iew_nara/presentation/pcipmi-policy-targets-iew.pdf)
+- *11 June 2025* @ International Energy Workshop 2025, Nara, Japan — [The role of Projects of Common Interest in reaching Europe's energy policy targets](https://github.com/bobbyxng/pcipmi-policy-targets/blob/main/presentation/2025-06-12_iew_nara/presentation/pcipmi-policy-targets-iew.pdf)
 
-- International Energy Workshop 2025 & RESILIENT annual meeting 2025\
-*Nara, Japan, 11 June 2025 & Pisa, Italy, 15 May 2025*\
-[The Minimal Methanol Economy as a Gap-Filler for High Electrification Scenarios](https://nworbmot.org/energy/brown-iew25.pdf)
+- *11 June 2025 & 15 May 2025* @ International Energy Workshop 2025 & RESILIENT annual meeting 2025, Nara, Japan & Pisa, Italy — [The Minimal Methanol Economy as a Gap-Filler for High Electrification Scenarios](https://nworbmot.org/energy/brown-iew25.pdf)
 
-- The Energy Innovation Summit (Gurobi forum for Optimization Strategies to Accelerate Climate Action)\
-*Berlin, Germany, 24-26 June*\
-[Modeling at the Edge: Navigating Trade-offs in Energy System Analysis -- The RESILIENT experience](https://resilient-project.github.io/static/uploads/slides_sms.pdf)
+- *24-26 June 2025* @ Energy Innovation Summit (Gurobi forum for Optimization Strategies to Accelerate Climate Action), Berlin, Germany — [Modeling at the Edge: Navigating Trade-offs in Energy System Analysis -- The RESILIENT experience](https://resilient-project.github.io/static/uploads/slides_sms.pdf)
 
-- DTU WIND Journal Club\
-*DTU, Lyngby, 4 July 2025*\
-[Modelling the high-voltage grid using open data for Europe and beyond](https://resilient-project.github.io/static/uploads/osm-grid-europe-presentation.pdf)
+- *4 July 2025* @ DTU WIND Journal Club, DTU, Lyngby — [Modelling the high-voltage grid using open data for Europe and beyond](https://resilient-project.github.io/static/uploads/osm-grid-europe-presentation.pdf)
 
-- The HEXAGON workshop on power grids\
-*Benevento, Italy, 10 September 2025*\
-[Ludicrously Large-Scale Stochastic Energy Optimization in SMS++](https://resilient-project.github.io/static/uploads/HEXAGON25.pdf)
+- *10 September 2025* @ HEXAGON workshop on power grids, Benevento, Italy — [Ludicrously Large-Scale Stochastic Energy Optimization in SMS++](https://resilient-project.github.io/static/uploads/HEXAGON25.pdf)
 
-- (RISE) Research Institutes of Sweden research seminar\
-*Gothenburg, Sweden, 10 September 2025*\
-[PyPSA(-Eur): an open-source python environment for state-of-the-art energy system modelling](https://iriepin.com/uploads/rise-202509.pdf)
+- *10 September 2025* @ Research Institutes of Sweden (RISE) research seminar, Gothenburg, Sweden — [PyPSA(-Eur): an open-source python environment for state-of-the-art energy system modelling](https://iriepin.com/uploads/rise-202509.pdf)
 
-- dena (Deutsche Energie-Agentur)\
-*Berlin, Germany,6 November 2025*\
-[Collegial exchange on modelling energy system resilience](https://resilient-project.github.io/static/uploads/20251106_dena_project.pdf)\
+- *6 November 2025* @ Deutsche Energie-Agentur (dena), Berlin, Germany — [Collegial exchange on modelling energy system resilience](https://resilient-project.github.io/static/uploads/20251106_dena_project.pdf)
 
 ## Media highlights {#public-outreach}
 

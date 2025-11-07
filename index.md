@@ -154,6 +154,10 @@ D*: [Introducing OpenStreetMap high-voltage grid to PyPSA-Eur](https://github.co
 *Gothenburg, Sweden, 10 September 2025*\
 [PyPSA(-Eur): an open-source python environment for state-of-the-art energy system modelling](https://iriepin.com/uploads/rise-202509.pdf)
 
+- dena (Deutsche Energie-Agentur)\
+*Berlin, Germany,6 November 2025*\
+[Collegial exchange on modelling energy system resilience](https://resilient-project.github.io/static/uploads/20251106_dena_project.pdf)\
+
 ## Media highlights {#public-outreach}
 
 - [The Role of Projects of Common Interest in Reaching Europe's Energy Targets](https://www.linkedin.com/feed/update/urn:li:activity:7346911214947479552/) — Bobby Xiong announces the publication of a preprint on arXiv and the main findings from the paper on the role of Projects of Common and Projects of Mutual Interest (PCI/PMI) in reaching Europe's energy policy targets.

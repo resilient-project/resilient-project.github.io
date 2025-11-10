@@ -94,6 +94,32 @@ To maximize impact, we will organize workshops and training events involving a b
 
 - <div data-badge-type="donut" data-doi="10.1016/j.esr.2025.101724" class="altmetric-embed"></div>[Mitigating Ukraine's Looming Electricity Crisis](https://doi.org/10.1016/j.esr.2025.101724) — Zachmann, Meißner & Riepin, *Energy Strategy Reviews*, 2025
 
+## Code contributions to PyPSA and PyPSA-Eur {#code-contributions}
+
+*RESILIENT project team actively contributes to the open-source PyPSA ecosystem by developing new features, fixing bugs, and improving documentation. These new features and developments advance our capabilities in planning energy systems with resilience at their core. Below are our most notable pull requests that have enhanced the capabilities of PyPSA and PyPSA-Eur.*
+
+### PyPSA Core
+
+- [Add stochastic optimization support](https://github.com/PyPSA/PyPSA/pull/1154) — Implementation of xarray-based optimization backend and stochastic optimization capabilities for uncertainty-aware energy system planning.
+
+- [Integrate CVaR risk measures](https://github.com/PyPSA/PyPSA/pull/1345) — Addition of Conditional Value-at-Risk (CVaR) optimization for risk-averse planning under uncertainty.
+
+- [Interactive network visualization](https://github.com/PyPSA/PyPSA/pull/1009) and [enhanced Pydeck-based mapping](https://github.com/PyPSA/PyPSA/pull/1312) — Introduction of `n.explore()` function for aesthetically beautiful, feature-rich scientific maps for exploration of modelling inputs and results; followed by architecture overhaul using Pydeck for high-performance interactive visualization.
+
+### PyPSA-Eur
+
+- [Multiple weather years in one optimisation problem](https://github.com/PyPSA/pypsa-eur/pull/1613) — Support for handling multiple consecutive or non-consecutive weather years within a single optimization model, enabling flexible time periods (e.g., meteorological years) and improved representation of weather variability for robust energy system planning.
+
+- [Introduce OpenStreetMap high-voltage grid](https://github.com/PyPSA/pypsa-eur/pull/1079) — Migration of grid topology to OpenStreetMap data with improved accuracy and open licensing.
+
+- [Implementation of voltage levels 110kV-220kV using osm-raw](https://github.com/PyPSA/pypsa-eur/pull/1740) — Addition of feature enabling distribution grid modeling with voltage levels down to 60 kV, significantly expanding PyPSA-Eur's coverage of sub-transmission networks across Europe.
+
+- [Cluster network by administrative shapes](https://github.com/PyPSA/pypsa-eur/pull/1502) and [bidding zones representation](https://github.com/PyPSA/pypsa-eur/pull/1578) — Implementation of flexible clustering by NUTS administrative levels (NUTS0-NUTS3) and electricity market bidding zones, enabling country-specific regional granularity and market zone modeling with customizable topology aggregation.
+
+- [Compatibility of data processing for Ukraine](https://github.com/PyPSA/pypsa-eur/pull/1146) — Endogenized mapping of GDP and population data for non-NUTS3 countries (Ukraine and Moldova), improving data workflow compatibility with OpenStreetMap grid topology.
+
+- [Addition of unsustainable biomass potentials](https://github.com/PyPSA/pypsa-eur/pull/1139) — Improved representation of biomass conversion pathways.
+
 ## Research talks {#research-talks}
 
 - *20 October 2023* @ CETpartnership TRI1 2022 Project Leaders meeting, Online — [RESILIENT project overview](https://resilient-project.github.io/static/uploads/resilient-overview.pdf)

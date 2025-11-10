@@ -120,6 +120,24 @@ To maximize impact, we will organize workshops and training events involving a b
 
 - [Addition of unsustainable biomass potentials](https://github.com/PyPSA/pypsa-eur/pull/1139) — Improved representation of biomass conversion pathways.
 
+## Explore our recent work {#github-activity}
+
+*Live feed of recent pull requests by RESILIENT team members to PyPSA and PyPSA-Eur repositories.*
+
+<div class="github-activity">
+  <div class="activity-filters">
+    <button class="activity-filter-btn active" data-filter="all">All PRs</button>
+    <button class="activity-filter-btn" data-filter="merged">Merged</button>
+    <button class="activity-filter-btn" data-filter="open">Open</button>
+  </div>
+  
+  <div id="activity-loading" class="loading">
+    <p>Loading pull requests...</p>
+  </div>
+  
+  <ul id="github-activity-list" class="activity-list"></ul>
+</div>
+
 ## Research talks {#research-talks}
 
 - *20 October 2023* @ CETpartnership TRI1 2022 Project Leaders meeting, Online — [RESILIENT project overview](https://resilient-project.github.io/static/uploads/resilient-overview.pdf)

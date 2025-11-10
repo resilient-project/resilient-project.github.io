@@ -34,6 +34,180 @@
         margin-right: 15px;
         margin-top: 2px;
       }
+      
+      /* GitHub Activity Feed Styling */
+      .github-activity {
+        margin-top: 20px;
+      }
+      
+      .activity-filters {
+        margin-bottom: 20px;
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+      
+      .activity-filters button {
+        padding: 8px 16px;
+        border: 1px solid #ddd;
+        background: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: all 0.2s;
+      }
+      
+      .activity-filters button:hover {
+        background: #f0f0f0;
+      }
+      
+      .activity-filters button.active {
+        background: #8B1538;
+        color: white;
+        border-color: #8B1538;
+      }
+      
+      .activity-list {
+        list-style: none;
+        padding: 0;
+      }
+      
+      .activity-item {
+        padding: 15px;
+        margin-bottom: 12px;
+        border-left: 3px solid #e1e4e8;
+        background: #f6f8fa;
+        border-radius: 4px;
+        transition: all 0.2s;
+      }
+      
+      .activity-item:hover {
+        border-left-color: #8B1538;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      }
+      
+      .activity-item.commit {
+        border-left-color: #28a745;
+      }
+      
+      .activity-item.pr {
+        border-left-color: #6f42c1;
+      }
+      
+      .activity-item.issue {
+        border-left-color: #d73a49;
+      }
+      
+      .activity-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 8px;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+      
+      .activity-icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 8px;
+      }
+      
+      .activity-type {
+        font-weight: 600;
+        font-size: 14px;
+        color: #586069;
+      }
+      
+      .activity-author {
+        color: #0366d6;
+        text-decoration: none;
+        font-weight: 500;
+      }
+      
+      .activity-author:hover {
+        text-decoration: underline;
+      }
+      
+      .activity-repo {
+        color: #586069;
+        font-size: 13px;
+      }
+      
+      .activity-time {
+        color: #586069;
+        font-size: 13px;
+        margin-left: auto;
+      }
+      
+      .activity-title {
+        margin: 8px 0;
+        font-size: 15px;
+      }
+      
+      .activity-title a {
+        color: #24292e;
+        text-decoration: none;
+        font-weight: 500;
+      }
+      
+      .activity-title a:hover {
+        color: #0366d6;
+        text-decoration: underline;
+      }
+      
+      .activity-message {
+        color: #586069;
+        font-size: 14px;
+        margin: 4px 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+      }
+      
+      .activity-labels {
+        display: flex;
+        gap: 6px;
+        margin-top: 8px;
+        flex-wrap: wrap;
+      }
+      
+      .activity-label {
+        padding: 2px 8px;
+        border-radius: 12px;
+        font-size: 12px;
+        font-weight: 500;
+      }
+      
+      .label-merged {
+        background: #6f42c1;
+        color: white;
+      }
+      
+      .label-open {
+        background: #28a745;
+        color: white;
+      }
+      
+      .label-closed {
+        background: #d73a49;
+        color: white;
+      }
+      
+      .loading {
+        text-align: center;
+        padding: 40px;
+        color: #586069;
+      }
+      
+      .error-message {
+        padding: 20px;
+        background: #fff3cd;
+        border: 1px solid #ffc107;
+        border-radius: 4px;
+        color: #856404;
+      }
     </style>
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -72,6 +246,7 @@
           <a href="#workshops">Workshops & Training</a><br>
           <a href="#research-papers">Research Papers</a><br>
           <a href="#code-contributions">Code Contributions</a><br>
+          <a href="#github-activity">Recent GitHub Activity</a><br>
           <a href="#research-talks">Research Talks</a><br>
           <a href="#public-outreach">Media Highlights</a><br>
           <a href="#deliverables">Deliverables</a><br>
@@ -108,6 +283,163 @@
         const cups = days * 2;
         const el = document.getElementById('coffee-count');
         if (el) el.textContent = cups;
+      })();
+      
+      // GitHub Activity Feed - Pull Requests Only
+      (function() {
+        const TEAM_MEMBERS = ['Irieo', 'bobbyxng', 'LukasFrankenQ',];
+        const REPOS = ['PyPSA/PyPSA', 'PyPSA/pypsa-eur'];
+        const MAX_ITEMS = 10;
+        
+        async function fetchGitHubActivity() {
+          const activityList = document.getElementById('github-activity-list');
+          const loadingEl = document.getElementById('activity-loading');
+          
+          if (!activityList) return;
+          
+          try {
+            const allPRs = [];
+            
+            // Fetch PRs for each repo
+            for (const repo of REPOS) {
+              const prsRes = await fetch(`https://api.github.com/repos/${repo}/pulls?state=all&per_page=50&sort=updated&direction=desc`);
+              const prs = await prsRes.json();
+              
+              if (Array.isArray(prs)) {
+                prs.forEach(pr => {
+                  if (TEAM_MEMBERS.includes(pr.user.login)) {
+                    allPRs.push({
+                      type: 'pr',
+                      author: pr.user.login,
+                      authorUrl: pr.user.html_url,
+                      repo: repo,
+                      repoUrl: `https://github.com/${repo}`,
+                      title: pr.title,
+                      url: pr.html_url,
+                      date: new Date(pr.updated_at),
+                      number: pr.number,
+                      state: pr.state,
+                      merged: pr.merged_at !== null,
+                      mergedAt: pr.merged_at ? new Date(pr.merged_at) : null,
+                      labels: pr.labels
+                    });
+                  }
+                });
+              }
+            }
+            
+            // Sort by date (merged date for merged PRs, updated date otherwise) and take top items
+            allPRs.sort((a, b) => {
+              const dateA = a.mergedAt || a.date;
+              const dateB = b.mergedAt || b.date;
+              return dateB - dateA;
+            });
+            const topPRs = allPRs.slice(0, MAX_ITEMS);
+            
+            // Store for filtering
+            window.githubActivities = topPRs;
+            
+            // Render activities
+            renderActivities(topPRs);
+            
+            if (loadingEl) loadingEl.style.display = 'none';
+            
+          } catch (error) {
+            console.error('Error fetching GitHub activity:', error);
+            if (loadingEl) {
+              loadingEl.innerHTML = '<div class="error-message">Unable to load GitHub activity. Please try again later.</div>';
+            }
+          }
+        }
+        
+        function renderActivities(activities, filter = 'all') {
+          const activityList = document.getElementById('github-activity-list');
+          if (!activityList) return;
+          
+          // Filter by state if needed
+          let filtered = activities;
+          if (filter === 'merged') {
+            filtered = activities.filter(a => a.merged);
+          } else if (filter === 'open') {
+            filtered = activities.filter(a => a.state === 'open');
+          }
+          
+          activityList.innerHTML = filtered.map(activity => {
+            const timeAgo = getTimeAgo(activity.mergedAt || activity.date);
+            const statusLabel = activity.merged ? 'merged' : activity.state;
+            const statusClass = `label-${statusLabel}`;
+            
+            return `
+              <li class="activity-item pr">
+                <div class="activity-header">
+                  <svg class="activity-icon" viewBox="0 0 16 16" fill="currentColor">
+                    <path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"></path>
+                  </svg>
+                  <span class="activity-type">PR #${activity.number}</span>
+                  <a href="${activity.authorUrl}" class="activity-author" target="_blank">@${activity.author}</a>
+                  <span class="activity-repo">→ ${activity.repo.split('/')[1]}</span>
+                  <span class="activity-time">${timeAgo}</span>
+                </div>
+                <div class="activity-title">
+                  <a href="${activity.url}" target="_blank">${escapeHtml(activity.title)}</a>
+                </div>
+                <div class="activity-labels">
+                  <span class="activity-label ${statusClass}">${statusLabel}</span>
+                </div>
+              </li>
+            `;
+          }).join('');
+          
+          if (filtered.length === 0) {
+            activityList.innerHTML = '<li style="padding: 20px; text-align: center; color: #586069;">No pull requests found.</li>';
+          }
+        }
+        
+        function getTimeAgo(date) {
+          const seconds = Math.floor((new Date() - date) / 1000);
+          const intervals = {
+            year: 31536000,
+            month: 2592000,
+            week: 604800,
+            day: 86400,
+            hour: 3600,
+            minute: 60
+          };
+          
+          for (const [unit, secondsInUnit] of Object.entries(intervals)) {
+            const interval = Math.floor(seconds / secondsInUnit);
+            if (interval >= 1) {
+              return `${interval} ${unit}${interval > 1 ? 's' : ''} ago`;
+            }
+          }
+          return 'just now';
+        }
+        
+        function escapeHtml(text) {
+          const div = document.createElement('div');
+          div.textContent = text;
+          return div.innerHTML;
+        }
+        
+        // Filter buttons
+        document.addEventListener('DOMContentLoaded', () => {
+          const filterButtons = document.querySelectorAll('.activity-filter-btn');
+          filterButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+              filterButtons.forEach(b => b.classList.remove('active'));
+              btn.classList.add('active');
+              const filter = btn.dataset.filter;
+              if (window.githubActivities) {
+                renderActivities(window.githubActivities, filter);
+              }
+            });
+          });
+          
+          // Load activity on page load
+          if (document.getElementById('github-activity-list')) {
+            fetchGitHubActivity();
+          }
+        });
       })();
     </script>
   </body>

@@ -7,8 +7,6 @@ layout: default
 
 # Resilient (Resilient Energy System Infrastructure Layouts for Industry, E-Fuels and Network Transitions)
 
-## About {#about}
-
 The energy transition faces many uncertainties, yet planning tools are often deterministic. Our proposal aims to develop the first truly multi-vector energy infrastructure planning tool that represents this uncertain environment at regional, national, and European levels.
 
 We will build on the widely used, open-source sector-coupled energy planning tool [PyPSA-Eur](https://github.com/pypsa/pypsa-eur), by adding stochastic optimization capabilities and a deeper representation of industry transformation, e-fuel conversion, biomass, and carbon capture infrastructure.
@@ -72,7 +70,8 @@ To maximize impact, we will organize workshops and training events involving a b
 
 - <a id="workshop-rise-2025-11"></a> **Energy modelling workshop for cross-sector stakeholders (in preparation)**  
 *The workshop will be hosted by RISE in Sweden (Dr. Markus Millinger) | November 2025 | Conducted by TUB and RISE*  
--- [Workshop invitation](https://www.linkedin.com/posts/markus-millinger-4b482639_pypsa-energy-infrastructure-activity-7380914083060924416-7rdB/)
+-- [Workshop invitation](https://www.linkedin.com/posts/markus-millinger-4b482639_pypsa-energy-infrastructure-activity-7380914083060924416-7rdB/)\
+-- [Workshop materials](https://resilient-project.github.io/pypsa-workshop-202511/intro.html)
 
 
 ## Research papers {#research-papers}

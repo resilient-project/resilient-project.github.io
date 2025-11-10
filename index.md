@@ -264,11 +264,15 @@ supports data collection, scenario definition and result analysis in terms relat
 
 ## Impressum
 
-Dr. Fabian Neumann\
-Dr. Iegor Riepin\
 Bobby Xiong\
-Prof. Dr. Tom Brown\
-[Technische Universität Berlin](https://tu.berlin)
+Dr. Iegor Riepin\
+Dr. Lukas Franken\
+Dr. Fabian Neumann\
+Prof. Dr. Tom Brown
+
+Write us an email: <span style="unicode-bidi:bidi-override; direction:rtl;">ed.nilreb-ut - ta - nipeir.rogei</span>
+
+[Technische Universität Berlin](https://tu.berlin)\
 [Fachgebiet Digitaler Wandel in Energiesystemen](https://www.tu.berlin/ensys)\
 Institut für Energietechnik\
 Fakultät III\

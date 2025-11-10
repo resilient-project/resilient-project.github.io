@@ -76,23 +76,23 @@ To maximize impact, we will organize workshops and training events involving a b
 
 ## Research papers {#research-papers}
 
-- [Modelling the high-voltage grid using open data for Europe and beyond](https://www.nature.com/articles/s41597-025-04550-7) — Xiong et al., *Nature Scientific Data*, 2025
+- <div data-badge-type="donut" data-doi="10.1038/s41597-025-04550-7" class="altmetric-embed"></div>[Modelling the high-voltage grid using open data for Europe and beyond](https://www.nature.com/articles/s41597-025-04550-7) — Xiong et al., *Nature Scientific Data*, 2025
 
-- [Diversity of biomass usage pathways to achieve emissions targets in the European energy system](https://www.nature.com/articles/s41560-024-01693-6) — Millinger et al., *Nature Energy*, 2025
+- <div data-badge-type="donut" data-doi="10.1038/s41560-024-01693-6" class="altmetric-embed"></div>[Diversity of biomass usage pathways to achieve emissions targets in the European energy system](https://www.nature.com/articles/s41560-024-01693-6) — Millinger et al., *Nature Energy*, 2025
 
-- [Biomass exclusion must be weighed against benefits of carbon supply in European energy system](https://www.nature.com/articles/s41560-024-01685-6) — Millinger et al., Policy brief in *Nature Energy*, 2025
+- <div data-badge-type="donut" data-doi="10.1038/s41560-024-01685-6" class="altmetric-embed"></div>[Biomass exclusion must be weighed against benefits of carbon supply in European energy system](https://www.nature.com/articles/s41560-024-01685-6) — Millinger et al., Policy brief in *Nature Energy*, 2025
 
-- [PyPSA-Earth sector-coupled: A global open-source multi-energy system model showcased for hydrogen applications in countries of the Global South](https://doi.org/10.1016/j.apenergy.2025.000467) — Abdel-Khalek et al., *Applied Energy*, 2025
+- <div data-badge-type="donut" data-doi="10.1016/j.eneco.2025.108483" class="altmetric-embed"></div>[Price formation without fuel costs---the interaction of elastic demand with storage bidding](https://doi.org/10.1016/j.eneco.2025.108483) — Brown, Neumann & Riepin, *Energy Economics*, 2025
 
-- [Price formation without fuel costs---the interaction of elastic demand with storage bidding](https://doi.org/10.1016/j.eneco.2025.108483) — Brown, Neumann & Riepin, *Energy Economics*, 2025
+- <div data-badge-type="donut" data-arxiv-id="2507.01860" class="altmetric-embed"></div>[The role of Projects of Common Interest in reaching Europe's energy policy targets](https://arxiv.org/abs/2507.01860) — Xiong, Brown & Riepin, arXiv preprint, 2025
 
-- [Mitigating Ukraine's Looming Electricity Crisis](https://doi.org/10.1016/j.esr.2025.101724) — Zachmann, Meißner & Riepin, *Energy Strategy Reviews*, 2025
+- <div data-badge-type="donut" data-arxiv-id="2507.11361" class="altmetric-embed"></div>[Adaptive Robust Optimization for European Electricity System Planning Considering Regional Dunkelflaute Events](https://arxiv.org/abs/2507.11361) - Bernecker et al., arXiv preprint, 2025
 
-- [The role of Projects of Common Interest in reaching Europe's energy policy targets](https://arxiv.org/abs/2507.01860) — Xiong, Brown & Riepin, arXiv preprint, 2025
+- <div data-badge-type="donut" data-doi="10.1016/j.apenergy.2025.125316" class="altmetric-embed"></div>[PyPSA-Earth sector-coupled: A global open-source multi-energy system model showcased for hydrogen applications in countries of the Global South](https://doi.org/10.1016/j.apenergy.2025.125316) — Abdel-Khalek et al., *Applied Energy*, 2025
 
-- [MESCO: a Clustering framework for the design Optimization of future Multi-Energy Systems](https://doi.org/10.1016/j.energy.2025.137038) - Pampado et al., *Energy*, 2025
+- <div data-badge-type="donut" data-doi="10.1016/j.energy.2025.137038" class="altmetric-embed"></div>[MESCO: a Clustering framework for the design Optimization of future Multi-Energy Systems](https://doi.org/10.1016/j.energy.2025.137038) - Pampado et al., *Energy*, 2025
 
-- [Adaptive Robust Optimization for European Electricity System Planning Considering Regional Dunkelflaute Events](https://arxiv.org/abs/2507.11361) - Bernecker et al., arXiv preprint, 2025
+- <div data-badge-type="donut" data-doi="10.1016/j.esr.2025.101724" class="altmetric-embed"></div>[Mitigating Ukraine's Looming Electricity Crisis](https://doi.org/10.1016/j.esr.2025.101724) — Zachmann, Meißner & Riepin, *Energy Strategy Reviews*, 2025
 
 ## Research talks {#research-talks}
 

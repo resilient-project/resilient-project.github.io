@@ -15,10 +15,30 @@
         font-style: normal;
         font-weight: 500;
       }
+      
+      /* Altmetric badge styling - display on the left as list markers */
+      #research-papers + ul {
+        list-style: none;
+        padding-left: 0;
+      }
+      
+      #research-papers + ul > li {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 20px;
+        padding-left: 0;
+      }
+      
+      #research-papers + ul > li .altmetric-embed {
+        flex-shrink: 0;
+        margin-right: 15px;
+        margin-top: 2px;
+      }
     </style>
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
+    <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
     {% include head-custom.html %}
   </head>
   <body>

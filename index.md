@@ -72,7 +72,7 @@ To maximize impact, we will organize workshops and training events involving a b
 *The workshop will be hosted by RISE in Sweden (Dr. Markus Millinger) | November 2025 | Conducted by TUB and RISE*  
 -- [Workshop invitation](https://www.linkedin.com/posts/markus-millinger-4b482639_pypsa-energy-infrastructure-activity-7380914083060924416-7rdB/)\
 -- [Workshop materials](https://resilient-project.github.io/pypsa-workshop-202511/intro.html)
-
+<img src="assets/img/gothenburg.jpg" alt="Gothenburg Workshop Participants" width="420"/>
 
 ## Research papers {#research-papers}
 

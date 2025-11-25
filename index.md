@@ -31,16 +31,16 @@ To maximize impact, we will organize workshops and training events involving a b
 -- [PyPSA-Eur model: overview and applications](https://resilient-project.github.io/static/uploads/Modellanwendung-PyPSA-Eur-TUB.pdf)  
 -- [How does uncertainty impede industrial transformation? (in German)](https://resilient-project.github.io/static/uploads/stakeholderworkshop_FraunhoferISI.pdf)
 
-- **Energy system modelling workshop for industrial stakeholders** (~30 participants)  
-*Hosted by TransnetBW, Stuttgart, Germany | 27–28 January 2025 | Conducted by TUB and TransnetBW*  
+- **Energy system modelling workshop for industrial stakeholders (Stuttgart)** (~30 participants)  
+*Hosted by TransnetBW, Germany | 27–28 January 2025 | Conducted by TUB and TransnetBW*  
 -- [Workshop invitation](https://www.linkedin.com/feed/update/urn:li:activity:7274361929098317824/)  
 -- [Teaching materials – PyPSA-Eur](https://docs.google.com/presentation/d/1jqMp5ZYhTRi6gNDoa1UgDzGFLU5ifxeLgfW0R8FBTB4)  
 -- [Teaching materials – PyPSA](https://irieo.github.io/workshop-pypsa-transnetbw/intro.html)
 <img src="assets/img/stuttgart_fn.jpg" alt="Stuttgart Workshop" width="420"/>
 
-- <a id="workshop-gasunie-2025-02"></a> **Energy system modelling workshop for cross-sector stakeholders**  
+- <a id="workshop-gasunie-2025-02"></a> **Energy system modelling workshop for cross-sector stakeholders (Groningen)**  
 (~20 participants from industry, academia, NGOs, and consulting firms)  
-*Hosted by Gasunie, Groningen, Netherlands | 25–26 February 2025 | Conducted by TUB*  
+*Hosted by Gasunie, Netherlands | 25–26 February 2025 | Conducted by TUB*  
 -- [Teaching materials – PyPSA-Eur](https://docs.google.com/presentation/d/12FQCupOkddtNy6psd9M01N4_hmblauad0gaH1bLJB3o/edit#slide=id.g1ec455a5967_0_0)  
 -- [Teaching materials – PyPSA](https://fneum.github.io/gasunie-workshop/intro.html)
 <img src="assets/img/gasunie.jpeg" alt="Gasunie Workshop" width="420"/>
@@ -52,23 +52,22 @@ To maximize impact, we will organize workshops and training events involving a b
 -- [LinkedIn summary](https://www.linkedin.com/feed/update/urn:li:activity:7332767362061844480/)
 <img src="assets/img/4tso.jpg" alt="4TSO Workshop Participants" width="420"/>
 
-- <a id="workshop-tub-2025-05"></a> **Energy modelling workshop for cross-sector stakeholders**  
+- <a id="workshop-tub-2025-05"></a> **Energy modelling workshop for cross-sector stakeholders (Berlin)**  
 (~30 participants from industry, academia, NGOs, and consulting firms)  
 *Hosted by TU Berlin | 22–23 May 2025 | Conducted by TUB*  
 -- [Workshop invitation](https://www.linkedin.com/posts/fabian-neumann-renewables_pypsa-eur-workshop-at-tu-berlin-activity-7309188508894543873-Ycsq?utm_source=share&utm_medium=member_desktop&rcm=ACoAADhk2oEBLgmYCVN1a_pvp6Q2ezECxNhJekw)  
 -- [Workshop materials](https://resilient-project.github.io/pypsa-workshop-202505/intro.html)
 <img src="assets/img/tub.jpg" alt="TUB Workshop Participants" width="420"/>
 
-- <a id="workshop-dtu-2025-06"></a> **Energy modelling workshop for cross-sector stakeholders**  
-(~50 participants)  
-*Hosted by DTU, Copenhagen, Denmark (Prof. Marta Victoria and the team) | 26–27 June 2025 | Conducted by TUB and DTU*  
+- <a id="workshop-dtu-2025-06"></a> **Energy modelling workshop for cross-sector stakeholders (Copenhagen)** (~50 participants)  
+*Hosted by DTU, Denmark (Prof. Marta Victoria and the team) | 26–27 June 2025 | Conducted by TUB and DTU*  
 -- [Workshop invitation](https://www.linkedin.com/posts/marta-victoria-4189b388_pypsa-eur-workshop-at-dtu-copenhagen-activity-7320387816662745088-JAwA/)  
 -- [LinkedIn summary](https://www.linkedin.com/feed/update/urn:li:activity:7345308702389731328/)  
 -- [Workshop materials](https://resilient-project.github.io/pypsa-workshop-202506/intro.html)  
 -- [Videos](https://resilient-project.github.io/pypsa-workshop-202506/videos.html)
 <img src="assets/img/dtu.jpeg" alt="DTU Workshop Participants" width="420"/>
 
-- <a id="workshop-rise-2025-11"></a> **Energy modelling workshop for cross-sector stakeholders (in preparation)**  
+- <a id="workshop-rise-2025-11"></a> **Energy modelling workshop for cross-sector stakeholders (Gothenburg)** (35 participants)  
 *The workshop will be hosted by RISE in Sweden (Dr. Markus Millinger) | November 2025 | Conducted by TUB and RISE*  
 -- [Workshop invitation](https://www.linkedin.com/posts/markus-millinger-4b482639_pypsa-energy-infrastructure-activity-7380914083060924416-7rdB/)\
 -- [Workshop materials](https://resilient-project.github.io/pypsa-workshop-202511/intro.html)

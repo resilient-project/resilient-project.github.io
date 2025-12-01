@@ -89,9 +89,12 @@ To maximize impact, we will organize workshops and training events involving a b
 
 - <div data-badge-type="donut" data-doi="10.1016/j.apenergy.2025.125316" class="altmetric-embed"></div>[PyPSA-Earth sector-coupled: A global open-source multi-energy system model showcased for hydrogen applications in countries of the Global South](https://doi.org/10.1016/j.apenergy.2025.125316) — Abdel-Khalek et al., *Applied Energy*, 2025
 
+- <div data-badge-type="donut" data-doi="10.1016/j.segy.2025.100200" class="altmetric-embed"></div>[Geopolitical risk index for guiding international sustainable energy trade](https://doi.org/10.1016/j.segy.2025.100200) — Galimova et al., *Smart Energy*, 2025
+
 - <div data-badge-type="donut" data-doi="10.1016/j.energy.2025.137038" class="altmetric-embed"></div>[MESCO: a Clustering framework for the design Optimization of future Multi-Energy Systems](https://doi.org/10.1016/j.energy.2025.137038) - Pampado et al., *Energy*, 2025
 
 - <div data-badge-type="donut" data-doi="10.1016/j.esr.2025.101724" class="altmetric-embed"></div>[Mitigating Ukraine's Looming Electricity Crisis](https://doi.org/10.1016/j.esr.2025.101724) — Zachmann, Meißner & Riepin, *Energy Strategy Reviews*, 2025
+
 
 ## Code contributions to PyPSA and PyPSA-Eur {#code-contributions}
 

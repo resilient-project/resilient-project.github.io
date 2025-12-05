@@ -73,6 +73,11 @@ To maximize impact, we will organize workshops and training events involving a b
 -- [Workshop materials](https://resilient-project.github.io/pypsa-workshop-202511/intro.html)
 <img src="assets/img/gothenburg.jpg" alt="Gothenburg Workshop Participants" width="420"/>
 
+- **Workshop with North Rhine-Westphalia industrial stakeholders**  
+*Organized by IN4climate.NRW, Fraunhofer ISI and TUB, 1 Dec 2025*  
+-- [Project introduction and NRW Case Study setup](https://drive.google.com/file/d/1ugGP73qzjQgU9EOi5SyRGBGoBJgG_uo4/view)  
+-- [First modelling results](https://resilient-project.github.io/static/uploads/NRW-Workshop-Erste-Ergebnisse.pdf)  
+
 ## Research papers {#research-papers}
 
 - <div data-badge-type="donut" data-doi="10.1038/s41597-025-04550-7" class="altmetric-embed"></div>[Modelling the high-voltage grid using open data for Europe and beyond](https://www.nature.com/articles/s41597-025-04550-7) — Xiong et al., *Nature Scientific Data*, 2025

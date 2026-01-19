@@ -98,6 +98,8 @@ To maximize impact, we will organize workshops and training events involving a b
 
 - <div data-badge-type="donut" data-doi="10.1016/j.energy.2025.137038" class="altmetric-embed"></div>[MESCO: a Clustering framework for the design Optimization of future Multi-Energy Systems](https://doi.org/10.1016/j.energy.2025.137038) - Pampado et al., *Energy*, 2025
 
+- <div data-badge-type="donut" data-doi="10.1088/1748-9326/adbb81" class="altmetric-embed"></div>[Accounting for carbon capture solvent cost and energy demand in the energy system](https://iopscience.iop.org/article/10.1088/1748-9326/adbb81) — Chanal, Humpage & Millinger, *Environmental Research Letters*, 2025
+
 - <div data-badge-type="donut" data-doi="10.1016/j.esr.2025.101724" class="altmetric-embed"></div>[Mitigating Ukraine's Looming Electricity Crisis](https://doi.org/10.1016/j.esr.2025.101724) — Zachmann, Meißner & Riepin, *Energy Strategy Reviews*, 2025
 
 

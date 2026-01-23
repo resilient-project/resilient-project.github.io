@@ -216,11 +216,16 @@ D1.2: [Project data management plan](https://resilient-project.github.io/static/
 D2.1: [Intermediate release of SMS++ and PyPSA integration](https://resilient-project.github.io/static/uploads/D21.pdf)\
 D2.3: [Intermediate releases of PyPSA-Eur](https://pypsa-eur.readthedocs.io/en/latest/release_notes.html)\
 D3.2: [Interim release of PyPSA-Eur with improved biomass and carbon management representation](https://github.com/PyPSA/pypsa-eur/tree/v0.12.0)\
+D3.3: [Open dataset on import options and global supply chains of hydrogen and derivative products](https://zenodo.org/records/17897949)\
+D5.2: [Public training materials and tutorials](https://resilient-project.github.io/#workshops)\
 
 D*: [Introducing OpenStreetMap high-voltage grid to PyPSA-Eur](https://github.com/PyPSA/pypsa-eur/pull/1079)
 
 MS1: [Successfully interfaced PyPSA and SMS++](https://resilient-project.github.io/static/uploads/D21.pdf)\
 MS2: [Demonstrated performance boost in PyPSA-Eur through SMS++ integration](https://resilient-project.github.io/static/uploads/D21b.pdf)\
+MS3: [Integrated enhanced industry representation into PyPSA-Eur: substream on industry heat](https://github.com/PyPSA/pypsa-eur/pull/1943)\
+MS4: [Integrated enhanced biomass and carbon infrastructure representation into PyPSA-Eur](https://github.com/PyPSA/pypsa-eur/tree/v0.12.0)\
+
 
 ## About us: partners of the RESILIENT project {#about-us}
 

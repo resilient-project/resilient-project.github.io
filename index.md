@@ -102,6 +102,12 @@ To maximize impact, we will organize workshops and training events involving a b
 
 - <div data-badge-type="donut" data-doi="10.1016/j.esr.2025.101724" class="altmetric-embed"></div>[Mitigating Ukraine's Looming Electricity Crisis](https://doi.org/10.1016/j.esr.2025.101724) — Zachmann, Meißner & Riepin, *Energy Strategy Reviews*, 2025
 
+- <div data-badge-type="donut" data-doi="10.1109/EEEIC.2025.11169239" class="altmetric-embed"></div>[Exploring Uncertainties in Future Power Systems: Methodology and Analysis for Italy 2040](https://ieeexplore.ieee.org/abstract/document/11169239) — Pampado, Fioriti & Poli, *2025 IEEE EEEIC Conference*, 2025
+
+- <div data-badge-type="donut" data-doi="10.1109/EEEIC.2025.11169291" class="altmetric-embed"></div>[Enhancing Energy System Modelling with Advanced Mathematical Decomposition Techniques: Feasibility of Coupling SMS++ and PyPSA](https://ieeexplore.ieee.org/document/11169291) — Fioriti et al., *2025 IEEE EEEIC Conference*, 2025
+
+- <div data-badge-type="donut" data-doi="10.1016/j.segan.2025.101650" class="altmetric-embed"></div>[Integrated stochastic reserve estimation and MILP energy planning for high renewable penetration: Application to 2050 South African energy system](https://doi.org/10.1016/j.segan.2025.101650) — Giglio et al., *Sustainable Energy, Grids and Networks*, 2025
+
 
 ## Code contributions to PyPSA and PyPSA-Eur {#code-contributions}
 
@@ -180,6 +186,8 @@ To maximize impact, we will organize workshops and training events involving a b
 - *10 September 2025* @ Research Institutes of Sweden (RISE) research seminar, Gothenburg, Sweden — [PyPSA(-Eur): an open-source python environment for state-of-the-art energy system modelling](https://iriepin.com/uploads/rise-202509.pdf)
 
 - *25 September 2025* @ Svebio Fuel Market Day, Stockholm — How biomass can be cost-effectively used to achieve emissions targets in the European energy system
+
+- *5-10 October 2025* @ 20th SDEWES Conference, Dubrovnik — Evaluating the Value of CO2 Point Source Capture for the Energy-Industry System Transition
 
 - *5-6 November 2025* @ The European Bioenergy Future conference, Brussels — Diversity of biomass usage pathways to achieve emissions targets in the European energy system
 

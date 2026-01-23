@@ -289,7 +289,7 @@
       (function() {
         const TEAM_MEMBERS = ['Irieo', 'bobbyxng', 'LukasFrankenQ', 'millingermarkus'];
         const REPOS = ['PyPSA/PyPSA', 'PyPSA/pypsa-eur'];
-        const MAX_ITEMS = 15;
+        const MAX_ITEMS = 12;
         
         async function fetchGitHubActivity() {
           const activityList = document.getElementById('github-activity-list');
@@ -302,7 +302,7 @@
             
             // Fetch PRs for each repo
             for (const repo of REPOS) {
-              const prsRes = await fetch(`https://api.github.com/repos/${repo}/pulls?state=all&per_page=50&sort=updated&direction=desc`);
+              const prsRes = await fetch(`https://api.github.com/repos/${repo}/pulls?state=all&per_page=100&sort=updated&direction=desc`);
               const prs = await prsRes.json();
               
               if (Array.isArray(prs)) {

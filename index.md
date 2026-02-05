@@ -195,6 +195,8 @@ To maximize impact, we will organize workshops and training events involving a b
 
 ## Media highlights {#public-outreach}
 
+- [www.energieforschung.de: Versorgungssicherheit & Resilienz](https://www.energieforschung.de/de/aktuelles/projekteinblicke/2025//versorgungssicherheit-resilienz) — energieforschung.de portal featured an article about the RESILIENT project.
+
 - [PyPSA v1.0 official release](https://www.linkedin.com/posts/lukas-trippe-29409b168_pypsa-opensource-energy-activity-7383850025522601984-Sitp/) — announcement of the milestone release of PyPSA v1.0 that includes features developed within the RESILIENT project, such as stochastic and CVaR-based risk-averse optimization.
 
 - [The Role of Projects of Common Interest in Reaching Europe's Energy Targets](https://www.linkedin.com/feed/update/urn:li:activity:7346911214947479552/) — Bobby Xiong announces the publication of a preprint on arXiv and the main findings from the paper on the role of Projects of Common and Projects of Mutual Interest (PCI/PMI) in reaching Europe's energy policy targets.

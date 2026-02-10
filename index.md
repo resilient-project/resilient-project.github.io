@@ -165,13 +165,13 @@ To maximize impact, we will organize workshops and training events involving a b
 
 - *11-12 November 2024* @ Energy resilience symposium, IER, Stuttgart — [Resilient strategies for the European energy system. A case study on 2030 EU policy targets](https://resilient-project.github.io/static/uploads/pci-pmi-2030-targets-presentation.pdf)
 
-- *25-26 March 2025* @ Open Energy Modelling conference, Stockholm — Diversity of biomass usage pathways to achieve emissions targets in the European energy system
+- *25-26 March 2025* @ Open Energy Modelling conference, Stockholm — [Diversity of biomass usage pathways to achieve emissions targets in the European energy system](https://resilient-project.github.io/static/uploads/250321_OpenMod.pdf)
 
 - *18-23 May 2025* @ DTU Summer School 2025, DTU, Lyngby — [The role of PCI-PMI infrastructure in reaching Europe's energy policy targets](https://github.com/bobbyxng/pcipmi-policy-targets/blob/main/presentation/2025-05-19_dtu_pes_poster/poster.pdf)
 
-- *28 May 2025* @ ETIP Webinar Bioenergy A Key to European Resilience? — How biomass can be cost-effectively used to achieve emissions targets in the European energy system
+- *28 May 2025* @ ETIP Webinar Bioenergy A Key to European Resilience? — [How biomass can be cost-effectively used to achieve emissions targets in the European energy system](https://resilient-project.github.io/static/uploads/250528_ETIPBioenergy.pdf)
 
-- *10-13 June 2025* @ International Energy Workshop 2025, Nara, Japan — Accounting for carbon capture solvent cost and energy demand in the energy system
+- *10-13 June 2025* @ International Energy Workshop 2025, Nara, Japan — [Accounting for carbon capture solvent cost and energy demand in the energy system](https://resilient-project.github.io/static/uploads/IEW_2025_Markus%20MILLINGER.pdf)
 
 - *11 June 2025* @ International Energy Workshop 2025, Nara, Japan — [The role of Projects of Common Interest in reaching Europe's energy policy targets](https://github.com/bobbyxng/pcipmi-policy-targets/blob/main/presentation/2025-06-12_iew_nara/presentation/pcipmi-policy-targets-iew.pdf)
 
@@ -185,11 +185,11 @@ To maximize impact, we will organize workshops and training events involving a b
 
 - *10 September 2025* @ Research Institutes of Sweden (RISE) research seminar, Gothenburg, Sweden — [PyPSA(-Eur): an open-source python environment for state-of-the-art energy system modelling](https://iriepin.com/uploads/rise-202509.pdf)
 
-- *25 September 2025* @ Svebio Fuel Market Day, Stockholm — How biomass can be cost-effectively used to achieve emissions targets in the European energy system
+- *25 September 2025* @ Svebio Fuel Market Day, Stockholm — [How biomass can be cost-effectively used to achieve emissions targets in the European energy system](https://resilient-project.github.io/static/uploads/250925_Svebio.pdf)
 
 - *5-10 October 2025* @ 20th SDEWES Conference, Dubrovnik — Evaluating the Value of CO2 Point Source Capture for the Energy-Industry System Transition
 
-- *5-6 November 2025* @ The European Bioenergy Future conference, Brussels — Diversity of biomass usage pathways to achieve emissions targets in the European energy system
+- *5-6 November 2025* @ The European Bioenergy Future conference, Brussels — [Diversity of biomass usage pathways to achieve emissions targets in the European energy system](https://resilient-project.github.io/static/uploads/251105_BioenergyEurope.pdf)
 
 - *6 November 2025* @ Deutsche Energie-Agentur (dena), Berlin, Germany — [Collegial exchange on modelling energy system resilience](https://resilient-project.github.io/static/uploads/20251106_dena_project.pdf)
 

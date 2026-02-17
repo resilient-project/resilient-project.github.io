@@ -193,6 +193,8 @@ To maximize impact, we will organize workshops and training events involving a b
 
 - *6 November 2025* @ Deutsche Energie-Agentur (dena), Berlin, Germany — [Collegial exchange on modelling energy system resilience](https://resilient-project.github.io/static/uploads/20251106_dena_project.pdf)
 
+- *17 February 2026* @ MITEI Research (Hybrid/Virtual) Seminar, Online — [Modelling the high-voltage grid using open data for Europe and beyond](https://resilient-project.github.io/static/uploads/osm-grid-europe-presentation_compressed.pdf)
+
 ## Media highlights {#public-outreach}
 
 - [www.energieforschung.de: Versorgungssicherheit & Resilienz](https://www.energieforschung.de/de/aktuelles/projekteinblicke/2025//versorgungssicherheit-resilienz) — energieforschung.de portal featured an article about the RESILIENT project.

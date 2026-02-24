@@ -195,6 +195,8 @@ To maximize impact, we will organize workshops and training events involving a b
 
 - *17 February 2026* @ MITEI Research (Hybrid/Virtual) Seminar, Online — [Modelling the high-voltage grid using open data for Europe and beyond](https://resilient-project.github.io/static/uploads/osm-grid-europe-presentation_compressed.pdf)
 
+- *02/2026* @ Scuola Nazionale Dottorandi di Elettrotecnica Francesco Gasparini, Napoli — [(Very-)Large-Scale Optimization for Energy Systems (V)](http://www.di.unipi.it/~frangio/schools/Napoli-2026-V.pdf)
+
 ## Media highlights {#public-outreach}
 
 - [www.energieforschung.de: Versorgungssicherheit & Resilienz](https://www.energieforschung.de/de/aktuelles/projekteinblicke/2025//versorgungssicherheit-resilienz) — energieforschung.de portal featured an article about the RESILIENT project.

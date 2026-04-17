@@ -68,7 +68,7 @@ To maximize impact, we will organize workshops and training events involving a b
 <img src="assets/img/dtu.jpeg" alt="DTU Workshop Participants" width="420"/>
 
 - <a id="workshop-rise-2025-11"></a> **Energy modelling workshop for cross-sector stakeholders (Gothenburg)** (35 participants)  
-*The workshop will be hosted by RISE in Sweden (Dr. Markus Millinger) | November 2025 | Conducted by TUB and RISE*  
+*Hosted by RISE in Sweden (Dr. Markus Millinger) | November 2025 | Conducted by TUB and RISE*  
 -- [Workshop invitation](https://www.linkedin.com/posts/markus-millinger-4b482639_pypsa-energy-infrastructure-activity-7380914083060924416-7rdB/)\
 -- [Workshop materials](https://resilient-project.github.io/pypsa-workshop-202511/intro.html)
 <img src="assets/img/gothenburg.jpg" alt="Gothenburg Workshop Participants" width="420"/>
@@ -195,7 +195,7 @@ To maximize impact, we will organize workshops and training events involving a b
 
 - *17 February 2026* @ MITEI Research (Hybrid/Virtual) Seminar, Online — [Modelling the high-voltage grid using open data for Europe and beyond](https://resilient-project.github.io/static/uploads/osm-grid-europe-presentation_compressed.pdf)
 
-- *02/2026* @ Scuola Nazionale Dottorandi di Elettrotecnica Francesco Gasparini, Napoli — [(Very-)Large-Scale Optimization for Energy Systems (V)](http://www.di.unipi.it/~frangio/schools/Napoli-2026-V.pdf)
+- *February 2026* @ Scuola Nazionale Dottorandi di Elettrotecnica Francesco Gasparini, Napoli — [(Very-)Large-Scale Optimization for Energy Systems (V)](http://www.di.unipi.it/~frangio/schools/Napoli-2026-V.pdf)
 
 - *16 April 2026* @ Civil Resilience Forum Berlin 2026, Berlin — [Open-source data, tools and energy system models for civil society protection](https://iriepin.com/uploads/euciv.pdf)
 

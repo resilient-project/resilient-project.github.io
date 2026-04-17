@@ -197,6 +197,8 @@ To maximize impact, we will organize workshops and training events involving a b
 
 - *02/2026* @ Scuola Nazionale Dottorandi di Elettrotecnica Francesco Gasparini, Napoli — [(Very-)Large-Scale Optimization for Energy Systems (V)](http://www.di.unipi.it/~frangio/schools/Napoli-2026-V.pdf)
 
+- *16 April 2026* @ Civil Resilience Forum Berlin 2026, Berlin — [Open-source data, tools and energy system models for civil society protection](https://iriepin.com/uploads/euciv.pdf)
+
 ## Media highlights {#public-outreach}
 
 - [www.energieforschung.de: Versorgungssicherheit & Resilienz](https://www.energieforschung.de/de/aktuelles/projekteinblicke/2025//versorgungssicherheit-resilienz) — energieforschung.de portal featured an article about the RESILIENT project.

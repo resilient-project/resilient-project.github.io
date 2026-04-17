@@ -88,9 +88,9 @@ To maximize impact, we will organize workshops and training events involving a b
 
 - <div data-badge-type="donut" data-doi="10.1016/j.eneco.2025.108483" class="altmetric-embed"></div>[Price formation without fuel costs---the interaction of elastic demand with storage bidding](https://doi.org/10.1016/j.eneco.2025.108483) — Brown, Neumann & Riepin, *Energy Economics*, 2025
 
-- <div data-badge-type="donut" data-arxiv-id="2507.01860" class="altmetric-embed"></div>[The role of Projects of Common Interest in reaching Europe's energy policy targets](https://arxiv.org/abs/2507.01860) — Xiong, Brown & Riepin, arXiv preprint, 2025
+- <div data-badge-type="donut" data-doi="10.1088/1748-9326/ae3846" class="altmetric-embed"></div>[The role of Projects of Common Interest in reaching Europe's energy policy targets](https://iopscience.iop.org/article/10.1088/1748-9326/ae3846) — Xiong, Brown & Riepin, *Environmental Research Letters*, 2026
 
-- <div data-badge-type="donut" data-arxiv-id="2507.11361" class="altmetric-embed"></div>[Adaptive Robust Optimization for European Electricity System Planning Considering Regional Dunkelflaute Events](https://arxiv.org/abs/2507.11361) - Bernecker et al., arXiv preprint, 2025
+- <div data-badge-type="donut" data-doi="10.1016/j.apenergy.2026.127671" class="altmetric-embed"></div>[Adaptive Robust Optimization for European Electricity System Planning Considering Regional Dunkelflaute Events](https://doi.org/10.1016/j.apenergy.2026.127671) — Bernecker et al., *Applied Energy*, 2026
 
 - <div data-badge-type="donut" data-doi="10.1016/j.apenergy.2025.125316" class="altmetric-embed"></div>[PyPSA-Earth sector-coupled: A global open-source multi-energy system model showcased for hydrogen applications in countries of the Global South](https://doi.org/10.1016/j.apenergy.2025.125316) — Abdel-Khalek et al., *Applied Energy*, 2025
 

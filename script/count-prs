@@ -1,0 +1,48 @@
+#!/usr/bin/env python3
+"""
+Count pull requests to PyPSA ecosystem repos by RESILIENT team members.
+Requires GitHub CLI (gh) to be installed and authenticated.
+Usage: python3 script/count-prs
+"""
+
+import subprocess, json
+
+TEAM = {"Irieo", "bobbyxng", "LukasFrankenQ", "millingermarkus"}
+REPOS = [
+    "PyPSA/PyPSA",
+    "PyPSA/pypsa-eur",
+    "PyPSA/atlite",
+    "PyPSA/linopy",
+    "PyPSA/powerplantmatching",
+]
+
+grand_total = 0
+
+for repo in REPOS:
+    page = 1
+    counts = {m: 0 for m in TEAM}
+    while True:
+        result = subprocess.run(
+            ["gh", "api", f"/repos/{repo}/pulls?state=all&per_page=100&page={page}"],
+            capture_output=True,
+            text=True,
+        )
+        data = json.loads(result.stdout)
+        if not isinstance(data, list) or len(data) == 0:
+            break
+        for pr in data:
+            login = pr.get("user", {}).get("login")
+            if login in TEAM:
+                counts[login] += 1
+        if len(data) < 100:
+            break
+        page += 1
+
+    repo_total = sum(counts.values())
+    grand_total += repo_total
+    print(f"{repo}: {repo_total}")
+    for member, count in sorted(counts.items(), key=lambda x: -x[1]):
+        if count > 0:
+            print(f"  {member}: {count}")
+
+print(f"\nTOTAL: {grand_total}")

@@ -295,67 +295,105 @@
       
       // GitHub Activity Feed - Pull Requests Only
       (function() {
-        const TEAM_MEMBERS = ['Irieo', 'bobbyxng', 'LukasFrankenQ', 'millingermarkus'];
-        const REPOS = ['PyPSA/PyPSA', 'PyPSA/pypsa-eur', 'PyPSA/atlite', 'PyPSA/linopy', 'PyPSA/powerplantmatching'];
         const MAX_ITEMS = 12;
+        const ACTIVITY_DATA_URL = '{{ "/assets/data/github-activity.json" | relative_url }}';
+        const ACTIVITY_CACHE_KEY = 'githubActivityCacheV1';
+        const ACTIVITY_CACHE_TTL_MS = 24 * 60 * 60 * 1000;
+
+        function loadCachedActivities() {
+          try {
+            const raw = localStorage.getItem(ACTIVITY_CACHE_KEY);
+            if (!raw) return null;
+            const parsed = JSON.parse(raw);
+            if (!parsed || !Array.isArray(parsed.items) || typeof parsed.savedAt !== 'number') return null;
+            if (Date.now() - parsed.savedAt > ACTIVITY_CACHE_TTL_MS) return null;
+            return parsed.items.map(item => ({
+              ...item,
+              date: new Date(item.date),
+              mergedAt: item.mergedAt ? new Date(item.mergedAt) : null
+            }));
+          } catch (_) {
+            return null;
+          }
+        }
+
+        function saveCachedActivities(items) {
+          try {
+            localStorage.setItem(ACTIVITY_CACHE_KEY, JSON.stringify({
+              savedAt: Date.now(),
+              items
+            }));
+          } catch (_) {
+            // Ignore localStorage errors (privacy mode, quota, etc.)
+          }
+        }
+
+        function showActivityError(message) {
+          const loadingEl = document.getElementById('activity-loading');
+          if (!loadingEl) return;
+          loadingEl.innerHTML = `<div class="error-message">${escapeHtml(message)}</div>`;
+          loadingEl.style.display = 'block';
+        }
+
+        function hideActivityLoading() {
+          const loadingEl = document.getElementById('activity-loading');
+          if (loadingEl) loadingEl.style.display = 'none';
+        }
         
         async function fetchGitHubActivity() {
           const activityList = document.getElementById('github-activity-list');
-          const loadingEl = document.getElementById('activity-loading');
           
           if (!activityList) return;
           
           try {
-            const allPRs = [];
-            
-            // Fetch PRs for each repo
-            for (const repo of REPOS) {
-              const prsRes = await fetch(`https://api.github.com/repos/${repo}/pulls?state=all&per_page=100&sort=updated&direction=desc`);
-              const prs = await prsRes.json();
-              
-              if (Array.isArray(prs)) {
-                prs.forEach(pr => {
-                  if (TEAM_MEMBERS.includes(pr.user.login)) {
-                    allPRs.push({
-                      type: 'pr',
-                      author: pr.user.login,
-                      authorUrl: pr.user.html_url,
-                      repo: repo,
-                      repoUrl: `https://github.com/${repo}`,
-                      title: pr.title,
-                      url: pr.html_url,
-                      date: new Date(pr.updated_at),
-                      number: pr.number,
-                      state: pr.state,
-                      merged: pr.merged_at !== null,
-                      mergedAt: pr.merged_at ? new Date(pr.merged_at) : null,
-                      labels: pr.labels
-                    });
-                  }
-                });
-              }
+            const res = await fetch(ACTIVITY_DATA_URL, { cache: 'no-store' });
+            if (!res.ok) {
+              throw new Error(`Activity data request failed with status ${res.status}`);
             }
-            
-            // Sort by date (merged date for merged PRs, updated date otherwise) and take top items
-            allPRs.sort((a, b) => {
-              const dateA = a.mergedAt || a.date;
-              const dateB = b.mergedAt || b.date;
-              return dateB - dateA;
-            });
-            const topPRs = allPRs.slice(0, MAX_ITEMS);
+
+            const payload = await res.json();
+            if (!payload || !Array.isArray(payload.items)) {
+              throw new Error('Activity data file is missing items array');
+            }
+
+            const topPRs = payload.items
+              .map(item => ({
+                ...item,
+                date: new Date(item.date),
+                mergedAt: item.mergedAt ? new Date(item.mergedAt) : null
+              }))
+              .slice(0, MAX_ITEMS);
             
             // Store for filtering
             window.githubActivities = topPRs;
             
             // Render activities
-            renderActivities(topPRs);
-            
-            if (loadingEl) loadingEl.style.display = 'none';
+            if (topPRs.length > 0) {
+              renderActivities(topPRs);
+              saveCachedActivities(topPRs);
+              hideActivityLoading();
+              return;
+            }
+
+            const cached = loadCachedActivities();
+            if (cached && cached.length > 0) {
+              window.githubActivities = cached;
+              renderActivities(cached);
+              showActivityError('Unable to load latest activity file. Showing cached activity from a previous visit.');
+              return;
+            }
+
+            showActivityError('Unable to load activity data. Please try again later.');
             
           } catch (error) {
             console.error('Error fetching GitHub activity:', error);
-            if (loadingEl) {
-              loadingEl.innerHTML = '<div class="error-message">Unable to load GitHub activity. Please try again later.</div>';
+            const cached = loadCachedActivities();
+            if (cached && cached.length > 0) {
+              window.githubActivities = cached;
+              renderActivities(cached);
+              showActivityError('Unable to load live GitHub activity. Showing cached activity from a previous visit.');
+            } else {
+              showActivityError('Unable to load GitHub activity. Please try again later.');
             }
           }
         }
@@ -429,8 +467,7 @@
           return div.innerHTML;
         }
         
-        // Filter buttons
-        document.addEventListener('DOMContentLoaded', () => {
+        function initGitHubActivity() {
           const filterButtons = document.querySelectorAll('.activity-filter-btn');
           filterButtons.forEach(btn => {
             btn.addEventListener('click', () => {
@@ -447,7 +484,13 @@
           if (document.getElementById('github-activity-list')) {
             fetchGitHubActivity();
           }
-        });
+        }
+
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', initGitHubActivity);
+        } else {
+          initGitHubActivity();
+        }
       })();
     </script>
   </body>

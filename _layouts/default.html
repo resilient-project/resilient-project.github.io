@@ -260,13 +260,13 @@
           🎓 <strong>~215</strong> People trained<br>
           📄 <strong>14</strong> Research papers<br>
           🎤 <strong>22</strong> Scientific talks<br>
-          🔀 <strong>124</strong> PRs to PyPSA ecosystem<br>
+          🔀 <strong><span id="pr-total-count">124</span></strong> PRs to PyPSA ecosystem<br>
           <span style="padding-left: 1.2em; display: block; line-height: 1.7;">
-            PyPSA/PyPSA: 42<br>
-            PyPSA/pypsa-eur: 73<br>
-            PyPSA/atlite: 2<br>
-            PyPSA/linopy: 5<br>
-            PyPSA/powerplantmatching: 2
+            PyPSA/PyPSA: <span id="pr-count-pypsa">42</span><br>
+            PyPSA/pypsa-eur: <span id="pr-count-pypsa-eur">73</span><br>
+            PyPSA/atlite: <span id="pr-count-atlite">2</span><br>
+            PyPSA/linopy: <span id="pr-count-linopy">5</span><br>
+            PyPSA/powerplantmatching: <span id="pr-count-powerplantmatching">2</span>
           </span>
           ☕ <strong>~<span id="coffee-count">732</span></strong> Cups of coffee*<br>
           <small style="font-style: italic; color: #888;">*consumed by TU Berlin research team</small>
@@ -297,35 +297,44 @@
       (function() {
         const MAX_ITEMS = 12;
         const ACTIVITY_DATA_URL = '{{ "/assets/data/github-activity.json" | relative_url }}';
-        const ACTIVITY_CACHE_KEY = 'githubActivityCacheV1';
-        const ACTIVITY_CACHE_TTL_MS = 24 * 60 * 60 * 1000;
 
-        function loadCachedActivities() {
-          try {
-            const raw = localStorage.getItem(ACTIVITY_CACHE_KEY);
-            if (!raw) return null;
-            const parsed = JSON.parse(raw);
-            if (!parsed || !Array.isArray(parsed.items) || typeof parsed.savedAt !== 'number') return null;
-            if (Date.now() - parsed.savedAt > ACTIVITY_CACHE_TTL_MS) return null;
-            return parsed.items.map(item => ({
-              ...item,
-              date: new Date(item.date),
-              mergedAt: item.mergedAt ? new Date(item.mergedAt) : null
-            }));
-          } catch (_) {
-            return null;
+        function updateSidebarSummary(payload) {
+          const counts = payload && payload.counts ? payload.counts : null;
+          const byRepo = counts && counts.byRepo ? counts.byRepo : {};
+
+          const totalEl = document.getElementById('pr-total-count');
+          if (totalEl && typeof counts?.total === 'number') {
+            totalEl.textContent = counts.total;
           }
+
+          const repoElementMap = {
+            'PyPSA/PyPSA': 'pr-count-pypsa',
+            'PyPSA/pypsa-eur': 'pr-count-pypsa-eur',
+            'PyPSA/atlite': 'pr-count-atlite',
+            'PyPSA/linopy': 'pr-count-linopy',
+            'PyPSA/powerplantmatching': 'pr-count-powerplantmatching'
+          };
+
+          Object.entries(repoElementMap).forEach(([repo, elementId]) => {
+            const el = document.getElementById(elementId);
+            if (el && typeof byRepo[repo] === 'number') {
+              el.textContent = byRepo[repo];
+            }
+          });
         }
 
-        function saveCachedActivities(items) {
-          try {
-            localStorage.setItem(ACTIVITY_CACHE_KEY, JSON.stringify({
-              savedAt: Date.now(),
-              items
-            }));
-          } catch (_) {
-            // Ignore localStorage errors (privacy mode, quota, etc.)
+        async function fetchActivityData() {
+          const res = await fetch(ACTIVITY_DATA_URL, { cache: 'no-store' });
+          if (!res.ok) {
+            throw new Error(`Activity data request failed with status ${res.status}`);
           }
+
+          const payload = await res.json();
+          if (!payload || !Array.isArray(payload.items)) {
+            throw new Error('Activity data file is missing items array');
+          }
+
+          return payload;
         }
 
         function showActivityError(message) {
@@ -346,15 +355,8 @@
           if (!activityList) return;
           
           try {
-            const res = await fetch(ACTIVITY_DATA_URL, { cache: 'no-store' });
-            if (!res.ok) {
-              throw new Error(`Activity data request failed with status ${res.status}`);
-            }
-
-            const payload = await res.json();
-            if (!payload || !Array.isArray(payload.items)) {
-              throw new Error('Activity data file is missing items array');
-            }
+            const payload = await fetchActivityData();
+            updateSidebarSummary(payload);
 
             const topPRs = payload.items
               .map(item => ({
@@ -370,31 +372,16 @@
             // Render activities
             if (topPRs.length > 0) {
               renderActivities(topPRs);
-              saveCachedActivities(topPRs);
               hideActivityLoading();
               return;
             }
 
-            const cached = loadCachedActivities();
-            if (cached && cached.length > 0) {
-              window.githubActivities = cached;
-              renderActivities(cached);
-              showActivityError('Unable to load latest activity file. Showing cached activity from a previous visit.');
-              return;
-            }
-
-            showActivityError('Unable to load activity data. Please try again later.');
+            renderActivities([]);
+            hideActivityLoading();
             
           } catch (error) {
             console.error('Error fetching GitHub activity:', error);
-            const cached = loadCachedActivities();
-            if (cached && cached.length > 0) {
-              window.githubActivities = cached;
-              renderActivities(cached);
-              showActivityError('Unable to load live GitHub activity. Showing cached activity from a previous visit.');
-            } else {
-              showActivityError('Unable to load GitHub activity. Please try again later.');
-            }
+            showActivityError('Unable to load GitHub activity. Please try again later.');
           }
         }
         

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-23T15:55:58Z",
+  "generatedAt": "2026-04-24T05:45:10Z",
   "teamMembers": [
     "Irieo",
     "bobbyxng",
@@ -38,7 +38,7 @@
       "repoUrl": "https://github.com/PyPSA/pypsa-eur",
       "title": "feat: restructure and improve transmission topology + config for all carriers",
       "url": "https://github.com/PyPSA/pypsa-eur/pull/2153",
-      "date": "2026-04-23T15:21:04Z",
+      "date": "2026-04-23T16:36:14Z",
       "number": 2153,
       "state": "open",
       "merged": false,

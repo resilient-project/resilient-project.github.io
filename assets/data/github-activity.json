@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-28T06:15:45Z",
+  "generatedAt": "2026-04-29T06:10:03Z",
   "teamMembers": [
     "Irieo",
     "bobbyxng",
@@ -36,10 +36,10 @@
       "authorUrl": "https://github.com/bobbyxng",
       "repo": "PyPSA/pypsa-eur",
       "repoUrl": "https://github.com/PyPSA/pypsa-eur",
-      "title": "Allow allow subregional NUTS selection.",
-      "url": "https://github.com/PyPSA/pypsa-eur/pull/2146",
-      "date": "2026-04-27T14:00:15Z",
-      "number": 2146,
+      "title": "feat: restructure and improve transmission topology + config for all carriers",
+      "url": "https://github.com/PyPSA/pypsa-eur/pull/2153",
+      "date": "2026-04-28T09:45:36Z",
+      "number": 2153,
       "state": "open",
       "merged": false,
       "mergedAt": null
@@ -50,10 +50,10 @@
       "authorUrl": "https://github.com/bobbyxng",
       "repo": "PyPSA/pypsa-eur",
       "repoUrl": "https://github.com/PyPSA/pypsa-eur",
-      "title": "feat: restructure and improve transmission topology + config for all carriers",
-      "url": "https://github.com/PyPSA/pypsa-eur/pull/2153",
-      "date": "2026-04-27T13:22:30Z",
-      "number": 2153,
+      "title": "Allow allow subregional NUTS selection.",
+      "url": "https://github.com/PyPSA/pypsa-eur/pull/2146",
+      "date": "2026-04-27T14:00:15Z",
+      "number": 2146,
       "state": "open",
       "merged": false,
       "mergedAt": null

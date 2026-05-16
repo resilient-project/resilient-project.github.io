@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T06:43:39Z",
+  "generatedAt": "2026-05-16T06:08:53Z",
   "teamMembers": [
     "Irieo",
     "bobbyxng",
@@ -14,22 +14,50 @@
     "PyPSA/powerplantmatching"
   ],
   "counts": {
-    "total": 124,
+    "total": 125,
     "byRepo": {
       "PyPSA/PyPSA": 42,
-      "PyPSA/pypsa-eur": 73,
+      "PyPSA/pypsa-eur": 74,
       "PyPSA/atlite": 2,
       "PyPSA/linopy": 5,
       "PyPSA/powerplantmatching": 2
     },
     "byUser": {
       "Irieo": 38,
-      "bobbyxng": 65,
+      "bobbyxng": 66,
       "LukasFrankenQ": 9,
       "millingermarkus": 12
     }
   },
   "items": [
+    {
+      "type": "pr",
+      "author": "bobbyxng",
+      "authorUrl": "https://github.com/bobbyxng",
+      "repo": "PyPSA/pypsa-eur",
+      "repoUrl": "https://github.com/PyPSA/pypsa-eur",
+      "title": "fix: URL for SCIGRID gas 1.1.2. archive on data.pypsa.org",
+      "url": "https://github.com/PyPSA/pypsa-eur/pull/2165",
+      "date": "2026-05-15T15:55:11Z",
+      "number": 2165,
+      "state": "closed",
+      "merged": true,
+      "mergedAt": "2026-05-15T15:55:09Z"
+    },
+    {
+      "type": "pr",
+      "author": "bobbyxng",
+      "authorUrl": "https://github.com/bobbyxng",
+      "repo": "PyPSA/pypsa-eur",
+      "repoUrl": "https://github.com/PyPSA/pypsa-eur",
+      "title": "feat: restructure and improve transmission topology + config for all carriers",
+      "url": "https://github.com/PyPSA/pypsa-eur/pull/2153",
+      "date": "2026-05-15T14:23:02Z",
+      "number": 2153,
+      "state": "open",
+      "merged": false,
+      "mergedAt": null
+    },
     {
       "type": "pr",
       "author": "LukasFrankenQ",
@@ -68,20 +96,6 @@
       "url": "https://github.com/PyPSA/pypsa-eur/pull/2147",
       "date": "2026-05-04T09:26:02Z",
       "number": 2147,
-      "state": "open",
-      "merged": false,
-      "mergedAt": null
-    },
-    {
-      "type": "pr",
-      "author": "bobbyxng",
-      "authorUrl": "https://github.com/bobbyxng",
-      "repo": "PyPSA/pypsa-eur",
-      "repoUrl": "https://github.com/PyPSA/pypsa-eur",
-      "title": "feat: restructure and improve transmission topology + config for all carriers",
-      "url": "https://github.com/PyPSA/pypsa-eur/pull/2153",
-      "date": "2026-04-28T09:45:36Z",
-      "number": 2153,
       "state": "open",
       "merged": false,
       "mergedAt": null
@@ -1415,20 +1429,6 @@
       "state": "closed",
       "merged": true,
       "mergedAt": "2024-08-05T09:18:02Z"
-    },
-    {
-      "type": "pr",
-      "author": "millingermarkus",
-      "authorUrl": "https://github.com/millingermarkus",
-      "repo": "PyPSA/pypsa-eur",
-      "repoUrl": "https://github.com/PyPSA/pypsa-eur",
-      "title": "Separation of municipal solid waste from solid biomass and connection to waste CHPs",
-      "url": "https://github.com/PyPSA/pypsa-eur/pull/1134",
-      "date": "2024-08-05T08:56:24Z",
-      "number": 1134,
-      "state": "closed",
-      "merged": true,
-      "mergedAt": "2024-08-05T08:56:24Z"
     }
   ]
 }

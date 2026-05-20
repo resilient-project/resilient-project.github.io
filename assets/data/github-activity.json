@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-19T06:57:56Z",
+  "generatedAt": "2026-05-20T06:58:23Z",
   "teamMembers": [
     "Irieo",
     "bobbyxng",
@@ -30,6 +30,20 @@
     }
   },
   "items": [
+    {
+      "type": "pr",
+      "author": "bobbyxng",
+      "authorUrl": "https://github.com/bobbyxng",
+      "repo": "PyPSA/linopy",
+      "repoUrl": "https://github.com/PyPSA/linopy",
+      "title": "feat: add m.dualize() and m.bounds_to_constraints() for LP dualization",
+      "url": "https://github.com/PyPSA/linopy/pull/626",
+      "date": "2026-05-19T09:21:54Z",
+      "number": 626,
+      "state": "open",
+      "merged": false,
+      "mergedAt": null
+    },
     {
       "type": "pr",
       "author": "bobbyxng",
@@ -96,20 +110,6 @@
       "url": "https://github.com/PyPSA/pypsa-eur/pull/2147",
       "date": "2026-05-04T09:26:02Z",
       "number": 2147,
-      "state": "open",
-      "merged": false,
-      "mergedAt": null
-    },
-    {
-      "type": "pr",
-      "author": "bobbyxng",
-      "authorUrl": "https://github.com/bobbyxng",
-      "repo": "PyPSA/linopy",
-      "repoUrl": "https://github.com/PyPSA/linopy",
-      "title": "feat: add m.dualize() and m.bounds_to_constraints() for LP dualization",
-      "url": "https://github.com/PyPSA/linopy/pull/626",
-      "date": "2026-04-08T12:04:02Z",
-      "number": 626,
       "state": "open",
       "merged": false,
       "mergedAt": null

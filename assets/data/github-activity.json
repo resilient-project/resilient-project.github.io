@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-01T08:45:58Z",
+  "generatedAt": "2026-06-02T08:07:26Z",
   "teamMembers": [
     "Irieo",
     "bobbyxng",
@@ -38,7 +38,7 @@
       "repoUrl": "https://github.com/PyPSA/linopy",
       "title": "feat: add m.dualize() and m.bounds_to_constraints() for LP dualization",
       "url": "https://github.com/PyPSA/linopy/pull/626",
-      "date": "2026-05-27T15:29:49Z",
+      "date": "2026-06-01T11:07:12Z",
       "number": 626,
       "state": "open",
       "merged": false,

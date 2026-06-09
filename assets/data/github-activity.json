@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T08:23:15Z",
+  "generatedAt": "2026-06-09T06:59:31Z",
   "teamMembers": [
     "Irieo",
     "bobbyxng",
@@ -34,26 +34,26 @@
       "type": "pr",
       "author": "bobbyxng",
       "authorUrl": "https://github.com/bobbyxng",
+      "repo": "PyPSA/pypsa-eur",
+      "repoUrl": "https://github.com/PyPSA/pypsa-eur",
+      "title": "Fix DC junctions in simplify_network",
+      "url": "https://github.com/PyPSA/pypsa-eur/pull/2147",
+      "date": "2026-06-08T18:50:54Z",
+      "number": 2147,
+      "state": "closed",
+      "merged": true,
+      "mergedAt": "2026-06-08T18:50:52Z"
+    },
+    {
+      "type": "pr",
+      "author": "bobbyxng",
+      "authorUrl": "https://github.com/bobbyxng",
       "repo": "PyPSA/linopy",
       "repoUrl": "https://github.com/PyPSA/linopy",
       "title": "feat: add m.dualize()",
       "url": "https://github.com/PyPSA/linopy/pull/626",
       "date": "2026-06-02T12:39:33Z",
       "number": 626,
-      "state": "open",
-      "merged": false,
-      "mergedAt": null
-    },
-    {
-      "type": "pr",
-      "author": "bobbyxng",
-      "authorUrl": "https://github.com/bobbyxng",
-      "repo": "PyPSA/pypsa-eur",
-      "repoUrl": "https://github.com/PyPSA/pypsa-eur",
-      "title": "Fix DC junctions in simplify_network",
-      "url": "https://github.com/PyPSA/pypsa-eur/pull/2147",
-      "date": "2026-05-20T16:04:00Z",
-      "number": 2147,
       "state": "open",
       "merged": false,
       "mergedAt": null

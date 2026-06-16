@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T09:35:41Z",
+  "generatedAt": "2026-06-16T09:05:09Z",
   "teamMembers": [
     "Irieo",
     "bobbyxng",
@@ -178,7 +178,7 @@
       "repoUrl": "https://github.com/PyPSA/PyPSA",
       "title": "Add example: market power model",
       "url": "https://github.com/PyPSA/PyPSA/pull/1570",
-      "date": "2026-02-27T12:35:43Z",
+      "date": "2026-06-16T07:21:03Z",
       "number": 1570,
       "state": "closed",
       "merged": true,

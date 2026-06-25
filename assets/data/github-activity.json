@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T06:57:36Z",
+  "generatedAt": "2026-06-25T06:57:24Z",
   "teamMembers": [
     "Irieo",
     "bobbyxng",
@@ -14,22 +14,36 @@
     "PyPSA/powerplantmatching"
   ],
   "counts": {
-    "total": 125,
+    "total": 126,
     "byRepo": {
-      "PyPSA/PyPSA": 42,
+      "PyPSA/PyPSA": 43,
       "PyPSA/pypsa-eur": 74,
       "PyPSA/atlite": 2,
       "PyPSA/linopy": 5,
       "PyPSA/powerplantmatching": 2
     },
     "byUser": {
-      "Irieo": 38,
+      "Irieo": 39,
       "bobbyxng": 66,
       "LukasFrankenQ": 9,
       "millingermarkus": 12
     }
   },
   "items": [
+    {
+      "type": "pr",
+      "author": "Irieo",
+      "authorUrl": "https://github.com/Irieo",
+      "repo": "PyPSA/PyPSA",
+      "repoUrl": "https://github.com/PyPSA/PyPSA",
+      "title": "Text correction in imperfect competition example",
+      "url": "https://github.com/PyPSA/PyPSA/pull/1751",
+      "date": "2026-06-24T13:50:49Z",
+      "number": 1751,
+      "state": "open",
+      "merged": false,
+      "mergedAt": null
+    },
     {
       "type": "pr",
       "author": "LukasFrankenQ",
@@ -1415,20 +1429,6 @@
       "state": "closed",
       "merged": true,
       "mergedAt": "2024-08-12T14:56:10Z"
-    },
-    {
-      "type": "pr",
-      "author": "bobbyxng",
-      "authorUrl": "https://github.com/bobbyxng",
-      "repo": "PyPSA/pypsa-eur",
-      "repoUrl": "https://github.com/PyPSA/pypsa-eur",
-      "title": "Fix: Correction of Moyle Interconnector capacity in links_p_nom.csv to 500 MW",
-      "url": "https://github.com/PyPSA/pypsa-eur/pull/1199",
-      "date": "2024-08-05T09:18:03Z",
-      "number": 1199,
-      "state": "closed",
-      "merged": true,
-      "mergedAt": "2024-08-05T09:18:02Z"
     }
   ]
 }

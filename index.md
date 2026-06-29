@@ -135,6 +135,10 @@ To maximize impact, we will organize workshops and training events involving a b
 
 - [Addition of unsustainable biomass potentials](https://github.com/PyPSA/pypsa-eur/pull/1139) — Improved representation of biomass conversion pathways.
 
+### SMS++ and solver integration
+
+- [PIPS-IPM++ hackathon: direct SMS++ MILPSolver interface](https://resilient-project.github.io/static/uploads/062026_hackaton_pipssms.pdf) — Enrico Calandrini from the UniPI won second place at the [PIPS-IPM++ hackathon](https://www.zib.de/other/PIPS-Hackathon/) by extending the SMS++ `MILPSolver` class to interface directly with PIPS-IPM++. The results are particularly promising for large two-stage stochastic problems and benefit the wider energy modelling community by enabling large stochastic energy-system models without relying on commercial solvers.
+
 ## Explore our recent work {#github-activity}
 
 *Live feed of recent pull requests by RESILIENT team members to PyPSA and PyPSA-Eur repositories.*

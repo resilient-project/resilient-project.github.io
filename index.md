@@ -73,10 +73,14 @@ To maximize impact, we will organize workshops and training events involving a b
 -- [Workshop materials](https://resilient-project.github.io/pypsa-workshop-202511/intro.html)
 <img src="assets/img/gothenburg.jpg" alt="Gothenburg Workshop Participants" width="420"/>
 
-- **Workshop with North Rhine-Westphalia industrial stakeholders**  
+- **Workshop with North Rhine-Westphalia industrial stakeholders** (~30 participants)   
 *Organized by IN4climate.NRW, Fraunhofer ISI and TUB, 1 Dec 2025*  
 -- [Project introduction and NRW Case Study setup](https://drive.google.com/file/d/1ugGP73qzjQgU9EOi5SyRGBGoBJgG_uo4/view)  
 -- [First modelling results](https://resilient-project.github.io/static/uploads/NRW-Workshop-Erste-Ergebnisse.pdf)  
+
+- **Workshop with North Rhine-Westphalia industrial stakeholders (final results)** (~30 participants)
+*Organized by IN4climate.NRW, Fraunhofer ISI and TUB, 30 June 2026*  
+-- [Presentation of the NRW case study: CO2 capture, transport, utilisation and sequestration infrastructure for industry decarbonisation](https://resilient-project.github.io/static/uploads/2026-06-30-CO2-Sprint-NRW-Study-share.pdf)  
 
 ## Research papers {#research-papers}
 

@@ -233,6 +233,8 @@ To maximize impact, we will organize workshops and training events involving a b
 
 - [Blog: "Price formation without fuel costs"](https://nworbmot.org/blog/price-formation-without-fuel-costs.html) — A science-explainer blog post by Tom Brown based on our new paper in *Energy Economics*.
 
+- [PEREGRINE PIPS-IPM++ Hackathon: 2nd place winner](https://www.linkedin.com/posts/janina-zittel-4b4038140_optimization-hpc-energymodelling-ugcPost-7477296765893980160-Wr6E/) — Enrico Calandrini (University of Pisa) wins second place at the PEREGRINE PIPS-IPM++ Hackathon for integrating PIPS-IPM++ into the SMS++ framework.
+
 ## Formal deliverables {#deliverables}
 
 D1.1: [Project website](https://resilient-project.github.io/)\

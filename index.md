@@ -5,7 +5,9 @@
 layout: default
 ---
 
-# Resilient (Resilient Energy System Infrastructure Layouts for Industry, E-Fuels and Network Transitions)
+# RESILIENT
+
+<p class="project-subtitle">Resilient Energy System Infrastructure Layouts for Industry, E-Fuels and Network Transitions</p>
 
 The energy transition faces many uncertainties, yet planning tools are often deterministic. Our proposal aims to develop the first truly multi-vector energy infrastructure planning tool that represents this uncertain environment at regional, national, and European levels.
 
@@ -17,9 +19,9 @@ For this project, we have assembled a team of leading academic researchers and i
 
 To maximize impact, we will organize workshops and training events involving a broader circle of need-owners and stakeholders, ensuring the wide adoption of project results.
 
-<img src="assets/img/pypsaeur.png" alt="pypsa-eur" width="500"/>
+<img src="assets/img/pypsaeur.webp" alt="pypsa-eur" width="500" height="227" loading="lazy" decoding="async"/>
 
-<img src="assets/img/resilient-v3.1.png" alt="project-structure" width="480"/>
+<img src="assets/img/resilient-v3.1.webp" alt="project-structure" width="480" height="268" loading="lazy" decoding="async"/>
 
 ## Workshops and PyPSA(-Eur) training events {#workshops}
 
@@ -36,28 +38,28 @@ To maximize impact, we will organize workshops and training events involving a b
 -- [Workshop invitation](https://www.linkedin.com/feed/update/urn:li:activity:7274361929098317824/)  
 -- [Teaching materials – PyPSA-Eur](https://docs.google.com/presentation/d/1jqMp5ZYhTRi6gNDoa1UgDzGFLU5ifxeLgfW0R8FBTB4)  
 -- [Teaching materials – PyPSA](https://irieo.github.io/workshop-pypsa-transnetbw/intro.html)
-<img src="assets/img/stuttgart_fn.jpg" alt="Stuttgart Workshop" width="420"/>
+<img src="assets/img/stuttgart_fn.webp" alt="Stuttgart Workshop" width="420" height="271" loading="lazy" decoding="async"/>
 
 - <a id="workshop-gasunie-2025-02"></a> **Energy system modelling workshop for cross-sector stakeholders (Groningen)**  
 (~20 participants from industry, academia, NGOs, and consulting firms)  
 *Hosted by Gasunie, Netherlands | 25–26 February 2025 | Conducted by TUB*  
 -- [Teaching materials – PyPSA-Eur](https://docs.google.com/presentation/d/12FQCupOkddtNy6psd9M01N4_hmblauad0gaH1bLJB3o/edit#slide=id.g1ec455a5967_0_0)  
 -- [Teaching materials – PyPSA](https://fneum.github.io/gasunie-workshop/intro.html)
-<img src="assets/img/gasunie.jpeg" alt="Gasunie Workshop" width="420"/>
+<img src="assets/img/gasunie.webp" alt="Gasunie Workshop" width="420" height="315" loading="lazy" decoding="async"/>
 
 - **Energy modelling workshop with German transmission system operators (TSOs)**  
 (Participants from 50Hertz, Amprion, TenneT, TransnetBW)  
 *Hosted by 50Hertz, Berlin | 12 May 2025 | Conducted by TUB and TransnetBW*  
 -- [Workshop materials](https://resilient-project.github.io/pypsa-workshop/intro.html)  
 -- [LinkedIn summary](https://www.linkedin.com/feed/update/urn:li:activity:7332767362061844480/)
-<img src="assets/img/4tso.jpg" alt="4TSO Workshop Participants" width="420"/>
+<img src="assets/img/4tso.webp" alt="4TSO Workshop Participants" width="420" height="318" loading="lazy" decoding="async"/>
 
 - <a id="workshop-tub-2025-05"></a> **Energy modelling workshop for cross-sector stakeholders (Berlin)**  
 (~30 participants from industry, academia, NGOs, and consulting firms)  
 *Hosted by TU Berlin | 22–23 May 2025 | Conducted by TUB*  
 -- [Workshop invitation](https://www.linkedin.com/posts/fabian-neumann-renewables_pypsa-eur-workshop-at-tu-berlin-activity-7309188508894543873-Ycsq?utm_source=share&utm_medium=member_desktop&rcm=ACoAADhk2oEBLgmYCVN1a_pvp6Q2ezECxNhJekw)  
 -- [Workshop materials](https://resilient-project.github.io/pypsa-workshop-202505/intro.html)
-<img src="assets/img/tub.jpg" alt="TUB Workshop Participants" width="420"/>
+<img src="assets/img/tub.webp" alt="TUB Workshop Participants" width="420" height="292" loading="lazy" decoding="async"/>
 
 - <a id="workshop-dtu-2025-06"></a> **Energy modelling workshop for cross-sector stakeholders (Copenhagen)** (~50 participants)  
 *Hosted by DTU, Denmark (Prof. Marta Victoria and the team) | 26–27 June 2025 | Conducted by TUB and DTU*  
@@ -65,13 +67,13 @@ To maximize impact, we will organize workshops and training events involving a b
 -- [LinkedIn summary](https://www.linkedin.com/feed/update/urn:li:activity:7345308702389731328/)  
 -- [Workshop materials](https://resilient-project.github.io/pypsa-workshop-202506/intro.html)  
 -- [Videos](https://resilient-project.github.io/pypsa-workshop-202506/videos.html)
-<img src="assets/img/dtu.jpeg" alt="DTU Workshop Participants" width="420"/>
+<img src="assets/img/dtu.webp" alt="DTU Workshop Participants" width="420" height="280" loading="lazy" decoding="async"/>
 
 - <a id="workshop-rise-2025-11"></a> **Energy modelling workshop for cross-sector stakeholders (Gothenburg)** (35 participants)  
 *Hosted by RISE in Sweden (Dr. Markus Millinger) | November 2025 | Conducted by TUB and RISE*  
 -- [Workshop invitation](https://www.linkedin.com/posts/markus-millinger-4b482639_pypsa-energy-infrastructure-activity-7380914083060924416-7rdB/)\
 -- [Workshop materials](https://resilient-project.github.io/pypsa-workshop-202511/intro.html)
-<img src="assets/img/gothenburg.jpg" alt="Gothenburg Workshop Participants" width="420"/>
+<img src="assets/img/gothenburg.webp" alt="Gothenburg Workshop Participants" width="420" height="286" loading="lazy" decoding="async"/>
 
 - **Workshop with North Rhine-Westphalia industrial stakeholders** (~30 participants)   
 *Organized by IN4climate.NRW, Fraunhofer ISI and TUB, 1 Dec 2025*  
@@ -86,6 +88,10 @@ To maximize impact, we will organize workshops and training events involving a b
 
 - <div data-badge-type="donut" data-arxiv-id="2607.21048" class="altmetric-embed"></div>[Accelerating fossil gas independence in Europe](https://arxiv.org/abs/2607.21048) — Franken, Riepin & Brown, *arXiv*, July 2026
 
+- <div data-badge-type="donut" data-doi="10.1088/1748-9326/ae3846" class="altmetric-embed"></div>[The role of Projects of Common Interest in reaching Europe's energy policy targets](https://iopscience.iop.org/article/10.1088/1748-9326/ae3846) — Xiong, Brown & Riepin, *Environmental Research Letters*, 2026
+
+- <div data-badge-type="donut" data-doi="10.1016/j.apenergy.2026.127671" class="altmetric-embed"></div>[Adaptive Robust Optimization for European Electricity System Planning Considering Regional Dunkelflaute Events](https://doi.org/10.1016/j.apenergy.2026.127671) — Bernecker et al., *Applied Energy*, 2026
+
 - <div data-badge-type="donut" data-doi="10.1038/s41597-025-04550-7" class="altmetric-embed"></div>[Modelling the high-voltage grid using open data for Europe and beyond](https://www.nature.com/articles/s41597-025-04550-7) — Xiong et al., *Nature Scientific Data*, 2025
 
 - <div data-badge-type="donut" data-doi="10.1038/s41560-024-01693-6" class="altmetric-embed"></div>[Diversity of biomass usage pathways to achieve emissions targets in the European energy system](https://www.nature.com/articles/s41560-024-01693-6) — Millinger et al., *Nature Energy*, 2025
@@ -93,10 +99,6 @@ To maximize impact, we will organize workshops and training events involving a b
 - <div data-badge-type="donut" data-doi="10.1038/s41560-024-01685-6" class="altmetric-embed"></div>[Biomass exclusion must be weighed against benefits of carbon supply in European energy system](https://www.nature.com/articles/s41560-024-01685-6) — Millinger et al., Policy brief in *Nature Energy*, 2025
 
 - <div data-badge-type="donut" data-doi="10.1016/j.eneco.2025.108483" class="altmetric-embed"></div>[Price formation without fuel costs---the interaction of elastic demand with storage bidding](https://doi.org/10.1016/j.eneco.2025.108483) — Brown, Neumann & Riepin, *Energy Economics*, 2025
-
-- <div data-badge-type="donut" data-doi="10.1088/1748-9326/ae3846" class="altmetric-embed"></div>[The role of Projects of Common Interest in reaching Europe's energy policy targets](https://iopscience.iop.org/article/10.1088/1748-9326/ae3846) — Xiong, Brown & Riepin, *Environmental Research Letters*, 2026
-
-- <div data-badge-type="donut" data-doi="10.1016/j.apenergy.2026.127671" class="altmetric-embed"></div>[Adaptive Robust Optimization for European Electricity System Planning Considering Regional Dunkelflaute Events](https://doi.org/10.1016/j.apenergy.2026.127671) — Bernecker et al., *Applied Energy*, 2026
 
 - <div data-badge-type="donut" data-doi="10.1016/j.apenergy.2025.125316" class="altmetric-embed"></div>[PyPSA-Earth sector-coupled: A global open-source multi-energy system model showcased for hydrogen applications in countries of the Global South](https://doi.org/10.1016/j.apenergy.2025.125316) — Abdel-Khalek et al., *Applied Energy*, 2025
 
@@ -259,7 +261,7 @@ MS4: [Integrated enhanced biomass and carbon infrastructure representation into 
 
 ## About us: partners of the RESILIENT project {#about-us}
 
-<img src="assets/img/resilient-partners.png" alt="project-partners" width="500"/>
+<img src="assets/img/resilient-partners.webp" alt="project-partners" width="500" height="243" loading="lazy" decoding="async"/>
 
 - At the [Technical University of Berlin (TUB)](https://tu.berlin), the department of Digital Transformation in Energy Systems
 is the lead developer of the open energy system modelling framework PyPSA and the high-resolution

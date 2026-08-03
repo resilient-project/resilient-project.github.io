@@ -84,6 +84,8 @@ To maximize impact, we will organize workshops and training events involving a b
 
 ## Research papers {#research-papers}
 
+- <div data-badge-type="donut" data-arxiv-id="2607.21048" class="altmetric-embed"></div>[Accelerating fossil gas independence in Europe](https://arxiv.org/abs/2607.21048) — Franken, Riepin & Brown, *arXiv*, July 2026
+
 - <div data-badge-type="donut" data-doi="10.1038/s41597-025-04550-7" class="altmetric-embed"></div>[Modelling the high-voltage grid using open data for Europe and beyond](https://www.nature.com/articles/s41597-025-04550-7) — Xiong et al., *Nature Scientific Data*, 2025
 
 - <div data-badge-type="donut" data-doi="10.1038/s41560-024-01693-6" class="altmetric-embed"></div>[Diversity of biomass usage pathways to achieve emissions targets in the European energy system](https://www.nature.com/articles/s41560-024-01693-6) — Millinger et al., *Nature Energy*, 2025
@@ -208,6 +210,8 @@ To maximize impact, we will organize workshops and training events involving a b
 - *16 April 2026* @ Civil Resilience Forum Berlin 2026, Berlin — [Open-source data, tools and energy system models for civil society protection](https://iriepin.com/uploads/euciv.pdf)
 
 ## Media highlights {#public-outreach}
+
+- [Accelerating fossil gas independence in Europe](https://www.linkedin.com/posts/lukas-franken-5a3045151_europe-energysecurity-naturalgas-ugcPost-7487763941994049537-vSz2/) — Lukas Franken writes about a new paper addressing the pathways for Europe to phase out fossil gas imports.
 
 - [www.energieforschung.de: Versorgungssicherheit & Resilienz](https://www.energieforschung.de/de/aktuelles/projekteinblicke/2025//versorgungssicherheit-resilienz) — energieforschung.de portal featured an article about the RESILIENT project.
 

@@ -211,6 +211,10 @@ To maximize impact, we will organize workshops and training events involving a b
 
 - *16 April 2026* @ Civil Resilience Forum Berlin 2026, Berlin — [Open-source data, tools and energy system models for civil society protection](https://iriepin.com/uploads/euciv.pdf)
 
+- *19 May 2026* @ CETPartnership Workshop "Flexibility solutions for resilient carbon-free energy systems", Online — [The Outsized Effect of Gas on Battery Dispatch Prices: Network Management in the RESILIENT project](https://resilient-project.github.io/static/uploads/CETP-May-2026-Franken.pdf)
+
+- *10 June 2026* @ Chalmers University research seminar, Gothenburg, Sweden — [Accelerating fossil gas independence in Europe](https://gas-website-weld.vercel.app/#) (interactive dashboard)
+
 ## Media highlights {#public-outreach}
 
 - [Accelerating fossil gas independence in Europe](https://www.linkedin.com/posts/lukas-franken-5a3045151_europe-energysecurity-naturalgas-ugcPost-7487763941994049537-vSz2/) — Lukas Franken writes about a new paper addressing the pathways for Europe to phase out fossil gas imports.

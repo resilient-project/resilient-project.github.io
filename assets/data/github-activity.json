@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T05:04:28Z",
+  "generatedAt": "2026-08-15T03:55:59Z",
   "teamMembers": [
     "Irieo",
     "bobbyxng",
@@ -30,6 +30,20 @@
     }
   },
   "items": [
+    {
+      "type": "pr",
+      "author": "bobbyxng",
+      "authorUrl": "https://github.com/bobbyxng",
+      "repo": "PyPSA/pypsa-eur",
+      "repoUrl": "https://github.com/PyPSA/pypsa-eur",
+      "title": "Initial draft architecture for FAQ/Troubleshooting.",
+      "url": "https://github.com/PyPSA/pypsa-eur/pull/1939",
+      "date": "2026-08-14T09:47:24Z",
+      "number": 1939,
+      "state": "closed",
+      "merged": true,
+      "mergedAt": "2026-08-14T09:47:23Z"
+    },
     {
       "type": "pr",
       "author": "LukasFrankenQ",
@@ -379,20 +393,6 @@
       "state": "closed",
       "merged": true,
       "mergedAt": "2026-01-15T15:15:25Z"
-    },
-    {
-      "type": "pr",
-      "author": "bobbyxng",
-      "authorUrl": "https://github.com/bobbyxng",
-      "repo": "PyPSA/pypsa-eur",
-      "repoUrl": "https://github.com/PyPSA/pypsa-eur",
-      "title": "Initial draft architecture for FAQ/Troubleshooting.",
-      "url": "https://github.com/PyPSA/pypsa-eur/pull/1939",
-      "date": "2026-01-07T14:26:59Z",
-      "number": 1939,
-      "state": "open",
-      "merged": false,
-      "mergedAt": null
     },
     {
       "type": "pr",

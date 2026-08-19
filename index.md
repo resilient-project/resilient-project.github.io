@@ -92,6 +92,8 @@ To maximize impact, we will organize workshops and training events involving a b
 
 - <div data-badge-type="donut" data-doi="10.1016/j.apenergy.2026.127671" class="altmetric-embed"></div>[Adaptive Robust Optimization for European Electricity System Planning Considering Regional Dunkelflaute Events](https://doi.org/10.1016/j.apenergy.2026.127671) — Bernecker et al., *Applied Energy*, 2026
 
+- <div data-badge-type="donut" data-doi="10.1016/j.energy.2026.141587" class="altmetric-embed"></div>[The value of CO2 point source capture for the energy-industry system transition](https://doi.org/10.1016/j.energy.2026.141587) — Galimova et al., *Energy*, 2026
+
 - <div data-badge-type="donut" data-doi="10.1038/s41597-025-04550-7" class="altmetric-embed"></div>[Modelling the high-voltage grid using open data for Europe and beyond](https://www.nature.com/articles/s41597-025-04550-7) — Xiong et al., *Nature Scientific Data*, 2025
 
 - <div data-badge-type="donut" data-doi="10.1038/s41560-024-01693-6" class="altmetric-embed"></div>[Diversity of biomass usage pathways to achieve emissions targets in the European energy system](https://www.nature.com/articles/s41560-024-01693-6) — Millinger et al., *Nature Energy*, 2025
@@ -116,6 +118,10 @@ To maximize impact, we will organize workshops and training events involving a b
 
 - <div data-badge-type="donut" data-doi="10.1016/j.segan.2025.101650" class="altmetric-embed"></div>[Integrated stochastic reserve estimation and MILP energy planning for high renewable penetration: Application to 2050 South African energy system](https://doi.org/10.1016/j.segan.2025.101650) — Giglio et al., *Sustainable Energy, Grids and Networks*, 2025
 
+
+## Case studies {#case-studies}
+
+- **Case study Finland (LUT):** [The value of CO2 point source capture for the energy-industry system transition](https://doi.org/10.1016/j.energy.2026.141587) — System-level analysis of Finland's energy-industry transition comparing CO2 point source capture from sustainable and unavoidable sources (biomass power plants, pulp and paper mills, waste incinerators, cement plants) with direct air capture as CO2 feedstock for e-fuels.
 
 ## Code contributions to PyPSA and PyPSA-Eur {#code-contributions}
 

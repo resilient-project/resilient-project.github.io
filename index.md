@@ -135,7 +135,13 @@ To maximize impact, we will organize workshops and training events involving a b
 
 - [Interactive network visualization](https://github.com/PyPSA/PyPSA/pull/1009) and [enhanced Pydeck-based mapping](https://github.com/PyPSA/PyPSA/pull/1312) — Introduction of `n.explore()` function for aesthetically beautiful, feature-rich scientific maps for exploration of modelling inputs and results; followed by architecture overhaul using Pydeck for high-performance interactive visualization.
 
+### Linopy
+
+- [Automatic dualization of linear optimization models](https://github.com/PyPSA/linopy/pull/626) — The new `Model.dualize()` method automatically derives the dual model from a linear primal model. Rleased with Linopy v0.8.0 in June 2026, it lays a foundation for robust optimization methods and decomposition approaches.
+
 ### PyPSA-Eur
+
+- [Endogenous industrial process heat](https://github.com/PyPSA/pypsa-eur/pull/1943) — An extension of PyPSA-Eur representing industrial process heat sector in the temperature bands 100–200 °C, 200–500 °C, and above 500 °C, with individual industry branches selectable by the user. This improves the modelling of fuel and technology switching options.
 
 - [Multiple weather years in one optimisation problem](https://github.com/PyPSA/pypsa-eur/pull/1613) — Support for handling multiple consecutive or non-consecutive weather years within a single optimization model, enabling flexible time periods (e.g., meteorological years) and improved representation of weather variability for robust energy system planning.
 

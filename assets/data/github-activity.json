@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T08:05:47Z",
+  "generatedAt": "2026-09-04T08:00:57Z",
   "teamMembers": [
     "Irieo",
     "bobbyxng",
@@ -38,7 +38,7 @@
       "repoUrl": "https://github.com/PyPSA/pypsa-eur",
       "title": "Endogenous Industry Heat",
       "url": "https://github.com/PyPSA/pypsa-eur/pull/1943",
-      "date": "2026-09-01T09:03:46Z",
+      "date": "2026-09-03T12:49:46Z",
       "number": 1943,
       "state": "open",
       "merged": false,

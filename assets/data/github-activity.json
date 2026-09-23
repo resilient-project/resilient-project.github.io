@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T08:35:35Z",
+  "generatedAt": "2026-09-23T08:37:52Z",
   "teamMembers": [
     "Irieo",
     "bobbyxng",
@@ -14,22 +14,36 @@
     "PyPSA/powerplantmatching"
   ],
   "counts": {
-    "total": 126,
+    "total": 127,
     "byRepo": {
       "PyPSA/PyPSA": 43,
-      "PyPSA/pypsa-eur": 74,
+      "PyPSA/pypsa-eur": 75,
       "PyPSA/atlite": 2,
       "PyPSA/linopy": 5,
       "PyPSA/powerplantmatching": 2
     },
     "byUser": {
       "Irieo": 39,
-      "bobbyxng": 66,
+      "bobbyxng": 67,
       "LukasFrankenQ": 9,
       "millingermarkus": 12
     }
   },
   "items": [
+    {
+      "type": "pr",
+      "author": "bobbyxng",
+      "authorUrl": "https://github.com/bobbyxng",
+      "repo": "PyPSA/pypsa-eur",
+      "repoUrl": "https://github.com/PyPSA/pypsa-eur",
+      "title": "fix: iron-air storage sizing",
+      "url": "https://github.com/PyPSA/pypsa-eur/pull/2298",
+      "date": "2026-09-22T11:03:28Z",
+      "number": 2298,
+      "state": "open",
+      "merged": false,
+      "mergedAt": null
+    },
     {
       "type": "pr",
       "author": "LukasFrankenQ",
@@ -1415,20 +1429,6 @@
       "state": "closed",
       "merged": true,
       "mergedAt": "2024-08-14T08:24:39Z"
-    },
-    {
-      "type": "pr",
-      "author": "bobbyxng",
-      "authorUrl": "https://github.com/bobbyxng",
-      "repo": "PyPSA/pypsa-eur",
-      "repoUrl": "https://github.com/PyPSA/pypsa-eur",
-      "title": "Updated under_construction status of links that are commissioned by now",
-      "url": "https://github.com/PyPSA/pypsa-eur/pull/1205",
-      "date": "2024-08-12T14:56:10Z",
-      "number": 1205,
-      "state": "closed",
-      "merged": true,
-      "mergedAt": "2024-08-12T14:56:10Z"
     }
   ]
 }

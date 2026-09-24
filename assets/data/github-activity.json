@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T08:37:52Z",
+  "generatedAt": "2026-09-24T08:30:46Z",
   "teamMembers": [
     "Irieo",
     "bobbyxng",
@@ -14,22 +14,36 @@
     "PyPSA/powerplantmatching"
   ],
   "counts": {
-    "total": 127,
+    "total": 128,
     "byRepo": {
       "PyPSA/PyPSA": 43,
-      "PyPSA/pypsa-eur": 75,
+      "PyPSA/pypsa-eur": 76,
       "PyPSA/atlite": 2,
       "PyPSA/linopy": 5,
       "PyPSA/powerplantmatching": 2
     },
     "byUser": {
       "Irieo": 39,
-      "bobbyxng": 67,
+      "bobbyxng": 68,
       "LukasFrankenQ": 9,
       "millingermarkus": 12
     }
   },
   "items": [
+    {
+      "type": "pr",
+      "author": "bobbyxng",
+      "authorUrl": "https://github.com/bobbyxng",
+      "repo": "PyPSA/pypsa-eur",
+      "repoUrl": "https://github.com/PyPSA/pypsa-eur",
+      "title": "fix: pandas 3 compatibility in OSM network build",
+      "url": "https://github.com/PyPSA/pypsa-eur/pull/2300",
+      "date": "2026-09-23T11:15:04Z",
+      "number": 2300,
+      "state": "open",
+      "merged": false,
+      "mergedAt": null
+    },
     {
       "type": "pr",
       "author": "bobbyxng",
@@ -1415,20 +1429,6 @@
       "state": "closed",
       "merged": true,
       "mergedAt": "2024-08-14T12:22:04Z"
-    },
-    {
-      "type": "pr",
-      "author": "bobbyxng",
-      "authorUrl": "https://github.com/bobbyxng",
-      "repo": "PyPSA/pypsa-eur",
-      "repoUrl": "https://github.com/PyPSA/pypsa-eur",
-      "title": "Fix simplify_network.py to handle more complex topologies",
-      "url": "https://github.com/PyPSA/pypsa-eur/pull/1211",
-      "date": "2024-08-14T08:24:39Z",
-      "number": 1211,
-      "state": "closed",
-      "merged": true,
-      "mergedAt": "2024-08-14T08:24:39Z"
     }
   ]
 }

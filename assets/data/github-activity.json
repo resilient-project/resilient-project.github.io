@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T08:52:14Z",
+  "generatedAt": "2026-09-26T08:38:56Z",
   "teamMembers": [
     "Irieo",
     "bobbyxng",
@@ -38,11 +38,11 @@
       "repoUrl": "https://github.com/PyPSA/pypsa-eur",
       "title": "fix: pandas 3 compatibility in OSM network build",
       "url": "https://github.com/PyPSA/pypsa-eur/pull/2300",
-      "date": "2026-09-23T11:15:04Z",
+      "date": "2026-09-25T13:47:55Z",
       "number": 2300,
-      "state": "open",
-      "merged": false,
-      "mergedAt": null
+      "state": "closed",
+      "merged": true,
+      "mergedAt": "2026-09-25T13:47:53Z"
     },
     {
       "type": "pr",

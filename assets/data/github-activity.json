@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T09:50:52Z",
+  "generatedAt": "2026-09-29T09:53:35Z",
   "teamMembers": [
     "Irieo",
     "bobbyxng",
@@ -36,13 +36,13 @@
       "authorUrl": "https://github.com/bobbyxng",
       "repo": "PyPSA/pypsa-eur",
       "repoUrl": "https://github.com/PyPSA/pypsa-eur",
-      "title": "fix: pandas 3 compatibility in OSM network build",
-      "url": "https://github.com/PyPSA/pypsa-eur/pull/2300",
-      "date": "2026-09-25T13:47:55Z",
-      "number": 2300,
+      "title": "fix: iron-air storage sizing",
+      "url": "https://github.com/PyPSA/pypsa-eur/pull/2298",
+      "date": "2026-09-29T09:39:06Z",
+      "number": 2298,
       "state": "closed",
       "merged": true,
-      "mergedAt": "2026-09-25T13:47:53Z"
+      "mergedAt": "2026-09-29T09:39:06Z"
     },
     {
       "type": "pr",
@@ -50,13 +50,13 @@
       "authorUrl": "https://github.com/bobbyxng",
       "repo": "PyPSA/pypsa-eur",
       "repoUrl": "https://github.com/PyPSA/pypsa-eur",
-      "title": "fix: iron-air storage sizing",
-      "url": "https://github.com/PyPSA/pypsa-eur/pull/2298",
-      "date": "2026-09-22T11:03:28Z",
-      "number": 2298,
-      "state": "open",
-      "merged": false,
-      "mergedAt": null
+      "title": "fix: pandas 3 compatibility in OSM network build",
+      "url": "https://github.com/PyPSA/pypsa-eur/pull/2300",
+      "date": "2026-09-25T13:47:55Z",
+      "number": 2300,
+      "state": "closed",
+      "merged": true,
+      "mergedAt": "2026-09-25T13:47:53Z"
     },
     {
       "type": "pr",

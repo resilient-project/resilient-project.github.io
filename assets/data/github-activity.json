@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T09:45:45Z",
+  "generatedAt": "2026-10-01T10:11:56Z",
   "teamMembers": [
     "Irieo",
     "bobbyxng",
@@ -30,6 +30,20 @@
     }
   },
   "items": [
+    {
+      "type": "pr",
+      "author": "LukasFrankenQ",
+      "authorUrl": "https://github.com/LukasFrankenQ",
+      "repo": "PyPSA/pypsa-eur",
+      "repoUrl": "https://github.com/PyPSA/pypsa-eur",
+      "title": "Endogenous Industry Heat",
+      "url": "https://github.com/PyPSA/pypsa-eur/pull/1943",
+      "date": "2026-10-01T08:34:52Z",
+      "number": 1943,
+      "state": "open",
+      "merged": false,
+      "mergedAt": null
+    },
     {
       "type": "pr",
       "author": "bobbyxng",
@@ -71,20 +85,6 @@
       "state": "closed",
       "merged": true,
       "mergedAt": "2026-09-25T13:47:53Z"
-    },
-    {
-      "type": "pr",
-      "author": "LukasFrankenQ",
-      "authorUrl": "https://github.com/LukasFrankenQ",
-      "repo": "PyPSA/pypsa-eur",
-      "repoUrl": "https://github.com/PyPSA/pypsa-eur",
-      "title": "Endogenous Industry Heat",
-      "url": "https://github.com/PyPSA/pypsa-eur/pull/1943",
-      "date": "2026-09-14T14:58:26Z",
-      "number": 1943,
-      "state": "open",
-      "merged": false,
-      "mergedAt": null
     },
     {
       "type": "pr",

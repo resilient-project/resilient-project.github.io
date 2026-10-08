@@ -94,6 +94,8 @@ To maximize impact, we will organize workshops and training events involving a b
 
 ## Research papers {#research-papers}
 
+- <div data-badge-type="donut" data-doi="10.1016/j.cement.2026.100193" class="altmetric-embed"></div>[Pathways for carbon management in the cement industry in a carbon neutral energy system with focus on Baden-Württemberg](https://doi.org/10.1016/j.cement.2026.100193) — Zelle et al., *CEMENT*, 2026
+
 - <div data-badge-type="donut" data-arxiv-id="2607.21048" class="altmetric-embed"></div>[Accelerating fossil gas independence in Europe](https://arxiv.org/abs/2607.21048) — Franken, Riepin & Brown, *arXiv*, July 2026
 
 - <div data-badge-type="donut" data-doi="10.1088/1748-9326/ae3846" class="altmetric-embed"></div>[The role of Projects of Common Interest in reaching Europe's energy policy targets](https://iopscience.iop.org/article/10.1088/1748-9326/ae3846) — Xiong, Brown & Riepin, *Environmental Research Letters*, 2026

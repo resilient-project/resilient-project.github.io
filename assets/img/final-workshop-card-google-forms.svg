@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="400" viewBox="0 0 1600 400" font-family="Noto Sans, sans-serif">
+  <rect width="1600" height="400" fill="#fff"/>
+  <rect width="534" height="8" fill="#cddd9c"/>
+  <rect x="534" width="533" height="8" fill="#9dd9a4"/>
+  <rect x="1067" width="533" height="8" fill="#4f759a"/>
+
+  <g stroke="#e6efd0" stroke-width="20">
+    <line x1="1230" y1="244" x2="1330" y2="74"/>
+    <line x1="1330" y1="74" x2="1430" y2="244"/>
+    <line x1="1430" y1="244" x2="1230" y2="244"/>
+  </g>
+  <g stroke="#fff" stroke-width="4">
+    <circle cx="1230" cy="244" r="32" fill="#cddd9c"/>
+    <circle cx="1330" cy="74" r="32" fill="#9dd9a4"/>
+    <circle cx="1430" cy="244" r="32" fill="#4f759a"/>
+  </g>
+
+  <text x="64" y="62" font-size="22" font-weight="700" letter-spacing="3" fill="#8B1538">RESILIENT FINAL WORKSHOP</text>
+  <g font-size="48" font-weight="700" fill="#222">
+    <text x="62" y="126">Planning Europe's Energy Infrastructure</text>
+    <text x="62" y="184">under Uncertainty</text>
+  </g>
+  <g font-size="23" fill="#555">
+    <text x="64" y="230">Research, case studies and open-source tools for</text>
+    <text x="64" y="262">resilient grids, industry and energy supply</text>
+  </g>
+
+  <rect y="300" width="1600" height="100" fill="#8B1538"/>
+  <text x="64" y="343" font-size="28" font-weight="700" fill="#fff">Friday, 20 November 2026  ·  09:30–14:00  ·  Fraunhofer ENIQ, Berlin</text>
+  <text x="64" y="379" font-size="21" fill="#fff" fill-opacity="0.8">resilient-project.github.io/final-workshop</text>
+</svg>

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T10:19:19Z",
+  "generatedAt": "2026-10-08T10:39:01Z",
   "teamMembers": [
     "Irieo",
     "bobbyxng",
@@ -30,6 +30,20 @@
     }
   },
   "items": [
+    {
+      "type": "pr",
+      "author": "bobbyxng",
+      "authorUrl": "https://github.com/bobbyxng",
+      "repo": "PyPSA/pypsa-eur",
+      "repoUrl": "https://github.com/PyPSA/pypsa-eur",
+      "title": "feat: restructure and improve transmission topology + config for all carriers",
+      "url": "https://github.com/PyPSA/pypsa-eur/pull/2153",
+      "date": "2026-10-08T09:26:46Z",
+      "number": 2153,
+      "state": "closed",
+      "merged": false,
+      "mergedAt": null
+    },
     {
       "type": "pr",
       "author": "LukasFrankenQ",
@@ -155,20 +169,6 @@
       "state": "closed",
       "merged": true,
       "mergedAt": "2026-05-15T15:55:09Z"
-    },
-    {
-      "type": "pr",
-      "author": "bobbyxng",
-      "authorUrl": "https://github.com/bobbyxng",
-      "repo": "PyPSA/pypsa-eur",
-      "repoUrl": "https://github.com/PyPSA/pypsa-eur",
-      "title": "feat: restructure and improve transmission topology + config for all carriers",
-      "url": "https://github.com/PyPSA/pypsa-eur/pull/2153",
-      "date": "2026-05-15T14:23:02Z",
-      "number": 2153,
-      "state": "open",
-      "merged": false,
-      "mergedAt": null
     },
     {
       "type": "pr",

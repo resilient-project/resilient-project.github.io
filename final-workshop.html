@@ -1,0 +1,432 @@
+---
+title: "RESILIENT Final Workshop: Planning Europe's Energy Infrastructure under Uncertainty"
+description: "Research, case studies and open-source tools for resilient grids, industry and energy supply. Friday, 20 November 2026, Fraunhofer ENIQ, Berlin."
+image:
+  path: /assets/img/final-workshop-card.png
+  width: 1200
+  height: 630
+  alt: "RESILIENT Final Workshop. Friday, 20 November 2026, 09:30–14:00, Fraunhofer ENIQ, Berlin"
+permalink: /final-workshop/
+registration_url: # TBD
+map_url: https://maps.app.goo.gl/8hj4oLjTK4fTaWmf6
+agenda:
+  - time: "09:00"
+    title: Arrival, coffee and croissants
+    type: break
+  - time: "09:30"
+    title: "Welcome: why RESILIENT, why now?"
+    speaker: Tom Brown, TU Berlin
+  - time: "09:40"
+    title: "RESILIENT: what we have built and what we have learned"
+    speaker: Iegor Riepin, TU Berlin
+    text: Project summary, main findings and reusable outputs.
+  - time: "10:00"
+    title: "Research I: European energy planning under uncertainty"
+    talks:
+      - title: Diversity of biomass usage pathways to achieve emissions targets in the European energy system
+        url: https://www.nature.com/articles/s41560-024-01693-6
+        speaker: Markus Millinger, RISE
+        ref: Nature Energy, 2025
+      - title: The role of Projects of Common Interest in reaching Europe's energy policy targets
+        url: https://iopscience.iop.org/article/10.1088/1748-9326/ae3846
+        speaker: Bobby Xiong, TU Berlin
+        ref: Environmental Research Letters, 2026
+      - title: Accelerating fossil gas independence in Europe
+        url: https://arxiv.org/abs/2607.21048
+        speaker: Lukas Franken, TU Berlin
+        ref: arXiv, 2026
+  - time: "10:45"
+    title: "Panel: Less gas, less risk? Energy independence and the price of resilience"
+    text: >-
+      Bringing together research, policy and grid-planning perspectives, this panel discusses the costs and
+      benefits of reducing Europe's gas-import dependence. What is the price of greater independence, and how
+      should it be weighed against exposure to future gas-price shocks? What would it take to electrify
+      industrial heat, and how can grids, flexibility and backup capacity support that transition? Could gas
+      still shape electricity prices even as consumption falls? And who should bear the costs?
+      Audience questions welcome.
+  - time: "11:30"
+    title: Coffee and networking
+    type: break
+  - time: "12:00"
+    title: "Case studies: industry, carbon and e-fuels"
+    text: Four case studies from RESILIENT partners.
+    talks:
+      - title: Case study North Rhine-Westphalia
+        speaker: Fraunhofer ISI and TU Berlin
+      - title: Case study TransnetBW
+        speaker: TransnetBW
+      - title: Case study Finland
+        speaker: LUT
+      - title: Case study EDF
+        speaker: EDF
+  - time: "12:45"
+    title: Coffee and networking
+    type: break
+  - time: "13:00"
+    title: "Research II: from results to reuse: open tools, data and faster optimisation"
+    talks:
+      - title: Modelling the high-voltage grid using open data for Europe and beyond
+        url: https://www.nature.com/articles/s41597-025-04550-7
+        speaker: Bobby Xiong, TU Berlin
+        ref: Nature Scientific Data, 2025
+        note: Plus a preview of ongoing grid-builder work.
+      - title: "PyPSA and SMS++: decomposition, benchmarks and how to use the tool"
+        url: https://resilient-project.github.io/static/uploads/D21.pdf
+        speaker: University of Pisa
+        ref: Deliverable D2.1, 2026
+      - title: Mitigating Ukraine's Looming Electricity Crisis
+        url: https://doi.org/10.1016/j.esr.2025.101724
+        speaker: Iegor Riepin, TU Berlin
+        ref: Energy Strategy Reviews, 2025
+  - time: "13:45"
+    title: "What comes next? Takeaways and closing"
+    speaker: Tom Brown and Iegor Riepin, TU Berlin
+    text: Project takeaways, access to outputs, next collaboration opportunities and thanks.
+  - time: "14:00"
+    title: Snacks, open end Q&A, networking
+    type: break
+---
+{%- assign page_url = page.url | absolute_url -%}
+{%- capture register_button -%}
+{% if page.registration_url %}<a class="btn" href="{{ page.registration_url }}">Register now</a>{% else %}<span class="btn btn-pending">Registration opens soon</span>{% endif %}
+{%- endcapture -%}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }}</title>
+{% seo title=false %}
+    {% include head-custom.html %}
+    <style>
+      @font-face {
+        font-family: "Noto Sans";
+        font-weight: 400;
+        font-display: swap;
+        src: local("Noto Sans"), url("{{ '/assets/fonts/Noto-Sans-regular/Noto-Sans-regular.woff2' | relative_url }}") format("woff2");
+      }
+      @font-face {
+        font-family: "Noto Sans";
+        font-weight: 700;
+        font-display: swap;
+        src: local("Noto Sans Bold"), url("{{ '/assets/fonts/Noto-Sans-700/Noto-Sans-700.woff2' | relative_url }}") format("woff2");
+      }
+
+      :root {
+        --ink: #222;
+        --text: #494949;
+        --muted: #727272;
+        --line: #e5e5e5;
+        --soft: #f6f7f4;
+        --accent: #8B1538;
+        --accent-dark: #6d102b;
+        --link: #267CB9;
+        --leaf: #cddd9c;
+        --mint: #9dd9a4;
+        --steel: #4f759a;
+        --pale: #e6efd0;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        background: #fff;
+        color: var(--text);
+        font: 16px/1.6 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      }
+
+      a { color: var(--link); text-decoration: none; }
+      a:hover, a:focus { text-decoration: underline; }
+      h1, h2, h3 { color: var(--ink); line-height: 1.2; }
+      img { max-width: 100%; height: auto; }
+
+      .stripe {
+        height: 6px;
+        background: linear-gradient(90deg, var(--leaf) 0 33.33%, var(--mint) 33.33% 66.67%, var(--steel) 66.67%);
+      }
+
+      .wrap { max-width: 760px; margin: 0 auto; padding: 0 24px; }
+
+      .topbar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px 24px;
+        padding: 16px 0;
+        font-size: 14px;
+      }
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        color: var(--ink);
+        font-weight: 700;
+        letter-spacing: .04em;
+      }
+      .brand svg { width: 28px; height: 27px; }
+      .topbar nav { display: flex; gap: 20px; }
+
+      .hero {
+        background: var(--soft);
+        border-bottom: 1px solid var(--line);
+        padding: 48px 0;
+        overflow: hidden;
+      }
+      .hero .wrap { position: relative; }
+      .hero-mark {
+        position: absolute;
+        top: 8px;
+        right: 0;
+        width: 170px;
+        height: 164px;
+      }
+      .hero-text { max-width: 540px; }
+      .eyebrow {
+        margin: 0 0 12px;
+        color: var(--accent);
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: .14em;
+        text-transform: uppercase;
+      }
+      h1 {
+        margin: 0 0 16px;
+        font-size: clamp(32px, 6vw, 44px);
+        line-height: 1.12;
+      }
+      .lead { margin: 0 0 32px; font-size: 19px; line-height: 1.5; }
+
+      .facts {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px 40px;
+        margin: 0 0 32px;
+      }
+      .facts dt {
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+      }
+      .facts dd { margin: 0; color: var(--ink); font-weight: 700; }
+      .facts small { display: block; color: var(--muted); font-size: 14px; font-weight: 400; }
+
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 12px 24px;
+      }
+      .btn {
+        display: inline-block;
+        padding: 12px 24px;
+        border: 2px solid var(--accent);
+        border-radius: 6px;
+        background: var(--accent);
+        color: #fff;
+        font-weight: 700;
+      }
+      a.btn:hover, a.btn:focus { background: var(--accent-dark); border-color: var(--accent-dark); text-decoration: none; }
+      .btn-pending { border-style: dashed; background: transparent; color: var(--accent); }
+      .calendar { margin: 0; color: var(--muted); font-size: 14px; }
+
+      main section { padding: 48px 0 0; }
+      h2 { margin: 0 0 16px; font-size: 24px; }
+      .note { margin: -8px 0 20px; color: var(--muted); font-size: 14px; }
+
+      .agenda { margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }
+      .agenda > li {
+        display: grid;
+        grid-template-columns: 64px 1fr;
+        gap: 0 20px;
+        padding: 18px 0;
+        border-bottom: 1px solid var(--line);
+      }
+      .agenda time { color: var(--accent); font-weight: 700; font-variant-numeric: tabular-nums; }
+      .agenda h3 { margin: 0 0 4px; font-size: 17px; }
+      .agenda p { margin: 6px 0 0; }
+      .agenda .break { padding: 10px 0; color: var(--muted); }
+      .agenda .break time { color: var(--muted); font-weight: 400; }
+      .agenda .break p { margin: 0; font-style: italic; }
+      .who { color: var(--muted); font-size: 14px; }
+      .who em { color: var(--accent); font-style: normal; font-weight: 500; }
+
+      .talks { margin: 12px 0 0; padding: 0; list-style: none; }
+      .talks li { padding: 6px 0 6px 14px; border-left: 3px solid var(--pale); }
+      .talks li + li { margin-top: 8px; }
+      .talks .who { margin: 2px 0 0; }
+
+      .venue { display: grid; grid-template-columns: 1fr 1fr; gap: 0 32px; }
+      .venue p { margin: 0 0 12px; }
+
+      .partners { margin: 8px 0 0; }
+
+      footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 8px 24px;
+        margin-top: 56px;
+        padding-top: 20px;
+        padding-bottom: 48px;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 14px;
+      }
+      footer p { margin: 0; }
+
+      @media (max-width: 720px) {
+        .hero-mark { display: none; }
+        .venue { grid-template-columns: 1fr; }
+      }
+
+      @media (max-width: 480px) {
+        .wrap { padding: 0 16px; }
+        .hero { padding: 36px 0; }
+        .lead { font-size: 17px; }
+        .agenda > li { grid-template-columns: 48px 1fr; gap: 0 12px; }
+      }
+    </style>
+  </head>
+  <body>
+    <svg width="0" height="0" style="position: absolute" aria-hidden="true">
+      <symbol id="triangle" viewBox="0 0 300 290">
+        <path d="M32 258 150 57 268 258Z" fill="none" stroke="#e6efd0" stroke-width="18"/>
+        <g stroke="#fff" stroke-width="5">
+          <circle cx="32" cy="258" r="30" fill="#cddd9c"/>
+          <circle cx="150" cy="57" r="30" fill="#9dd9a4"/>
+          <circle cx="268" cy="258" r="30" fill="#4f759a"/>
+        </g>
+      </symbol>
+    </svg>
+
+    <div class="stripe"></div>
+
+    <div class="wrap">
+      <div class="topbar">
+        <a class="brand" href="{{ '/' | relative_url }}"><svg aria-hidden="true"><use href="#triangle"/></svg>RESILIENT</a>
+        <nav aria-label="Page sections">
+          <a href="#programme">Programme</a>
+          <a href="#venue">Venue</a>
+          <a href="#registration">Registration</a>
+        </nav>
+      </div>
+    </div>
+
+    <header class="hero">
+      <div class="wrap">
+        <svg class="hero-mark" aria-hidden="true"><use href="#triangle"/></svg>
+        <div class="hero-text">
+          <p class="eyebrow">RESILIENT Final Workshop</p>
+          <h1>Planning Europe's Energy Infrastructure under Uncertainty</h1>
+          <p class="lead">Research, case studies and open-source tools for resilient grids, industry and energy supply</p>
+        </div>
+        <dl class="facts">
+          <div>
+            <dt>Date</dt>
+            <dd>Friday, 20 November 2026</dd>
+          </div>
+          <div>
+            <dt>Time</dt>
+            <dd>09:30–14:00<small>Coffee from 09:00</small></dd>
+          </div>
+          <div>
+            <dt>Venue</dt>
+            <dd><a href="{{ page.map_url }}">Fraunhofer ENIQ</a><small>EUREF-Campus, Berlin</small></dd>
+          </div>
+        </dl>
+        <div class="actions">
+          {{ register_button }}
+          <p class="calendar">
+            Add to calendar:
+            <a href="{{ '/assets/final-workshop.ics' | relative_url }}" download>iCal / Outlook</a> ·
+            <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=RESILIENT%20Final%20Workshop&amp;dates=20261120T080000Z/20261120T130000Z&amp;location=Fraunhofer%20ENIQ%2C%20EUREF-Campus%2023-24%2C%2010829%20Berlin&amp;details={{ page_url | cgi_escape }}">Google</a>
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section id="about">
+        <h2>About the workshop</h2>
+        <p>Europe must plan grids, industry and energy supply for decades ahead without knowing future fuel prices, technology costs or how fast new infrastructure gets built. RESILIENT has developed open-source tools and methods to address this uncertainty. We applied them in <a href="{{ '/#research-papers' | relative_url }}">research papers</a> and <a href="{{ '/#case-studies' | relative_url }}">case studies</a>, taught them in <a href="{{ '/#workshops' | relative_url }}">workshops and training events</a>, and contributed them to the <a href="{{ '/#code-contributions' | relative_url }}">open-source PyPSA ecosystem</a>.</p>
+        <p>At this final workshop, we share what we have learned: the project's main findings, case studies from Germany, Finland and France, and the open data and tools anyone can reuse. A panel weighs the costs and benefits of reducing Europe's dependence on gas imports.</p>
+      </section>
+
+      <section id="programme">
+        <h2>Programme</h2>
+        <ol class="agenda">
+          {%- for item in page.agenda %}
+          {%- if item.type == "break" %}
+          <li class="break">
+            <time datetime="2026-11-20T{{ item.time }}">{{ item.time }}</time>
+            <p>{{ item.title }}</p>
+          </li>
+          {%- else %}
+          <li>
+            <time datetime="2026-11-20T{{ item.time }}">{{ item.time }}</time>
+            <div>
+              <h3>{{ item.title }}</h3>
+              {%- if item.speaker %}
+              <p class="who">{{ item.speaker }}</p>
+              {%- endif %}
+              {%- if item.text %}
+              <p>{{ item.text }}</p>
+              {%- endif %}
+              {%- if item.talks %}
+              <ul class="talks">
+                {%- for talk in item.talks %}
+                <li>
+                  {% if talk.url %}<a href="{{ talk.url }}">{{ talk.title }}</a>{% else %}{{ talk.title }}{% endif %}
+                  <p class="who">{{ talk.speaker }}{% if talk.ref %} · <em>{{ talk.ref }}</em>{% endif %}{% if talk.note %}<br>{{ talk.note }}{% endif %}</p>
+                </li>
+                {%- endfor %}
+              </ul>
+              {%- endif %}
+            </div>
+          </li>
+          {%- endif %}
+          {%- endfor %}
+        </ol>
+      </section>
+
+      <section id="venue">
+        <h2>Venue</h2>
+        <div class="venue">
+          <p><strong>Fraunhofer ENIQ</strong><br>EUREF-Campus 23-24<br>10829 Berlin</p>
+          <div>
+            <p>About 10 minutes on foot from Berlin Südkreuz station (exit Hildegard-Knef-Platz).</p>
+            <p><a href="{{ page.map_url }}">Open in Google Maps</a></p>
+          </div>
+        </div>
+      </section>
+
+      <section id="registration">
+        <h2>Registration</h2>
+        <p>Please register in advance. Places are limited.</p>
+        {{ register_button }}
+      </section>
+
+      <section id="organisers">
+        <h2>Organisers</h2>
+        <p>The workshop is organised by TU Berlin, Fraunhofer ISI and IN4climate.NRW. RESILIENT brings together universities, research institutes and industry partners from five countries and is funded through the <a href="https://cetpartnership.eu/calls/funded-project/resilient">Clean Energy Transition Partnership</a>.</p>
+        <p>Questions? Write to <span style="unicode-bidi: bidi-override; direction: rtl;">ed.nilreb-ut - ta - nipeir.rogei</span></p>
+        <img class="partners" src="{{ '/assets/img/resilient-partners.webp' | relative_url }}" alt="RESILIENT project partners" width="1200" height="583" loading="lazy" decoding="async">
+      </section>
+    </main>
+
+    <div class="wrap">
+      <footer>
+        <p><a href="{{ '/' | relative_url }}">RESILIENT project website</a> · <a href="{{ '/#impressum' | relative_url }}">Impressum</a></p>
+        <p>
+          Share:
+          <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ page_url | cgi_escape }}">LinkedIn</a> ·
+          <a href="mailto:?subject=RESILIENT%20Final%20Workshop%2C%2020%20November%202026%2C%20Berlin&amp;body={{ page_url | cgi_escape }}">Email</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

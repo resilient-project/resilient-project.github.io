@@ -23,6 +23,14 @@ To maximize impact, we will organize workshops and training events involving a b
 
 <img src="assets/img/resilient-v3.1.webp" alt="project-structure" width="480" height="268" loading="lazy" decoding="async"/>
 
+## RESILIENT Final Workshop: 20 November 2026, Berlin {#final-workshop}
+
+<a href="final-workshop/"><img src="assets/img/final-workshop-card.webp" alt="RESILIENT Final Workshop: Planning Europe's Energy Infrastructure under Uncertainty. Friday, 20 November 2026, Fraunhofer ENIQ, Berlin" width="500" height="263" loading="lazy" decoding="async"/></a>
+
+*Join us in Berlin for the closing event of the RESILIENT project. We present our main research findings, case studies from Germany, Finland and France, and the open-source tools we built.*
+
+-- [Programme, venue and registration](final-workshop/)
+
 ## Workshops and PyPSA(-Eur) training events {#workshops}
 
 *We are dedicated to advancing open-source, transparent, and diligent scientific workflows for energy system modelling. RESILIENT project team aims to empower researchers, industry professionals, and policymakers by providing accessible tools, comprehensive documentation, and practical training resources for energy system research. Through detailed explanations of our models, data, and methodologies, we support a broad application of PyPSA(-Eur) model environment for decision-making and effective industry applications. We openly share all workshop materials to foster collaboration and knowledge sharing within the energy community.*

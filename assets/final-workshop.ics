@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//RESILIENT project//Final Workshop//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:final-workshop-2026@resilient-project.github.io
+DTSTAMP:20261008T000000Z
+DTSTART:20261120T080000Z
+DTEND:20261120T130000Z
+SUMMARY:RESILIENT Final Workshop
+LOCATION:Fraunhofer ENIQ\, EUREF-Campus 23-24\, 10829 Berlin
+URL:https://resilient-project.github.io/final-workshop/
+DESCRIPTION:https://resilient-project.github.io/final-workshop/
+END:VEVENT
+END:VCALENDAR

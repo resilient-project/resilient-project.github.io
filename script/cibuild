@@ -3,7 +3,21 @@
 set -e
 
 bundle exec jekyll build
-bundle exec htmlproofer ./_site --check-sri
+# Sharing emails have no recipient; Google Slides fragments are rendered by JS.
+# SSRN and ABB reject the automated checker; exclude only these URLs.
+# Retry temporary external-server failures without accepting persistent errors.
+link_check_attempt=1
+until bundle exec htmlproofer ./_site --check-sri \
+  --ignore-empty-mailto \
+  --no-check-external-hash \
+  --ignore-urls 'https://doi.org/10.2139/ssrn.7511402,https://www.abb.com/global/en'; do
+  if [ "$link_check_attempt" -ge 3 ]; then
+    exit 1
+  fi
+  link_check_attempt=$((link_check_attempt + 1))
+  echo "Retrying link checks (attempt $link_check_attempt of 3)..."
+  sleep 5
+done
 bundle exec rubocop -D --config .rubocop.yml
 bundle exec script/validate-html
 gem build jekyll-theme-minimal.gemspec

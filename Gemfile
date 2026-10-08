@@ -3,10 +3,10 @@
 source "https://rubygems.org"
 
 gemspec
-gem 'kramdown-parser-gfm'
-gem 'webrick'
-gem 'csv'
-gem 'logger'
-gem 'base64'
-gem 'ostruct'
-gem 'minitest', '~> 5.25'
+gem "base64"
+gem "csv"
+gem "kramdown-parser-gfm"
+gem "logger"
+gem "minitest", "~> 5.25"
+gem "ostruct"
+gem "webrick"

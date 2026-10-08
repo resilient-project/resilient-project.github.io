@@ -48,7 +48,7 @@ To maximize impact, we will organize workshops and training events involving a b
 -- [Teaching materials – PyPSA](https://irieo.github.io/workshop-pypsa-transnetbw/intro.html)
 <img src="assets/img/stuttgart_fn.webp" alt="Stuttgart Workshop" width="420" height="271" loading="lazy" decoding="async"/>
 
-- <a id="workshop-gasunie-2025-02"></a> **Energy system modelling workshop for cross-sector stakeholders (Groningen)**  
+- <span id="workshop-gasunie-2025-02"></span> **Energy system modelling workshop for cross-sector stakeholders (Groningen)**  
 (~20 participants from industry, academia, NGOs, and consulting firms)  
 *Hosted by Gasunie, Netherlands | 25–26 February 2025 | Conducted by TUB*  
 -- [Teaching materials – PyPSA-Eur](https://docs.google.com/presentation/d/12FQCupOkddtNy6psd9M01N4_hmblauad0gaH1bLJB3o/edit#slide=id.g1ec455a5967_0_0)  
@@ -62,14 +62,14 @@ To maximize impact, we will organize workshops and training events involving a b
 -- [LinkedIn summary](https://www.linkedin.com/feed/update/urn:li:activity:7332767362061844480/)
 <img src="assets/img/4tso.webp" alt="4TSO Workshop Participants" width="420" height="318" loading="lazy" decoding="async"/>
 
-- <a id="workshop-tub-2025-05"></a> **Energy modelling workshop for cross-sector stakeholders (Berlin)**  
+- <span id="workshop-tub-2025-05"></span> **Energy modelling workshop for cross-sector stakeholders (Berlin)**  
 (~30 participants from industry, academia, NGOs, and consulting firms)  
 *Hosted by TU Berlin | 22–23 May 2025 | Conducted by TUB*  
 -- [Workshop invitation](https://www.linkedin.com/posts/fabian-neumann-renewables_pypsa-eur-workshop-at-tu-berlin-activity-7309188508894543873-Ycsq?utm_source=share&utm_medium=member_desktop&rcm=ACoAADhk2oEBLgmYCVN1a_pvp6Q2ezECxNhJekw)  
 -- [Workshop materials](https://resilient-project.github.io/pypsa-workshop-202505/intro.html)
 <img src="assets/img/tub.webp" alt="TUB Workshop Participants" width="420" height="292" loading="lazy" decoding="async"/>
 
-- <a id="workshop-dtu-2025-06"></a> **Energy modelling workshop for cross-sector stakeholders (Copenhagen)** (~50 participants)  
+- <span id="workshop-dtu-2025-06"></span> **Energy modelling workshop for cross-sector stakeholders (Copenhagen)** (~50 participants)  
 *Hosted by DTU, Denmark (Prof. Marta Victoria and the team) | 26–27 June 2025 | Conducted by TUB and DTU*  
 -- [Workshop invitation](https://www.linkedin.com/posts/marta-victoria-4189b388_pypsa-eur-workshop-at-dtu-copenhagen-activity-7320387816662745088-JAwA/)  
 -- [LinkedIn summary](https://www.linkedin.com/feed/update/urn:li:activity:7345308702389731328/)  
@@ -77,7 +77,7 @@ To maximize impact, we will organize workshops and training events involving a b
 -- [Videos](https://resilient-project.github.io/pypsa-workshop-202506/videos.html)
 <img src="assets/img/dtu.webp" alt="DTU Workshop Participants" width="420" height="280" loading="lazy" decoding="async"/>
 
-- <a id="workshop-rise-2025-11"></a> **Energy modelling workshop for cross-sector stakeholders (Gothenburg)** (35 participants)  
+- <span id="workshop-rise-2025-11"></span> **Energy modelling workshop for cross-sector stakeholders (Gothenburg)** (35 participants)  
 *Hosted by RISE in Sweden (Dr. Markus Millinger) | November 2025 | Conducted by TUB and RISE*  
 -- [Workshop invitation](https://www.linkedin.com/posts/markus-millinger-4b482639_pypsa-energy-infrastructure-activity-7380914083060924416-7rdB/)\
 -- [Workshop materials](https://resilient-project.github.io/pypsa-workshop-202511/intro.html)
@@ -201,13 +201,13 @@ To maximize impact, we will organize workshops and training events involving a b
 
 - *25-26 March 2025* @ Open Energy Modelling conference, Stockholm — [Diversity of biomass usage pathways to achieve emissions targets in the European energy system](https://resilient-project.github.io/static/uploads/250321_OpenMod.pdf)
 
-- *18-23 May 2025* @ DTU Summer School 2025, DTU, Lyngby — [The role of PCI-PMI infrastructure in reaching Europe's energy policy targets](https://github.com/bobbyxng/pcipmi-policy-targets/blob/main/presentation/2025-05-19_dtu_pes_poster/poster.pdf)
+- *18-23 May 2025* @ DTU Summer School 2025, DTU, Lyngby — [The role of PCI-PMI infrastructure in reaching Europe's energy policy targets](https://github.com/bobbyxng/pci-pmi-policy-targets/blob/5f12c710a025d3e40a50f1ca43cfcd2f5627d4af/presentation/2025-05-19_dtu_pes_poster/poster.pdf)
 
 - *28 May 2025* @ ETIP Webinar Bioenergy A Key to European Resilience? — [How biomass can be cost-effectively used to achieve emissions targets in the European energy system](https://resilient-project.github.io/static/uploads/250528_ETIPBioenergy.pdf)
 
 - *10-13 June 2025* @ International Energy Workshop 2025, Nara, Japan — [Accounting for carbon capture solvent cost and energy demand in the energy system](https://resilient-project.github.io/static/uploads/IEW_2025_Markus%20MILLINGER.pdf)
 
-- *11 June 2025* @ International Energy Workshop 2025, Nara, Japan — [The role of Projects of Common Interest in reaching Europe's energy policy targets](https://github.com/bobbyxng/pcipmi-policy-targets/blob/main/presentation/2025-06-12_iew_nara/presentation/pcipmi-policy-targets-iew.pdf)
+- *11 June 2025* @ International Energy Workshop 2025, Nara, Japan — [The role of Projects of Common Interest in reaching Europe's energy policy targets](https://github.com/bobbyxng/pci-pmi-policy-targets/blob/dc8adeeb78825a6cebdb45cf6ee423b78da9dbe7/presentation/2025-06-12_iew_nara/presentation/pcipmi-policy-targets-iew.pdf)
 
 - *11 June 2025 & 15 May 2025* @ International Energy Workshop 2025 & RESILIENT annual meeting 2025, Nara, Japan & Pisa, Italy — [The Minimal Methanol Economy as a Gap-Filler for High Electrification Scenarios](https://nworbmot.org/energy/brown-iew25.pdf)
 
@@ -229,7 +229,7 @@ To maximize impact, we will organize workshops and training events involving a b
 
 - *17 February 2026* @ MITEI Research (Hybrid/Virtual) Seminar, Online — [Modelling the high-voltage grid using open data for Europe and beyond](https://resilient-project.github.io/static/uploads/osm-grid-europe-presentation_compressed.pdf)
 
-- *February 2026* @ Scuola Nazionale Dottorandi di Elettrotecnica Francesco Gasparini, Napoli — [(Very-)Large-Scale Optimization for Energy Systems (V)](http://www.di.unipi.it/~frangio/schools/Napoli-2026-V.pdf)
+- *February 2026* @ Scuola Nazionale Dottorandi di Elettrotecnica Francesco Gasparini, Napoli — [(Very-)Large-Scale Optimization for Energy Systems (V)](https://pages.di.unipi.it/frangio/schools/Napoli-2026-V.pdf)
 
 - *16 April 2026* @ Civil Resilience Forum Berlin 2026, Berlin — [Open-source data, tools and energy system models for civil society protection](https://iriepin.com/uploads/euciv.pdf)
 
@@ -272,7 +272,7 @@ To maximize impact, we will organize workshops and training events involving a b
 D1.1: [Project website](https://resilient-project.github.io/)\
 D1.2: [Project data management plan](https://resilient-project.github.io/static/uploads/D1.2_DMP_RESILIENT.pdf)\
 D2.1: [Intermediate release of SMS++ and PyPSA integration](https://resilient-project.github.io/static/uploads/D21.pdf)\
-D2.3: [Intermediate releases of PyPSA-Eur](https://pypsa-eur.readthedocs.io/en/latest/release_notes.html)\
+D2.3: [Intermediate releases of PyPSA-Eur](https://pypsa-eur.readthedocs.io/en/latest/release_notes/)\
 D3.2: [Interim release of PyPSA-Eur with improved biomass and carbon management representation](https://github.com/PyPSA/pypsa-eur/tree/v0.12.0)\
 D3.3: [Open dataset on import options and global supply chains of hydrogen and derivative products](https://zenodo.org/records/17897949)\
 D5.2: [Public training materials and tutorials](https://resilient-project.github.io/#workshops)\
@@ -344,7 +344,7 @@ Stockholm, with a pioneering carbon capture research facility that is planned fo
 2026 to capture 800 kilotons of biogenic carbon dioxide. They provide expertise and data
 validation for modelling bioenergy with carbon capture.
 
-- [ABB Finland](https://global.abb/group/en) is one of the leaders in electrification and automation, providing technology and
+- [ABB Finland](https://www.abb.com/global/en) is one of the leaders in electrification and automation, providing technology and
 knowledge to dozens of projects contributing to the energy transition of Europe. ABB joins the consortium as an associated partner and
 supports data collection, scenario definition and result analysis in terms related to e-fuels production.
 

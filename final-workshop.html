@@ -261,6 +261,14 @@ agenda:
 
       .venue { display: grid; grid-template-columns: 1fr 1fr; gap: 0 32px; }
       .venue p { margin: 0 0 12px; }
+      .venue-map {
+        display: block;
+        width: 100%;
+        height: clamp(280px, 50vw, 380px);
+        margin-top: 12px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+      }
 
       .partners { margin: 8px 0 0; }
 
@@ -402,6 +410,16 @@ agenda:
             <p><a href="{{ page.map_url }}">Open in Google Maps</a></p>
           </div>
         </div>
+        <iframe
+          class="venue-map"
+          title="Fraunhofer ENIQ location on Google Maps"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2429.9248607407762!2d13.353132078093509!3d52.48049617205083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a8514a73a80433%3A0xa6450bb775a27c3e!2sFraunhofer%20ENIQ!5e0!3m2!1sde!2sde!4v1791449710026!5m2!1sde!2sde"
+          width="600"
+          height="380"
+          allowfullscreen
+          loading="lazy"
+          referrerpolicy="strict-origin-when-cross-origin"
+        ></iframe>
       </section>
 
       <section id="registration">
@@ -412,8 +430,8 @@ agenda:
 
       <section id="organisers">
         <h2>Organisers</h2>
-        <p>The workshop is organised by TU Berlin, Fraunhofer ISI and IN4climate.NRW. RESILIENT brings together universities, research institutes and industry partners from five countries and is funded through the <a href="https://cetpartnership.eu/calls/funded-project/resilient">Clean Energy Transition Partnership</a>.</p>
-        <p>Questions? Write to <a href="mailto:iegor.riepin@tu-berlin.de">i.riepin@tu-berlin.de</a> or <a href="mailto:xiong@tu-berlin.de">xiong@tu-berlin.de</a>.</p>
+        <p>The workshop is organised by <a href="https://www.tu.berlin/ensys">TU Berlin</a>, <a href="https://www.isi.fraunhofer.de/">Fraunhofer ISI</a> and <a href="https://www.energy4climate.nrw/">IN4climate.NRW</a>. RESILIENT brings together universities, research institutes and industry partners from five countries and is funded through the <a href="https://cetpartnership.eu/calls/funded-project/resilient">Clean Energy Transition Partnership</a>.</p>
+        <p>Questions? Write to <span style="unicode-bidi: bidi-override; direction: rtl;">ed.nilreb-ut - ta - nipeir.rogei</span></p>
         <img class="partners" src="{{ '/assets/img/resilient-partners.webp' | relative_url }}" alt="RESILIENT project partners" width="1200" height="583" loading="lazy" decoding="async">
       </section>
     </main>
@@ -424,7 +442,7 @@ agenda:
         <p>
           Share:
           <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ page_url | cgi_escape }}">LinkedIn</a> ·
-          <a href="mailto:iegor.riepin@tu-berlin.de,xiong@tu-berlin.de?subject=RESILIENT%20Final%20Workshop%2C%2020%20November%202026%2C%20Berlin&amp;body={{ page_url | cgi_escape }}">Email</a>
+          <a href="mailto:?subject=RESILIENT%20Final%20Workshop%2C%2020%20November%202026%2C%20Berlin&amp;body={{ page_url | cgi_escape }}">Email</a>
         </p>
       </footer>
     </div>

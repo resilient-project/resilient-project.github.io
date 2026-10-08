@@ -7,7 +7,7 @@ image:
   height: 630
   alt: "RESILIENT Final Workshop. Friday, 20 November 2026, 09:30–14:00, Fraunhofer ENIQ, Berlin"
 permalink: /final-workshop/
-registration_url: # TBD
+registration_url: https://forms.gle/SAzAkGJQNTAC9poX6
 map_url: https://maps.app.goo.gl/8hj4oLjTK4fTaWmf6
 agenda:
   - time: "09:00"
@@ -92,7 +92,7 @@ agenda:
 ---
 {%- assign page_url = page.url | absolute_url -%}
 {%- capture register_button -%}
-{% if page.registration_url %}<a class="btn" href="{{ page.registration_url }}">Register now</a>{% else %}<span class="btn btn-pending">Registration opens soon</span>{% endif %}
+<a class="btn" href="{{ page.registration_url }}">Register now</a>
 {%- endcapture -%}
 <!DOCTYPE html>
 <html lang="en">

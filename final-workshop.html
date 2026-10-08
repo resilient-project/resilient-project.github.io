@@ -92,7 +92,7 @@ agenda:
 ---
 {%- assign page_url = page.url | absolute_url -%}
 {%- capture register_button -%}
-<a class="btn" href="{{ page.registration_url }}">Register now</a>
+<a class="btn" href="{{ page.registration_url }}" target="_blank" rel="noopener noreferrer">Register now</a>
 {%- endcapture -%}
 <!DOCTYPE html>
 <html lang="en">
@@ -347,7 +347,7 @@ agenda:
           </div>
           <div>
             <dt>Venue</dt>
-            <dd><a href="{{ page.map_url }}">Fraunhofer ENIQ</a><small>EUREF-Campus, Berlin</small></dd>
+            <dd><a href="{{ page.map_url }}" target="_blank" rel="noopener noreferrer">Fraunhofer ENIQ</a><small>EUREF-Campus, Berlin</small></dd>
           </div>
         </dl>
         <div class="actions">
@@ -411,7 +411,7 @@ agenda:
           <p><strong>Fraunhofer ENIQ</strong><br>EUREF-Campus 23-24<br>10829 Berlin</p>
           <div>
             <p>About 10 minutes on foot from Berlin Südkreuz station (exit Hildegard-Knef-Platz).</p>
-            <p><a href="{{ page.map_url }}">Open in Google Maps</a></p>
+            <p><a href="{{ page.map_url }}" target="_blank" rel="noopener noreferrer">Open in Google Maps</a></p>
           </div>
         </div>
         <iframe
@@ -434,7 +434,7 @@ agenda:
 
       <section id="organisers">
         <h2>Organisers</h2>
-        <p>The workshop is organised by <a href="https://www.tu.berlin/ensys">TU Berlin</a>, <a href="https://www.isi.fraunhofer.de/">Fraunhofer ISI</a> and <a href="https://www.energy4climate.nrw/">IN4climate.NRW</a>. RESILIENT brings together universities, research institutes and industry partners from five countries and is funded through the <a href="https://cetpartnership.eu/calls/funded-project/resilient">Clean Energy Transition Partnership</a> 2022 programme, with the German partners funded by the Federal Ministry for Economic Affairs and Energy (BMWE).</p>
+        <p>The workshop is organised by <a href="https://www.tu.berlin/ensys" target="_blank" rel="noopener noreferrer">TU Berlin</a>, <a href="https://www.isi.fraunhofer.de/" target="_blank" rel="noopener noreferrer">Fraunhofer ISI</a> and <a href="https://www.energy4climate.nrw/" target="_blank" rel="noopener noreferrer">IN4climate.NRW</a>. RESILIENT brings together universities, research institutes and industry partners from five countries and is funded through the <a href="https://cetpartnership.eu/calls/funded-project/resilient" target="_blank" rel="noopener noreferrer">Clean Energy Transition Partnership</a> 2022 programme, with the German partners funded by the Federal Ministry for Economic Affairs and Energy (BMWE).</p>
         <p>Questions? Write to <span style="unicode-bidi: bidi-override; direction: rtl;">ed.nilreb-ut - ta - nipeir.rogei</span></p>
         <img class="partners" src="{{ '/assets/img/resilient-partners.webp' | relative_url }}" alt="RESILIENT project partners" width="1200" height="583" loading="lazy" decoding="async">
       </section>

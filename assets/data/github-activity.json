@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T10:39:01Z",
+  "generatedAt": "2026-10-09T10:38:06Z",
   "teamMembers": [
     "Irieo",
     "bobbyxng",
@@ -14,22 +14,36 @@
     "PyPSA/powerplantmatching"
   ],
   "counts": {
-    "total": 128,
+    "total": 129,
     "byRepo": {
-      "PyPSA/PyPSA": 43,
+      "PyPSA/PyPSA": 44,
       "PyPSA/pypsa-eur": 76,
       "PyPSA/atlite": 2,
       "PyPSA/linopy": 5,
       "PyPSA/powerplantmatching": 2
     },
     "byUser": {
-      "Irieo": 39,
+      "Irieo": 40,
       "bobbyxng": 68,
       "LukasFrankenQ": 9,
       "millingermarkus": 12
     }
   },
   "items": [
+    {
+      "type": "pr",
+      "author": "Irieo",
+      "authorUrl": "https://github.com/Irieo",
+      "repo": "PyPSA/PyPSA",
+      "repoUrl": "https://github.com/PyPSA/PyPSA",
+      "title": "Fix for inactive branches in cycle basis",
+      "url": "https://github.com/PyPSA/PyPSA/pull/2005",
+      "date": "2026-10-08T16:12:40Z",
+      "number": 2005,
+      "state": "closed",
+      "merged": true,
+      "mergedAt": "2026-10-08T16:12:38Z"
+    },
     {
       "type": "pr",
       "author": "bobbyxng",
@@ -1415,20 +1429,6 @@
       "state": "closed",
       "merged": true,
       "mergedAt": "2024-08-15T17:45:49Z"
-    },
-    {
-      "type": "pr",
-      "author": "bobbyxng",
-      "authorUrl": "https://github.com/bobbyxng",
-      "repo": "PyPSA/pypsa-eur",
-      "repoUrl": "https://github.com/PyPSA/pypsa-eur",
-      "title": "Fix for Corsica in simplify_network: Include local substation",
-      "url": "https://github.com/PyPSA/pypsa-eur/pull/1215",
-      "date": "2024-08-14T12:22:04Z",
-      "number": 1215,
-      "state": "closed",
-      "merged": true,
-      "mergedAt": "2024-08-14T12:22:04Z"
     }
   ]
 }

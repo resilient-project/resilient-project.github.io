@@ -307,14 +307,12 @@ in the power system. At Fraunhofer ISI one of the leading industry transformatio
 FORECAST, which has been used in several German and European projects, will be integrated into
 PyPSA-Eur to model fuel and process switching in each industrial sector.
 
-- [Chalmers University of Technology](https://www.chalmers.se/) provides extensive expertise in the modelling of energy systems,
+- [Chalmers University of Technology](https://www.chalmers.se/) and its research institute Chalmers Next Labs provide extensive expertise in the modelling of energy systems,
 model-based analyses of cost-effective usage of biomass in the energy system for achieving climate
 targets, as well as modelling of renewable fuels and carbon dioxide capture, usage, transport and
 sequestration (CCUTS), and are long-standing contributors to PyPSA-Eur. Chalmers will leverage their
 expertise on the most suitable applications of restricted biomass potentials, and the role of CCUTS
 infrastructure across different sectors.
-
-- [RISE Research Institutes of Sweden](https://www.ri.se/) works closely with industry and policymakers to accelerate the shift towards sustainable energy systems. Their projects span from developing and demonstrating novel renewable technologies to assessing system-level impacts, bridging the gap between research findings and commercial or public-sector adoption. RISE team brings extensive expertise in energy systems modelling and advanced analyses on cost-effective biomass usage, renewable fuels, and carbon dioxide capture, usage, transport and sequestration.
 
 - [Lappeenranta-Lahti University of Technology (LUT)](https://www.lut.fi/en) is one of the leaders in the research of net-zero
 energy systems with an energy system model LUT-ESTM applied to energy transition studies for

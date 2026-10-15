@@ -91,6 +91,7 @@ To maximize impact, we will organize workshops and training events involving a b
 - **Workshop with North Rhine-Westphalia industrial stakeholders (final results)** (~30 participants)
 *Organized by IN4climate.NRW, Fraunhofer ISI and TUB, 30 June 2026*  
 -- [Presentation of the NRW case study: CO2 capture, transport, utilisation and sequestration infrastructure for industry decarbonisation](https://resilient-project.github.io/static/uploads/2026-06-30-CO2-Sprint-NRW-Study-share.pdf)  
+-- [Code of the NRW case study](https://github.com/resilient-project/nrw-study)  
 
 ## Research papers {#research-papers}
 

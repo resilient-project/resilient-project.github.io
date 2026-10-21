@@ -1,0 +1,31 @@
+<!-- Open every link that leaves this website's pages in a new tab: other websites,
+     other GitHub Pages sites and files such as PDFs. In-page anchors, links to the
+     pages of this site, mailto: and download links stay as they are. -->
+<script>
+  (function() {
+    const SITE_HOSTS = [window.location.host, 'resilient-project.github.io'];
+    const SITE_PAGES = [
+      {%- for p in site.html_pages -%}
+        {{ p.url | relative_url | jsonify }}{% unless forloop.last %},{% endunless %}
+      {%- endfor -%}
+    ];
+
+    function opensNewTab(a) {
+      const href = a.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || a.hasAttribute('download')) return false;
+      const url = new URL(a.href, window.location.href);
+      if (url.protocol !== 'http:' && url.protocol !== 'https:') return false;
+      if (SITE_HOSTS.indexOf(url.host) === -1) return true;
+      return SITE_PAGES.indexOf(url.pathname) === -1 && SITE_PAGES.indexOf(url.pathname + '/') === -1;
+    }
+
+    // Delegated, so links added later (e.g. the GitHub activity feed, Altmetric
+    // badges, which set target="_self") are covered too
+    document.addEventListener('click', function(e) {
+      const a = e.target.closest && e.target.closest('a[href]');
+      if (!a || (a.target && a.target !== '_self') || !opensNewTab(a)) return;
+      a.target = '_blank';
+      a.rel = (a.rel ? a.rel + ' ' : '') + 'noopener noreferrer';
+    });
+  })();
+</script>

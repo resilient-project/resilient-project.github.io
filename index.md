@@ -238,7 +238,7 @@ To maximize impact, we will organize workshops and training events involving a b
 
 - *10 June 2026* @ Chalmers University research seminar, Gothenburg, Sweden — [Accelerating fossil gas independence in Europe](https://gas-website-weld.vercel.app/#) (interactive dashboard)
 
-- *21 October 2026* @ European Climate and Energy Modelling Platform (ECEMP) 2026, session on "Energy security and geopolitical risks", Brussels, Belgium & Online (hybrid) — [The cost of self-sufficiency: Robust energy system planning under prolonged transmission blackouts](https://github.com/resilient-project/project-material/blob/824db1b733fa5d6cd11deb15bef31d18da6ef95f/slides/20261021_ecemp_2026_resilient_islands.pdf)
+- *21 October 2026* @ European Climate and Energy Modelling Platform (ECEMP) 2026, session on "Energy security and geopolitical risks", Brussels, Belgium & Online <span class="hover-peek" data-peek-src="assets/img/ecemp-2026-selfie.webp" data-peek-alt="Online ECEMP 2026 selfie">(hybrid)</span> — [The cost of self-sufficiency: Robust energy system planning under prolonged transmission blackouts](https://github.com/resilient-project/project-material/blob/824db1b733fa5d6cd11deb15bef31d18da6ef95f/slides/20261021_ecemp_2026_resilient_islands.pdf)
 
 ## Media highlights {#public-outreach}
 

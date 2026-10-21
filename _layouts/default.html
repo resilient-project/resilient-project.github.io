@@ -208,6 +208,37 @@
         border-radius: 4px;
         color: #856404;
       }
+
+      /* Easter egg: image preview that follows the cursor */
+      .hover-peek {
+        cursor: help;
+      }
+
+      .hover-peek-popup {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        width: 240px;
+        padding: 4px;
+        background: #fff;
+        border-radius: 6px;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.8s ease;
+      }
+
+      .hover-peek-popup.visible {
+        opacity: 1;
+      }
+
+      .hover-peek-popup img {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 4px;
+      }
     </style>
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -294,6 +325,46 @@
         const cups = days * 2;
         const el = document.getElementById('coffee-count');
         if (el) el.textContent = cups;
+      })();
+
+      // Easter egg: fade in an image above the cursor while hovering .hover-peek
+      (function(){
+        let popup = null;
+        let lastEvent = null;
+
+        function place(e) {
+          lastEvent = e;
+          const x = Math.min(Math.max(e.clientX - popup.offsetWidth / 2, 8), window.innerWidth - popup.offsetWidth - 8);
+          const y = Math.max(e.clientY - popup.offsetHeight - 16, 8);
+          popup.style.transform = 'translate(' + x + 'px, ' + y + 'px)';
+        }
+
+        function initHoverPeek() {
+          document.querySelectorAll('.hover-peek').forEach(function(el) {
+            el.addEventListener('mouseenter', function(e) {
+              if (!popup) {
+                popup = document.createElement('div');
+                popup.className = 'hover-peek-popup';
+                popup.appendChild(document.createElement('img'));
+                document.body.appendChild(popup);
+              }
+              const img = popup.firstChild;
+              img.src = el.dataset.peekSrc;
+              img.alt = el.dataset.peekAlt || '';
+              img.onload = function() { place(lastEvent); };
+              place(e);
+              popup.classList.add('visible');
+            });
+            el.addEventListener('mousemove', function(e) { if (popup) place(e); });
+            el.addEventListener('mouseleave', function() { if (popup) popup.classList.remove('visible'); });
+          });
+        }
+
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', initHoverPeek);
+        } else {
+          initHoverPeek();
+        }
       })();
       
       // GitHub Activity Feed - Pull Requests Only

@@ -240,6 +240,8 @@ To maximize impact, we will organize workshops and training events involving a b
 
 - *21 October 2026* @ European Climate and Energy Modelling Platform (ECEMP) 2026, session on "Energy security and geopolitical risks", Brussels, Belgium & Online <span class="hover-peek" data-peek-src="assets/img/ecemp-2026-selfie.webp" data-peek-alt="Online ECEMP 2026 selfie">(hybrid)</span> — [The cost of self-sufficiency: Robust energy system planning under prolonged transmission blackouts](https://github.com/resilient-project/project-material/blob/824db1b733fa5d6cd11deb15bef31d18da6ef95f/slides/20261021_ecemp_2026_resilient_islands.pdf)
 
+- *21 October 2026* @ European Climate and Energy Modelling Platform (ECEMP) 2026, session on "Energy security and geopolitical risks", Brussels, Belgium & Online — [Accelerating fossil gas independence in Europe](https://github.com/resilient-project/project-material/blob/8f0ef97b32921c9ba1770a8c547e2ac9d93c8ac4/slides/20261021_ecemp_2026_gas_independence.pdf)
+
 ## Media highlights {#public-outreach}
 
 - [Accelerating fossil gas independence in Europe](https://www.linkedin.com/posts/lukas-franken-5a3045151_europe-energysecurity-naturalgas-ugcPost-7487763941994049537-vSz2/) — Lukas Franken writes about a new paper addressing the pathways for Europe to phase out fossil gas imports.

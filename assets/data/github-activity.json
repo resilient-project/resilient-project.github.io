@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T11:14:34Z",
+  "generatedAt": "2026-11-03T10:56:06Z",
   "teamMembers": [
     "Irieo",
     "bobbyxng",
@@ -14,22 +14,50 @@
     "PyPSA/powerplantmatching"
   ],
   "counts": {
-    "total": 129,
+    "total": 131,
     "byRepo": {
       "PyPSA/PyPSA": 44,
-      "PyPSA/pypsa-eur": 76,
+      "PyPSA/pypsa-eur": 78,
       "PyPSA/atlite": 2,
       "PyPSA/linopy": 5,
       "PyPSA/powerplantmatching": 2
     },
     "byUser": {
       "Irieo": 40,
-      "bobbyxng": 68,
+      "bobbyxng": 70,
       "LukasFrankenQ": 9,
       "millingermarkus": 12
     }
   },
   "items": [
+    {
+      "type": "pr",
+      "author": "bobbyxng",
+      "authorUrl": "https://github.com/bobbyxng",
+      "repo": "PyPSA/pypsa-eur",
+      "repoUrl": "https://github.com/PyPSA/pypsa-eur",
+      "title": "feat: update OSM network to 0.8",
+      "url": "https://github.com/PyPSA/pypsa-eur/pull/2389",
+      "date": "2026-11-02T21:24:03Z",
+      "number": 2389,
+      "state": "open",
+      "merged": false,
+      "mergedAt": null
+    },
+    {
+      "type": "pr",
+      "author": "bobbyxng",
+      "authorUrl": "https://github.com/bobbyxng",
+      "repo": "PyPSA/pypsa-eur",
+      "repoUrl": "https://github.com/PyPSA/pypsa-eur",
+      "title": "fix: OSM network: DC link comparison, AC link filter, offshore regions",
+      "url": "https://github.com/PyPSA/pypsa-eur/pull/2387",
+      "date": "2026-11-02T21:14:20Z",
+      "number": 2387,
+      "state": "open",
+      "merged": false,
+      "mergedAt": null
+    },
     {
       "type": "pr",
       "author": "Irieo",
@@ -1401,34 +1429,6 @@
       "state": "closed",
       "merged": true,
       "mergedAt": "2024-08-22T13:01:20Z"
-    },
-    {
-      "type": "pr",
-      "author": "millingermarkus",
-      "authorUrl": "https://github.com/millingermarkus",
-      "repo": "PyPSA/pypsa-eur",
-      "repoUrl": "https://github.com/PyPSA/pypsa-eur",
-      "title": "Solid biomass to hydrogen process",
-      "url": "https://github.com/PyPSA/pypsa-eur/pull/1213",
-      "date": "2024-08-16T11:51:33Z",
-      "number": 1213,
-      "state": "closed",
-      "merged": true,
-      "mergedAt": "2024-08-16T11:18:10Z"
-    },
-    {
-      "type": "pr",
-      "author": "bobbyxng",
-      "authorUrl": "https://github.com/bobbyxng",
-      "repo": "PyPSA/pypsa-eur",
-      "repoUrl": "https://github.com/PyPSA/pypsa-eur",
-      "title": "Bug fix: Carrier type of added supernodes in simplify_network need to be set to \"AC\"",
-      "url": "https://github.com/PyPSA/pypsa-eur/pull/1221",
-      "date": "2024-08-15T17:45:49Z",
-      "number": 1221,
-      "state": "closed",
-      "merged": true,
-      "mergedAt": "2024-08-15T17:45:49Z"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T10:56:06Z",
+  "generatedAt": "2026-11-04T10:59:36Z",
   "teamMembers": [
     "Irieo",
     "bobbyxng",
@@ -38,7 +38,7 @@
       "repoUrl": "https://github.com/PyPSA/pypsa-eur",
       "title": "feat: update OSM network to 0.8",
       "url": "https://github.com/PyPSA/pypsa-eur/pull/2389",
-      "date": "2026-11-02T21:24:03Z",
+      "date": "2026-11-03T11:20:44Z",
       "number": 2389,
       "state": "open",
       "merged": false,
@@ -52,11 +52,11 @@
       "repoUrl": "https://github.com/PyPSA/pypsa-eur",
       "title": "fix: OSM network: DC link comparison, AC link filter, offshore regions",
       "url": "https://github.com/PyPSA/pypsa-eur/pull/2387",
-      "date": "2026-11-02T21:14:20Z",
+      "date": "2026-11-03T11:12:23Z",
       "number": 2387,
-      "state": "open",
-      "merged": false,
-      "mergedAt": null
+      "state": "closed",
+      "merged": true,
+      "mergedAt": "2026-11-03T11:12:20Z"
     },
     {
       "type": "pr",

@@ -49,31 +49,49 @@ agenda:
       still shape electricity prices even as consumption falls? And who should bear the costs?
       Audience questions welcome.
   - time: "11:45"
-    title: "Lunch and posters: Case studies on industry, carbon and e-fuels"
+    title: "Lunch and posters: Case studies and research from RESILIENT partners"
     text: >-
-      Finger food, coffee and networking. Six case studies from RESILIENT partners are on display as
-      posters: pick the one that interests you most and talk to the authors over snacks.
+      Finger food, coffee and networking. Eight posters from RESILIENT partners are on display, from the
+      four case studies to research on biomass, e-fuels and optimisation tools: pick the one that interests
+      you most and talk to the authors over snacks.
     talks:
-      - title: Case study North Rhine-Westphalia
+      - title: "Case study North Rhine-Westphalia: Planning a CO2 pipeline network for industry"
         url: https://resilient-project.github.io/static/uploads/2026-06-30-CO2-Sprint-NRW-Study-share.pdf
-        speaker: IN4climate.NRW, Fraunhofer ISI and TU Berlin
+        speaker: TU Berlin, Fraunhofer ISI and IN4climate.NRW
         ref: NRW workshop slides, 2026
-      - title: Case study Baden-Württemberg
+        poster: /assets/docs/poster-tub-resilient-final-event.pdf
+      - title: "Case study Baden-Württemberg: Pathways for carbon management in the cement industry"
         url: https://doi.org/10.1016/j.cement.2026.100193
         speaker: TransnetBW
         ref: CEMENT, 2026
-      - title: Case study Finland
-        speaker: LUT
-      - title: Case study France
-        speaker: EDF
-      - title: Diversity of biomass usage
+        poster: /assets/docs/poster-transnetbw-resilient-final-event.pdf
+      - title: "Case study Finland: The value of CO2 point source capture for the energy-industry system transition"
+        url: https://doi.org/10.1016/j.energy.2026.141587
+        speaker: LUT University
+        ref: Energy, 2026
+        poster: /assets/docs/poster-lut-co2-resilient-final-event.pdf
+      - title: "Case study France: Optimising a large-scale European power network"
+        speaker: EDF R&D and University of Pisa
+        poster: /assets/docs/poster-edf-resilient-final-event.pdf
+      - title: Diversity of biomass usage pathways to achieve emissions targets in the European energy system
         url: https://www.nature.com/articles/s41560-024-01693-6
-        speaker: Chalmers, TU Berlin
+        speaker: Chalmers University of Technology, Chalmers Next Labs and TU Berlin
         ref: Nature Energy, 2025
-      - title: E-biofuels in hard-to-electrify sectors
+        poster: /assets/docs/poster-chalmers-biomass-resilient-final-event.pdf
+      - title: E-biofuels reduce the cost of achieving emissions targets in hard-to-electrify sectors
         url: https://doi.org/10.48550/arXiv.2604.12080
-        speaker: Chalmers, TU Berlin
+        speaker: Chalmers University of Technology, Chalmers Next Labs, RISE and TU Berlin
         ref: arXiv preprint, 2026
+        poster: /assets/docs/poster-chalmers-biofuels-resilient-final-event.pdf
+      - title: Assessment of e-fuels and biomass-based fuels in the Nordic energy system
+        speaker: LUT University and Chalmers University of Technology
+        ref: Work in progress
+        poster: /assets/docs/poster-lut-ebiofuels-resilient-final-event.pdf
+      - title: "PyPSA-SMS++: Large-scale planning under uncertainties"
+        url: https://github.com/SPSUnipi/pypsa2smspp
+        speaker: University of Pisa
+        ref: GitHub repository
+        poster: /assets/docs/poster-unipi-resilient-final-event.pdf
   - time: "12:45"
     title: Coffee break
     type: break
@@ -273,6 +291,9 @@ agenda:
       .talks li { padding: 6px 0 6px 14px; border-left: 3px solid var(--pale); }
       .talks li + li { margin-top: 8px; }
       .talks .who { margin: 2px 0 0; }
+      .talks .poster { margin: 2px 0 0; font-size: 14px; }
+      .talks .poster a { display: inline-flex; align-items: center; gap: 5px; }
+      .talks .poster svg { width: 14px; height: 14px; flex: none; }
 
       .venue { display: grid; grid-template-columns: 1fr 1fr; gap: 0 32px; }
       .venue p { margin: 0 0 12px; }
@@ -322,6 +343,12 @@ agenda:
           <circle cx="32" cy="258" r="30" fill="#cddd9c"/>
           <circle cx="150" cy="57" r="30" fill="#9dd9a4"/>
           <circle cx="268" cy="258" r="30" fill="#4f759a"/>
+        </g>
+      </symbol>
+      <symbol id="poster" viewBox="0 0 24 24">
+        <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+          <path d="M14 2v6h6M8 13h8M8 17h5"/>
         </g>
       </symbol>
     </svg>
@@ -405,6 +432,9 @@ agenda:
                 <li>
                   {% if talk.url %}<a href="{{ talk.url }}">{{ talk.title }}</a>{% else %}{{ talk.title }}{% endif %}
                   <p class="who">{{ talk.speaker }}{% if talk.ref %} · <em>{{ talk.ref }}</em>{% endif %}{% if talk.note %}<br>{{ talk.note }}{% endif %}</p>
+                  {%- if talk.poster %}
+                  <p class="poster"><a href="{{ talk.poster | relative_url }}" target="_blank" rel="noopener noreferrer"><svg aria-hidden="true"><use href="#poster"/></svg>Poster</a></p>
+                  {%- endif %}
                 </li>
                 {%- endfor %}
               </ul>

@@ -280,7 +280,7 @@
           <a href="#research-papers">Research Papers</a><br>
           <a href="#case-studies">Case Studies</a><br>
           <a href="#code-contributions">Code Contributions</a><br>
-          <a href="#github-activity">Recent GitHub Activity</a><br>
+          <a href="#github-activity">Our GitHub Activity (final)</a><br>
           <a href="#research-talks">Research Talks</a><br>
           <a href="#public-outreach">Media Highlights</a><br>
           <a href="#deliverables">Deliverables</a><br>
@@ -288,7 +288,7 @@
         </p>
 
         <br>
-        <p><strong>Our journey so far:</strong></p>
+        <p><strong>RESILIENT in numbers, 2023–2026:</strong></p>
         <p class="view" style="font-size: 12px; color: #666;">
           📊 <strong>9</strong> Workshops delivered<br>
           🎓 <strong>&gt;220</strong> People trained<br>
@@ -302,7 +302,7 @@
             PyPSA/linopy: <span id="pr-count-linopy">5</span><br>
             PyPSA/powerplantmatching: <span id="pr-count-powerplantmatching">2</span>
           </span>
-          ☕ <strong>~<span id="coffee-count">732</span></strong> Cups of coffee*<br>
+          ☕ <strong>~2048</strong> Cups of coffee*<br>
           <small style="font-style: italic; color: #888;">*consumed by TU Berlin research team</small>
         </p>
 
@@ -318,15 +318,6 @@
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     <script>
-      // Coffee counter: total cups = 2 × (days since 2024-02-01 inclusive)
-      (function(){
-        const start = Date.UTC(2024,1,1); // months 0-based: 1 = Feb
-        const days = Math.floor((Date.now() - start) / 86400000) + 1; // inclusive
-        const cups = days * 2;
-        const el = document.getElementById('coffee-count');
-        if (el) el.textContent = cups;
-      })();
-
       // Easter egg: fade in an image above the cursor while hovering .hover-peek
       (function(){
         let popup = null;

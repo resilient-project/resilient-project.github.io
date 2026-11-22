@@ -171,9 +171,9 @@ To maximize impact, we will organize workshops and training events involving a b
 
 - [PIPS-IPM++ hackathon: direct SMS++ MILPSolver interface](https://resilient-project.github.io/static/uploads/062026_hackaton_pipssms.pdf) — Enrico Calandrini from the UniPI won second place at the [PIPS-IPM++ hackathon](https://www.zib.de/other/PIPS-Hackathon/) by extending the SMS++ `MILPSolver` class to interface directly with PIPS-IPM++. The results are particularly promising for large two-stage stochastic problems and benefit the wider energy modelling community by enabling such models at scale without relying on commercial solvers.
 
-## Explore our recent work {#github-activity}
+## Our GitHub activity (final) {#github-activity}
 
-*Live feed of recent pull requests by RESILIENT team members to PyPSA and PyPSA-Eur repositories.*
+*Pull requests by RESILIENT team members to PyPSA and PyPSA-Eur repositories during the project.*
 
 <div class="github-activity">
   <div class="activity-filters">

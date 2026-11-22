@@ -29,7 +29,8 @@ To maximize impact, we will organize workshops and training events involving a b
 
 *Join us in Berlin for the closing event of the RESILIENT project. We present our main research findings, case studies from Germany, Finland and France, and the open-source tools we built.*
 
--- [Programme, venue and registration](final-workshop/)
+-- [Programme, venue and registration](final-workshop/)  
+-- [Opening talk: Planning in a rollercoaster world: three years of RESILIENT](https://resilient-project.github.io/static/uploads/2026-11-20-resilient-final-workshop-opening.pdf)
 
 ## Workshops and PyPSA(-Eur) training events {#workshops}
 

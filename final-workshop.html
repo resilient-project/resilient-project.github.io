@@ -18,6 +18,7 @@ agenda:
     speaker: Tom Brown, TU Berlin
   - time: "09:40"
     title: "Planning in a rollercoaster world: three years of RESILIENT"
+    url: https://resilient-project.github.io/static/uploads/2026-11-20-resilient-final-workshop-opening.pdf
     speaker: Iegor Riepin, TU Berlin
     text: Project summary, main findings and reusable outputs.
   - time: "10:00"
@@ -419,7 +420,7 @@ agenda:
           <li>
             <time datetime="2026-11-20T{{ item.time }}">{{ item.time }}</time>
             <div>
-              <h3>{{ item.title }}</h3>
+              <h3>{% if item.url %}<a href="{{ item.url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</h3>
               {%- if item.speaker %}
               <p class="who">{{ item.speaker }}</p>
               {%- endif %}
